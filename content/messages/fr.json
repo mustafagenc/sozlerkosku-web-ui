@@ -1,0 +1,37 @@
+{
+    "Navigation": {
+        "home": "Accueil",
+        "about": "À propos",
+        "applications": "Nos Applications",
+        "contact": "Contact",
+        "donation": "Faire un Don"
+    },
+    "Meta": {
+        "title": "Sözler Köşkü",
+        "description": "Sözler Köşkü | Deviens Éternel | Youtube | Instagram"
+    },
+    "Home": {
+        "Meta": {
+            "title": "Sözler Köşkü",
+            "description": "Sözler Köşkü | Deviens Éternel | Youtube | Instagram"
+        },
+        "intro": "Ceci est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du contenu islamique en 13 langues avec vous.",
+        "who-are-we": "Qui sommes-nous ?",
+        "what-we-do-here": "Que faisons-nous ici ?"
+    },
+    "About": {
+        "Meta": {
+            "title": "À propos"
+        }
+    },
+    "Applications": {
+        "Meta": {
+            "title": "Nos Applications"
+        }
+    },
+    "Contact": {
+        "Meta": {
+            "title": "Contact"
+        }
+    }
+}

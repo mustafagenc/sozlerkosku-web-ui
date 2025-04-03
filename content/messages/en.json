@@ -1,0 +1,37 @@
+{
+    "Navigation": {
+        "home": "Home",
+        "about": "About Us",
+        "applications": "Our Applications",
+        "contact": "Contact",
+        "donation": "Donate"
+    },
+    "Meta": {
+        "title": "Sözler Köşkü",
+        "description": "Sözler Köşkü | Be Eternal | YouTube | Instagram"
+    },
+    "Home": {
+        "Meta": {
+            "title": "Sözler Köşkü",
+            "description": "Sözler Köşkü | Be Eternal | YouTube | Instagram"
+        },
+        "intro": "This is an official association established 13 years ago. In 13 years, we have become a social media platform producing Islamic content in 13 languages together with you.",
+        "who-are-we": "Who Are We?",
+        "what-we-do-here": "What Do We Do Here?"
+    },
+    "About": {
+        "Meta": {
+            "title": "About Us"
+        }
+    },
+    "Applications": {
+        "Meta": {
+            "title": "Our Applications"
+        }
+    },
+    "Contact": {
+        "Meta": {
+            "title": "Contact"
+        }
+    }
+}

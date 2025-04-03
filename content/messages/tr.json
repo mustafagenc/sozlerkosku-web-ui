@@ -1,0 +1,37 @@
+{
+    "Navigation": {
+        "home": "Ana Sayfa",
+        "about": "Hakkımızda",
+        "applications": "Uygulamalarımız",
+        "contact": "İletişim",
+        "donation": "Bağış Yap"
+    },
+    "Meta": {
+        "title": "Sözler Köşkü",
+        "description": "Sözler Köşkü İlim ve Kültür Derneği web sitesi"
+    },
+    "Home": {
+        "Meta": {
+            "title": "Sözler Köşkü",
+            "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
+        },
+        "intro": "Burası 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde İslami içerikler üreten bir sosyal medya platformu haline geldik.",
+        "who-are-we": " Biz Kimiz?",
+        "what-we-do-here": "Burada Ne Yapıyoruz?"
+    },
+    "About": {
+        "Meta": {
+            "title": "Hakkımızda"
+        }
+    },
+    "Applications": {
+        "Meta": {
+            "title": "Uygulamalarımız"
+        }
+    },
+    "Contact": {
+        "Meta": {
+            "title": "İletişim"
+        }
+    }
+}

@@ -1,1 +1,1 @@
-# sozlerkosku-web-ui
+# Sözler Köşkü İlim ve Kültür Derneği
