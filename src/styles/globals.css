@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 @config "../../tailwind.config.ts";
 
 @tailwind base;
@@ -7,7 +7,7 @@
 
 @layer utilities {
   body {
-    font-family: "Poppins", "Poppins Fallback", Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', 'Poppins Fallback', Arial, Helvetica, sans-serif;
   }
 
   .text-balance {

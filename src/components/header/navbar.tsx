@@ -1,22 +1,22 @@
-"use client";
+'use client';
 
-import { Link, usePathname } from "@/i18n/navigation";
-import { NAV_LINKS } from "@/utils/constants";
-import { useTranslations } from "next-intl";
-import Image from "next/image";
-import { LocaleSwitcher } from "./locale-switcher";
-import { ThemeToggle } from "./theme-toggle";
+import { Link, usePathname } from '@/i18n/navigation';
+import { NAV_LINKS } from '@/utils/constants';
+import { useTranslations } from 'next-intl';
+import Image from 'next/image';
+import { LocaleSwitcher } from './locale-switcher';
+import { ThemeToggle } from './theme-toggle';
 
 export const Navbar = () => {
   const pathName = usePathname();
 
   const getClassnameForLink = (path: string) => {
     return pathName === path
-      ? "rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
-      : "rounded-md px-3 py-2 text-sm font-medium text-stone-950 hover:bg-gray-100 hover:text-black";
+      ? 'rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white'
+      : 'rounded-md px-3 py-2 text-sm font-medium text-stone-950 hover:bg-gray-100 hover:text-black';
   };
 
-  const t = useTranslations("Navigation");
+  const t = useTranslations('Navigation');
 
   return (
     <nav className="bg-white rounded-full w-full gap-2 shadow-base-300/20 shadow-sm mb-10">
@@ -72,7 +72,7 @@ export const Navbar = () => {
                   width={96}
                   height={96}
                 />
-                <div className="ml-4 mr-4 font-bold text-xl">Sözler Köşkü</div>
+                <div className="ml-4 mr-4 font-bold text-2xl">Sözler Köşkü</div>
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:block content-center items-center">
@@ -96,7 +96,7 @@ export const Navbar = () => {
               href="/"
               className="border-1 border-orange-500 bg-white text-orange-500 hover:bg-orange-500 hover:text-white py-1 px-3 rounded-full text-lg ml-4"
             >
-              {t("donation")}
+              {t('donation')}
             </Link>
           </div>
         </div>

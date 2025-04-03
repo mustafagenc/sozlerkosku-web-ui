@@ -1,20 +1,20 @@
-"use client";
+'use client';
 
-import { useLocale } from "next-intl";
-import { useEffect, useState } from "react";
+import { useLocale } from 'next-intl';
+import { useEffect, useState } from 'react';
 
-import { Loader } from "@/components/icons/loader";
-import { WorldIcon } from "@/components/icons/world";
-import { Button } from "@/components/ui/button";
+import { Loader } from '@/components/icons/loader';
+import { WorldIcon } from '@/components/icons/world';
+import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuRadioGroup,
   DropdownMenuRadioItem,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { usePathname, useRouter } from "@/i18n/navigation";
-import { locales } from "@/utils/constants";
+} from '@/components/ui/dropdown-menu';
+import { usePathname, useRouter } from '@/i18n/navigation';
+import { locales } from '@/utils/constants';
 
 export const LocaleSwitcher = () => {
   const router = useRouter();
