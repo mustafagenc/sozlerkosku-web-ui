@@ -19,9 +19,9 @@ export const Navbar = () => {
   const t = useTranslations("Navigation");
 
   return (
-    <header className="fixed inset-x-16 top-8 z-50 backdrop-blur-xs">
-      <nav className="bg-white rounded-full w-full gap-2 shadow-base-300/20 shadow-sm mb-10">
-        <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+    <header className="fixed inset-x-16 top-8 z-50 w-7xl ">
+      <nav className="bg-white/80 rounded-full w-full gap-2 shadow-base-300/20 shadow-sm mb-10 backdrop-opacity-10">
+        <div className="mx-auto w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-20 items-center justify-between">
             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button

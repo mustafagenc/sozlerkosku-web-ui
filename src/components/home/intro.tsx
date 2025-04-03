@@ -1,11 +1,12 @@
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export const Intro = () => {
   const t = useTranslations("Home");
   return (
     <section>
-      <div className="flex flex-col justify-center text-center">
+      <div className="flex flex-col justify-center text-center w-full">
         <div>
           <h1 className="mb-4 no-underline text-7xl font-bold">
             {t("Meta.title")}
@@ -31,6 +32,16 @@ export const Intro = () => {
           >
             {t("what-we-do-here")}
           </Link>
+        </div>
+        <div>
+          <Image
+            src="/images/sozler-kosku-hero.jpg"
+            alt="Intro"
+            width={500}
+            height={500}
+            className="mt-20 mb-8 w-7xl rounded-3xl object-cover object-center"
+            priority
+          />
         </div>
       </div>
     </section>
