@@ -10,6 +10,9 @@
         "title": "Sözler Köşkü",
         "description": "Sözler Köşkü İlim ve Kültür Derneği web sitesi"
     },
+    "Shared": {
+        "copyright": "Sözler Köşkü \u00A9 {date}"
+    },
     "Home": {
         "Meta": {
             "title": "Sözler Köşkü",

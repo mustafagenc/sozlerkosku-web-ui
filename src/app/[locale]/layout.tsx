@@ -12,6 +12,7 @@ import type { Metadata } from "next";
 import { getLocale, getTranslations } from "next-intl/server";
 import Providers from "@/providers/providers";
 import { Navbar } from "@/components/header/navbar";
+import { Footer } from "@/components/footer/footer";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
@@ -70,6 +71,7 @@ export default async function RootLayout({
             <div className="px-3 max-w-7xl grow mx-auto antialiased">
               <main className="mt-50 grow">{children}</main>
             </div>
+            <Footer />
           </Providers>
         </NextIntlClientProvider>
       </body>

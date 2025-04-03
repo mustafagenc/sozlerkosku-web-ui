@@ -1,3 +1,5 @@
+import { SocialIconProps } from 'next-social-icons';
+
 export const NAV_LINKS = [
   { name: 'home', path: '/' },
   { name: 'about', path: '/about/' },
@@ -13,3 +15,28 @@ export const locales = [
   { id: 'ru', name: 'Русский' },
   { id: 'tr', name: 'Türkçe' },
 ];
+
+export const socials: ISocialIcon[] = [
+  {
+    name: 'youtube',
+    url: 'https://www.youtube.com/@sozlerkosku',
+  },
+  {
+    name: 'instagram',
+    url: 'https://www.instagram.com/sozlerkosku',
+  },
+  {
+    name: 'tiktok',
+    url: 'https://www.tiktok.com/@sozlerkoskutiktok',
+  },
+  {
+    name: 'facebook',
+    url: 'https://www.facebook.com/SozlerKoskuIzmir',
+  },
+  { name: 'twitter', url: 'https://x.com/sozler_kosku' },
+];
+
+export interface ISocialIcon {
+  name: SocialIconProps['platform'];
+  url: string;
+}
