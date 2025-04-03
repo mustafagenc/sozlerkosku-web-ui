@@ -1,5 +1,9 @@
-import React from 'react';
+import { Intro } from "@/components/home/intro";
 
 export default function Page() {
-  return <div>Test</div>;
+  return (
+    <>
+      <Intro />
+    </>
+  );
 }
