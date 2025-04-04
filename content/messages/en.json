@@ -46,6 +46,11 @@
         "Youtube": {
             "title": "Current Subscriber Counts<br></br>of Our Youtube Channels",
             "visit-the-channel": "Visit the Channel"
+        },
+        "Donate": {
+            "title": "What type of donation would you like to make?",
+            "regular": "Regular Donation",
+            "one-time": "One Time Donation"
         }
     },
     "About": {

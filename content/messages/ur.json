@@ -46,6 +46,11 @@
         "Youtube": {
             "title": "ہمارے یوٹیوب چینلز کے<br></br>تازہ ترین سبسکرائبرز کی تعداد",
             "visit-the-channel": "چینل دیکھیں"
+        },
+        "Donate": {
+            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+            "regular": "Düzenli Bağış",
+            "one-time": "Tek Seferlik Bağış"
         }
     },
     "About": {

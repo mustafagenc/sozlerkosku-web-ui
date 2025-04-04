@@ -46,6 +46,11 @@
         "Youtube": {
             "title": "Nombre d'abonnés<br></br>actuels de nos chaînes YouTube",
             "visit-the-channel": "Visiter la chaîne"
+        },
+        "Donate": {
+            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+            "regular": "Düzenli Bağış",
+            "one-time": "Tek Seferlik Bağış"
         }
     },
     "About": {

@@ -46,6 +46,11 @@
         "Youtube": {
             "title": "আমাদের ইউটিউব চ্যানেলগুলির <br></br>বর্তমান গ্রাহক সংখ্যা",
             "visit-the-channel": "চ্যানেল ভিজিট করুন"
+        },
+        "Donate": {
+            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+            "regular": "Düzenli Bağış",
+            "one-time": "Tek Seferlik Bağış"
         }
     },
     "About": {

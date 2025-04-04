@@ -46,6 +46,11 @@
         "Youtube": {
             "title": "Актуальное количество подписчиков<br></br>на наших YouTube-каналах",
             "visit-the-channel": "Посетить канал"
+        },
+        "Donate": {
+            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+            "regular": "Düzenli Bağış",
+            "one-time": "Tek Seferlik Bağış"
         }
     },
     "About": {

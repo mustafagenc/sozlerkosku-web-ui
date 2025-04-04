@@ -129,3 +129,16 @@
 html {
   scroll-behavior: smooth;
 }
+
+.dialog-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  inset: 0;
+  animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 998;
+}
+
+.dialog-content {
+  position: fixed;
+  z-index: 999;
+}

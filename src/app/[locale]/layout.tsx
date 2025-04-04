@@ -12,6 +12,7 @@ import { routing } from '@/i18n/routing';
 import Providers from '@/providers/providers';
 import { env } from '@/utils/env';
 
+
 import type { Metadata } from 'next';
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],

@@ -46,6 +46,11 @@
         "Youtube": {
             "title": "Jumlah Pelanggan<br></br>Saluran Youtube Kami Saat Ini",
             "visit-the-channel": "Kunjungi Saluran"
+        },
+        "Donate": {
+            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+            "regular": "Düzenli Bağış",
+            "one-time": "Tek Seferlik Bağış"
         }
     },
     "About": {

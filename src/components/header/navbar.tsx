@@ -9,6 +9,7 @@ import { NAV_LINKS } from '@/utils/constants';
 
 import { LocaleSwitcher } from './locale-switcher';
 import { ThemeToggle } from './theme-toggle';
+import { Donate } from './donate';
 
 export const Navbar = () => {
   const pathName = usePathname();
@@ -24,9 +25,8 @@ export const Navbar = () => {
   const direction = getLangDir(locale);
 
   const isRtl = direction === 'ltr';
-
   return (
-    <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow rounded-full mx-auto max-w-7xl mt-4">
+    <nav className="sticky top-5 opacity-90 z-50 bg-white dark:bg-gray-900 shadow rounded-full mx-auto max-w-7xl">
       <div className="px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <Link href={'/'} className="flex items-center ml-4">
@@ -57,9 +57,7 @@ export const Navbar = () => {
         <div className="flex items-center space-x-4">
           <LocaleSwitcher />
           <ThemeToggle />
-          <button className="bg-white border-2 border-orange-500 dark:bg-orange-500 dark:text-white dark:hover:bg-gray-950 dark:hover:border-gray-950 text-orange-500 font-bold py-2 px-4 rounded-full hover:bg-orange-500 hover:text-white hover:border-transparent">
-            {t('Navigation.donate')}
-          </button>
+          <Donate />
         </div>
       </div>
     </nav>

@@ -46,6 +46,11 @@
         "Youtube": {
             "title": "Youtube kanallarimizning<br></br>Joriy obuna soni",
             "visit-the-channel": "Kanalga tashrif buyuring"
+        },
+        "Donate": {
+            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+            "regular": "Düzenli Bağış",
+            "one-time": "Tek Seferlik Bağış"
         }
     },
     "About": {
