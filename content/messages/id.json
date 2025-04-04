@@ -1,0 +1,66 @@
+{
+    "Navigation": {
+        "home": "Beranda",
+        "about": "Tentang Kami",
+        "applications": "Aplikasi Kami",
+        "contact": "Kontak",
+        "donate": "Donasi"
+    },
+    "Meta": {
+        "title": "Sözler Köşkü",
+        "description": "Situs web Asosiasi Ilmu dan Budaya Sözler Köşkü"
+    },
+    "Shared": {
+        "phone": "Telepon",
+        "email": "Email",
+        "copyright": "Sözler Köşkü \u00A9 {date}"
+    },
+    "Languages": {
+        "tr": "Turki",
+        "en": "Inggris",
+        "ar": "Arab",
+        "ur": "Urdu",
+        "id": "Indonesia",
+        "ru": "Rusia",
+        "es": "Spanyol",
+        "fr": "Perancis",
+        "bn": "Bengali",
+        "de": "Jerman",
+        "uz": "Uzbek",
+        "fa": "Persia",
+        "hi": "Hindi"
+    },
+    "Home": {
+        "Meta": {
+            "title": "Sözler Köşkü",
+            "description": "Sözler Köşkü | Jadilah Abadi | Youtube | Instagram"
+        },
+        "intro": "Ini adalah asosiasi resmi yang didirikan 13 tahun yang lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang memproduksi konten Islami dalam 13 bahasa bersama Anda.",
+        "what-we-do-here": "Apa yang Kami Lakukan di Sini?",
+        "WhoWeAre": {
+            "title": " Siapa Kami?",
+            "description": "Sözler Köşkü adalah asosiasi resmi yang didirikan 13 tahun yang lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang memproduksi <b>konten Islami</b> dalam 13 bahasa bersama Anda.",
+            "languages": "<lang>Turki</lang><lang>Inggris</lang><lang>Arab</lang><lang>Urdu</lang><lang>Indonesia</lang><lang>Rusia</lang><lang>Spanyol</lang><lang>Perancis</lang><lang>Bengali</lang><lang>Jerman</lang><lang>Uzbek</lang><lang>Persia</lang><lang>Hindi</lang>",
+            "end": "Kami memproduksi total 300 video per bulan dalam bahasa-bahasa tersebut."
+        },
+        "Youtube": {
+            "title": "Jumlah Pelanggan<br></br>Saluran Youtube Kami Saat Ini",
+            "visit-the-channel": "Kunjungi Saluran"
+        }
+    },
+    "About": {
+        "Meta": {
+            "title": "Tentang Kami"
+        }
+    },
+    "Applications": {
+        "Meta": {
+            "title": "Aplikasi Kami"
+        }
+    },
+    "Contact": {
+        "Meta": {
+            "title": "Kontak"
+        }
+    }
+}

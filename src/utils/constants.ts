@@ -9,11 +9,16 @@ export const NAV_LINKS = [
 
 export const locales = [
   { id: 'ar', name: 'العربية' },
+  { id: 'bn', name: 'বাংলা' },
   { id: 'de', name: 'Deutsch' },
   { id: 'en', name: 'English' },
+  { id: 'es', name: 'Español' },
   { id: 'fr', name: 'Français' },
+  { id: 'id', name: 'Indonesia' },
   { id: 'ru', name: 'Русский' },
+  { id: 'uz', name: 'Oʻzbek' },
   { id: 'tr', name: 'Türkçe' },
+  { id: 'ur', name: 'اردو' },
 ];
 
 export const socials: ISocialIcon[] = [

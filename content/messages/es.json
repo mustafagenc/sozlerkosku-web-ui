@@ -1,0 +1,66 @@
+{
+    "Navigation": {
+        "home": "Inicio",
+        "about": "Sobre Nosotros",
+        "applications": "Nuestras Aplicaciones",
+        "contact": "Contacto",
+        "donate": "Donar"
+    },
+    "Meta": {
+        "title": "Sözler Köşkü",
+        "description": "Sitio web de la Asociación de Ciencia y Cultura Sözler Köşkü"
+    },
+    "Shared": {
+        "phone": "Teléfono",
+        "email": "Correo Electrónico",
+        "copyright": "Sözler Köşkü \u00A9 {date}"
+    },
+    "Languages": {
+        "tr": "Turco",
+        "en": "Inglés",
+        "ar": "Árabe",
+        "ur": "Urdu",
+        "id": "Indonesio",
+        "ru": "Ruso",
+        "es": "Español",
+        "fr": "Francés",
+        "bn": "Bengalí",
+        "de": "Alemán",
+        "uz": "Uzbeko",
+        "fa": "Persa",
+        "hi": "Hindi"
+    },
+    "Home": {
+        "Meta": {
+            "title": "Sözler Köşkü",
+            "description": "Sözler Köşkü | Sé Infinito | Youtube | Instagram"
+        },
+        "intro": "Este es un instituto oficial establecido hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce contenido islámico en 13 idiomas junto con ustedes.",
+        "what-we-do-here": "¿Qué hacemos aquí?",
+        "WhoWeAre": {
+            "title": "¿Quiénes somos?",
+            "description": "Sözler Köşkü es un instituto oficial establecido hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce <b>contenido islámico</b> en 13 idiomas junto con ustedes.",
+            "languages": "<lang>Turco</lang><lang>Inglés</lang><lang>Árabe</lang><lang>Urdu</lang><lang>Indonesio</lang><lang>Ruso</lang><lang>Español</lang><lang>Francés</lang><lang>Bengalí</lang><lang>Alemán</lang><lang>Uzbeko</lang><lang>Persa</lang><lang>Hindi</lang>",
+            "end": "Producimos un total de 300 videos al mes en estos idiomas."
+        },
+        "Youtube": {
+            "title": "Número Actual de Suscriptores<br></br>de Nuestros Canales de Youtube",
+            "visit-the-channel": "Visitar el Canal"
+        }
+    },
+    "About": {
+        "Meta": {
+            "title": "Sobre Nosotros"
+        }
+    },
+    "Applications": {
+        "Meta": {
+            "title": "Nuestras Aplicaciones"
+        }
+    },
+    "Contact": {
+        "Meta": {
+            "title": "Contacto"
+        }
+    }
+}

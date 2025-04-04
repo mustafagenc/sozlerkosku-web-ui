@@ -22,7 +22,6 @@ export const Navbar = () => {
   const direction = getLangDir(locale);
 
   const isRtl = direction === 'ltr';
-  console.log(isRtl);
 
   return (
     <nav className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow rounded-full mx-auto max-w-7xl mt-4">
@@ -30,9 +29,10 @@ export const Navbar = () => {
         <div className="flex items-center">
           <Link href={'/'} className="flex items-center ml-4">
             <Image
-              className="h-12 w-auto md:h10"
+              className={`h-12 w-auto md:h10 ${isRtl ? 'mr-4' : 'ml-4'}`}
               src="/images/logo.png"
-              alt="Your Company"
+              alt={t('Meta.title')}
+              dir={isRtl ? 'rtl' : 'ltr'}
               width={96}
               height={96}
             />

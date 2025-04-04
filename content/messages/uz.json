@@ -1,0 +1,66 @@
+{
+    "Navigation": {
+        "home": "Bosh sahifa",
+        "about": "Biz haqimizda",
+        "applications": "Ilovalarimiz",
+        "contact": "Aloqa",
+        "donate": "Homiylik"
+    },
+    "Meta": {
+        "title": "So'zlar Ko'shki",
+        "description": "So'zlar Ko'shki Ilm va Madaniyat Dernegi veb-sayti"
+    },
+    "Shared": {
+        "phone": "Telefon",
+        "email": "E-mail",
+        "copyright": "So'zlar Ko'shki \u00A9 {date}"
+    },
+    "Languages": {
+        "tr": "Turkcha",
+        "en": "Inglizcha",
+        "ar": "Arabcha",
+        "ur": "Urdu",
+        "id": "Indonezcha",
+        "ru": "Ruscha",
+        "es": "Ispancha",
+        "fr": "Frantsuzcha",
+        "bn": "Bengalcha",
+        "de": "Nemischa",
+        "uz": "O'zbekcha",
+        "fa": "Forscha",
+        "hi": "Hindcha"
+    },
+    "Home": {
+        "Meta": {
+            "title": "So'zlar Ko'shki",
+            "description": "So'zlar Ko'shki | Abadiy Bo'l | Youtube | Instagram"
+        },
+        "intro": "Bu 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda Islomiy kontent ishlab chiqaradigan ijtimoiy media platformasiga aylandik.",
+        "what-we-do-here": "Bu yerda nima qilamiz?",
+        "WhoWeAre": {
+            "title": "Biz kimmiz?",
+            "description": "So'zlar Ko'shki 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda <b>Islomiy kontent</b> ishlab chiqaradigan ijtimoiy media platformasiga aylandik.",
+            "languages": "<lang>Turkcha</lang><lang>Inglizcha</lang><lang>Arabcha</lang><lang>Urdu</lang><lang>Indonezcha</lang><lang>Ruscha</lang><lang>Ispancha</lang><lang>Frantsuzcha</lang><lang>Bengalcha</lang><lang>Nemischa</lang><lang>O'zbekcha</lang><lang>Forscha</lang><lang>Hindcha</lang>",
+            "end": "Tillarda oyiga jami 300 ta video ishlab chiqaramiz."
+        },
+        "Youtube": {
+            "title": "Youtube kanallarimizning<br></br>Joriy obuna soni",
+            "visit-the-channel": "Kanalga tashrif buyuring"
+        }
+    },
+    "About": {
+        "Meta": {
+            "title": "Biz haqimizda"
+        }
+    },
+    "Applications": {
+        "Meta": {
+            "title": "Ilovalarimiz"
+        }
+    },
+    "Contact": {
+        "Meta": {
+            "title": "Aloqa"
+        }
+    }
+}

@@ -8,19 +8,45 @@
     },
     "Meta": {
         "title": "Towards Eternity",
-        "description": "Towards Eternity | Deviens Éternel | Youtube | Instagram"
+        "description": "Site web de l'Association Towards Eternity pour la Science et la Culture"
     },
     "Shared": {
+        "phone": "Téléphone",
+        "email": "E-mail",
         "copyright": "Towards Eternity \u00A9 {date}"
+    },
+    "Languages": {
+        "tr": "Turc",
+        "en": "Anglais",
+        "ar": "Arabe",
+        "ur": "Ourdou",
+        "id": "Indonésien",
+        "ru": "Russe",
+        "es": "Espagnol",
+        "fr": "Français",
+        "bn": "Bengali",
+        "de": "Allemand",
+        "uz": "Ouzbek",
+        "fa": "Persan",
+        "hi": "Hindi"
     },
     "Home": {
         "Meta": {
             "title": "Towards Eternity",
-            "description": "Towards Eternity | Deviens Éternel | Youtube | Instagram"
+            "description": "Towards Eternity | Éternel | Youtube | Instagram"
         },
-        "intro": "Ceci est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du contenu islamique en 13 langues avec vous.",
-        "who-are-we": "Qui sommes-nous ?",
-        "what-we-do-here": "Que faisons-nous ici ?"
+        "intro": "Ceci est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant des contenus islamiques en 13 langues avec vous.",
+        "what-we-do-here": "Que faisons-nous ici ?",
+        "WhoWeAre": {
+            "title": "Qui sommes-nous ?",
+            "description": "Towards Eternity est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant des <b>contenus islamiques</b> en 13 langues avec vous.",
+            "languages": "<lang>Turc</lang><lang>Anglais</lang><lang>Arabe</lang><lang>Ourdou</lang><lang>Indonésien</lang><lang>Russe</lang><lang>Espagnol</lang><lang>Français</lang><lang>Bengali</lang><lang>Allemand</lang><lang>Ouzbek</lang><lang>Persan</lang><lang>Hindi</lang>",
+            "end": "Nous produisons un total de 300 vidéos par mois dans ces langues."
+        },
+        "Youtube": {
+            "title": "Nombre d'abonnés<br></br>actuels de nos chaînes YouTube",
+            "visit-the-channel": "Visiter la chaîne"
+        }
     },
     "About": {
         "Meta": {

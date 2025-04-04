@@ -1,12 +1,10 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 export const Intro = () => {
-  const router = useRouter();
   const t = useTranslations('Home');
   return (
     <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">
@@ -25,9 +23,7 @@ export const Intro = () => {
         </div>
         <div className="flex flex-row items-center justify-center gap-4">
           <Link
-            key={'who-we-are'}
-            href="#who-are-we"
-            onClick={() => router.push('#who-are-we')}
+            href="/#who-are-we"
             scroll={true}
             className="border-1 border-orange-500 bg-orange-500 text-white hover:bg-orange-500 hover:text-white py-3 px-6 rounded-full text-lg ml-4"
           >
