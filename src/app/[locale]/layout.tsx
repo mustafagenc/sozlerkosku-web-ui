@@ -1,19 +1,18 @@
 import '@/styles/globals.css';
 
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { Poppins } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { getLangDir } from 'rtl-detect';
 
+import { Footer } from '@/components/footer/footer';
+import { Navbar } from '@/components/header/navbar';
 import { routing } from '@/i18n/routing';
+import Providers from '@/providers/providers';
 import { env } from '@/utils/env';
 
 import type { Metadata } from 'next';
-import { getLocale, getTranslations } from 'next-intl/server';
-import Providers from '@/providers/providers';
-import { Navbar } from '@/components/header/navbar';
-import { Footer } from '@/components/footer/footer';
-
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
   variable: '--font-poppins',

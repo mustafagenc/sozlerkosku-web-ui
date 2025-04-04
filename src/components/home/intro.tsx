@@ -1,8 +1,9 @@
 'use client';
 
-import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+
+import { Link } from '@/i18n/navigation';
 
 export const Intro = () => {
   const t = useTranslations('Home');

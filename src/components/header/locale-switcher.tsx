@@ -1,20 +1,21 @@
 'use client';
 
 import { useLocale } from 'next-intl';
+import Image from 'next/image';
 import { useEffect, useState } from 'react';
+import { AiOutlineGlobal } from 'react-icons/ai';
 
 import { Loader } from '@/components/icons/loader';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
   DropdownMenuContent,
+  DropdownMenuFlagItem,
   DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { locales } from '@/utils/constants';
-import { AiOutlineGlobal } from 'react-icons/ai';
 
 export const LocaleSwitcher = () => {
   const router = useRouter();
@@ -55,9 +56,18 @@ export const LocaleSwitcher = () => {
       <DropdownMenuContent>
         <DropdownMenuRadioGroup value={locale} onValueChange={handleChange}>
           {locales.map((elt) => (
-            <DropdownMenuRadioItem key={elt.id} value={elt.id}>
-              {elt.name}
-            </DropdownMenuRadioItem>
+            <DropdownMenuFlagItem key={elt.id} value={elt.id} flag={elt.flag}>
+              <div className="flex">
+                <Image
+                  src={elt.flag}
+                  width={16}
+                  height={16}
+                  alt={elt.name}
+                  className="flex-none w-4 mr-2"
+                />
+              </div>
+              <div className="flex-1">{elt.name}</div>
+            </DropdownMenuFlagItem>
           ))}
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>

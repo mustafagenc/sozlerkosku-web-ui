@@ -1,8 +1,9 @@
 import { promises as fs } from 'fs';
-import path from 'path';
 import { getTranslations } from 'next-intl/server';
-import { TContact } from '@/types/TContact';
+import path from 'path';
+
 import { Card, CardContent } from '@/components/ui/card';
+import { TContact } from '@/types/TContact';
 
 export const Contact = async () => {
   const sozlerKoskuPath = path.join(

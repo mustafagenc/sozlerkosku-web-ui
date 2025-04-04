@@ -2,9 +2,9 @@
 
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
+import { AiOutlineMoon, AiOutlineSun } from 'react-icons/ai';
 
 import { Loader } from '@/components/icons/loader';
-import { AiOutlineMoon, AiOutlineSun } from 'react-icons/ai';
 import { Button } from '@/components/ui/button';
 
 export const ThemeToggle = () => {

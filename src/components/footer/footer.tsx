@@ -1,7 +1,8 @@
-import { Link } from '@/i18n/navigation';
-import { NAV_LINKS, socials } from '@/utils/constants';
 import { useTranslations } from 'next-intl';
 import { SocialIcon } from 'next-social-icons';
+
+import { Link } from '@/i18n/navigation';
+import { NAV_LINKS, socials } from '@/utils/constants';
 
 export const Footer = () => {
   const t = useTranslations();

@@ -1,8 +1,10 @@
 import { promises as fs } from 'fs';
-import path from 'path';
-import { YoutubeCard } from './youtube-card';
 import { getTranslations } from 'next-intl/server';
+import path from 'path';
+
 import { TYoutubeChannels } from '@/types/TYoutubeChannel';
+
+import { YoutubeCard } from './youtube-card';
 
 export const Youtube = async () => {
   const youtubePath = path.join(

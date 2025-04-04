@@ -8,17 +8,17 @@ export const NAV_LINKS = [
 ];
 
 export const locales = [
-  { id: 'ar', name: 'العربية' },
-  { id: 'bn', name: 'বাংলা' },
-  { id: 'de', name: 'Deutsch' },
-  { id: 'en', name: 'English' },
-  { id: 'es', name: 'Español' },
-  { id: 'fr', name: 'Français' },
-  { id: 'id', name: 'Indonesia' },
-  { id: 'ru', name: 'Русский' },
-  { id: 'uz', name: 'Oʻzbek' },
-  { id: 'tr', name: 'Türkçe' },
-  { id: 'ur', name: 'اردو' },
+  { id: 'ar', name: 'العربية', flag: '/flags/sa.svg' },
+  { id: 'bn', name: 'বাংলা', flag: '/flags/bn.svg' },
+  { id: 'de', name: 'Deutsch', flag: '/flags/de.svg' },
+  { id: 'en', name: 'English', flag: '/flags/us.svg' },
+  { id: 'es', name: 'Español', flag: '/flags/es.svg' },
+  { id: 'fr', name: 'Français', flag: '/flags/fr.svg' },
+  { id: 'id', name: 'Indonesia', flag: '/flags/id.svg' },
+  { id: 'ru', name: 'Русский', flag: '/flags/ru.svg' },
+  { id: 'uz', name: 'Oʻzbek', flag: '/flags/uz.svg' },
+  { id: 'tr', name: 'Türkçe', flag: '/flags/tr.svg' },
+  { id: 'ur', name: 'اردو', flag: '/flags/pk.svg' },
 ];
 
 export const socials: ISocialIcon[] = [
