@@ -46,10 +46,8 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function RootLayout({
   children,
-  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
 }>) {
   const locale = await getLocale();
   const direction = getLangDir(locale);
@@ -58,11 +56,13 @@ export default async function RootLayout({
     notFound();
   }
 
-  console.log('RootLayout', locale);
-  console.clear();
-
   return (
-    <html lang={locale} dir={direction} suppressHydrationWarning={true}>
+    <html
+      lang={locale}
+      dir={direction}
+      suppressHydrationWarning={true}
+      className="scroll-smooth"
+    >
       <body
         className={`${poppins.variable}  mx-auto flex flex-col min-h-screen antialiased`}
       >

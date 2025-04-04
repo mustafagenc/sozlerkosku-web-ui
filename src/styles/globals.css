@@ -125,3 +125,7 @@
     @apply font-medium;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}

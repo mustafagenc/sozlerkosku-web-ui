@@ -11,6 +11,8 @@
         "description": "Sözler Köşkü İlim ve Kültür Derneği web sitesi"
     },
     "Shared": {
+        "phone": "Telefon",
+        "email": "E-posta",
         "copyright": "Sözler Köşkü \u00A9 {date}"
     },
     "Languages": {
