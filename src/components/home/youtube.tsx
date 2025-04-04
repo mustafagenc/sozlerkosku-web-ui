@@ -1,10 +1,17 @@
 import { promises as fs } from 'fs';
+import path from 'path';
 import { YoutubeCard } from './youtube-card';
 import { getTranslations } from 'next-intl/server';
 import { TYoutubeChannels } from '@/types/TYoutubeChannel';
 
 export const Youtube = async () => {
-  const file = await fs.readFile('./content/data/youtube.json', 'utf8');
+  const youtubePath = path.join(
+    process.cwd(),
+    'content',
+    'data',
+    'youtube.json'
+  );
+  const file = await fs.readFile(youtubePath, 'utf8');
   const youtubeData: TYoutubeChannels[] = JSON.parse(file).channels;
   const t = await getTranslations('Home.Youtube');
   return (

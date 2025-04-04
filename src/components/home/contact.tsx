@@ -1,10 +1,17 @@
 import { promises as fs } from 'fs';
+import path from 'path';
 import { getTranslations } from 'next-intl/server';
 import { TContact } from '@/types/TContact';
 import { Card, CardContent } from '@/components/ui/card';
 
 export const Contact = async () => {
-  const file = await fs.readFile('./content/data/sozlerkosku.json', 'utf8');
+  const sozlerKoskuPath = path.join(
+    process.cwd(),
+    'content',
+    'data',
+    'sozlerkosku.json'
+  );
+  const file = await fs.readFile(sozlerKoskuPath, 'utf8');
   const contactData: TContact = JSON.parse(file);
   const t = await getTranslations();
   return (
