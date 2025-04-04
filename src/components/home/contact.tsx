@@ -4,10 +4,7 @@ import { TContact } from '@/types/TContact';
 import { Card, CardContent } from '@/components/ui/card';
 
 export const Contact = async () => {
-  const file = await fs.readFile(
-    process.cwd() + '/content/data/sozlerkosku.json',
-    'utf8'
-  );
+  const file = await fs.readFile('./content/data/sozlerkosku.json', 'utf8');
   const contactData: TContact = JSON.parse(file);
   const t = await getTranslations();
   return (

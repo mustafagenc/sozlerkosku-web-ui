@@ -4,10 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import { TYoutubeChannels } from '@/types/TYoutubeChannel';
 
 export const Youtube = async () => {
-  const file = await fs.readFile(
-    process.cwd() + '/content/data/youtube.json',
-    'utf8'
-  );
+  const file = await fs.readFile('./content/data/youtube.json', 'utf8');
   const youtubeData: TYoutubeChannels[] = JSON.parse(file).channels;
   const t = await getTranslations('Home.Youtube');
   return (
