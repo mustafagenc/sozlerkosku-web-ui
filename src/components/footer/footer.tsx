@@ -15,7 +15,7 @@ export const Footer = () => {
               href={link.path}
               className="text-white text-lg hover:underline hover:underline-offset-4"
             >
-              {t('Navigation.' + link.name)}
+              {t(link.name)}
             </Link>
           ))}
         </div>

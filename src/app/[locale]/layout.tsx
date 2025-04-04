@@ -1,34 +1,34 @@
-import "@/styles/globals.css";
+import '@/styles/globals.css';
 
-import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { Poppins } from "next/font/google";
-import { notFound } from "next/navigation";
-import { getLangDir } from "rtl-detect";
+import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { Poppins } from 'next/font/google';
+import { notFound } from 'next/navigation';
+import { getLangDir } from 'rtl-detect';
 
-import { routing } from "@/i18n/routing";
-import { env } from "@/utils/env";
+import { routing } from '@/i18n/routing';
+import { env } from '@/utils/env';
 
-import type { Metadata } from "next";
-import { getLocale, getTranslations } from "next-intl/server";
-import Providers from "@/providers/providers";
-import { Navbar } from "@/components/header/navbar";
-import { Footer } from "@/components/footer/footer";
+import type { Metadata } from 'next';
+import { getLocale, getTranslations } from 'next-intl/server';
+import Providers from '@/providers/providers';
+import { Navbar } from '@/components/header/navbar';
+import { Footer } from '@/components/footer/footer';
 
 const poppins = Poppins({
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-poppins",
-  subsets: ["latin", "latin-ext"],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-poppins',
+  subsets: ['latin', 'latin-ext'],
 });
 
 export async function generateMetadata(): Promise<Metadata> {
-  const t = await getTranslations("Meta");
+  const t = await getTranslations('Meta');
 
   return {
     metadataBase: new URL(env.SITE_URL),
-    title: t("title"),
-    description: t("description"),
+    title: t('title'),
+    description: t('description'),
     twitter: {
-      card: "summary_large_image",
+      card: 'summary_large_image',
     },
     robots: {
       index: true,
@@ -36,9 +36,9 @@ export async function generateMetadata(): Promise<Metadata> {
       googleBot: {
         index: true,
         follow: true,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
       },
     },
   };
@@ -58,7 +58,8 @@ export default async function RootLayout({
     notFound();
   }
 
-  console.log(params);
+  console.log('RootLayout', locale);
+  console.clear();
 
   return (
     <html lang={locale} dir={direction} suppressHydrationWarning={true}>
@@ -67,9 +68,9 @@ export default async function RootLayout({
       >
         <NextIntlClientProvider>
           <Providers>
-            <Navbar />
-            <div className="px-3 max-w-7xl grow mx-auto antialiased">
-              <main className="mt-50 grow">{children}</main>
+            <div className="min-h-screen bg-gray-100 dark:bg-gray-800">
+              <Navbar />
+              <main className="mt-10 grow">{children}</main>
             </div>
             <Footer />
           </Providers>

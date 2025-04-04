@@ -1,10 +1,10 @@
 import { SocialIconProps } from 'next-social-icons';
 
 export const NAV_LINKS = [
-  { name: 'home', path: '/' },
-  { name: 'about', path: '/about/' },
-  { name: 'applications', path: '/applications/' },
-  { name: 'contact', path: '/contact/' },
+  { name: 'Navigation.home', path: '/' },
+  { name: 'Navigation.about', path: '/about/' },
+  { name: 'Navigation.applications', path: '/applications/' },
+  { name: 'Navigation.contact', path: '/contact/' },
 ];
 
 export const locales = [

@@ -4,7 +4,7 @@
         "about": "من نحن",
         "applications": "تطبيقاتنا",
         "contact": "اتصل بنا",
-        "donation": "تبرع"
+        "donate": "تبرع"
     },
     "Meta": {
         "title": "سوزلر كوشكو",
@@ -13,6 +13,7 @@
     "Shared": {
         "copyright": "نحو الأبدية \u00A9 {date}"
     },
+    "Languages": {},
     "Home": {
         "Meta": {
             "title": "سوزلر كوشكو",

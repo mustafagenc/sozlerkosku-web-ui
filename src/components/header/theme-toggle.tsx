@@ -4,8 +4,7 @@ import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 
 import { Loader } from '@/components/icons/loader';
-import { MoonIcon } from '@/components/icons/moon';
-import { SunIcon } from '@/components/icons/sun';
+import { AiOutlineMoon, AiOutlineSun } from 'react-icons/ai';
 import { Button } from '@/components/ui/button';
 
 export const ThemeToggle = () => {
@@ -27,15 +26,15 @@ export const ThemeToggle = () => {
 
   const ToggleThemeIcon =
     resolvedTheme === 'light' ? (
-      <MoonIcon className="size-5 text-zinc-900" />
+      <AiOutlineMoon className="h-5 w-5" />
     ) : (
-      <SunIcon className="size-5 text-foreground" />
+      <AiOutlineSun className="h-5 w-5" />
     );
-
   return (
     <Button
       size="icon"
       variant="ghost"
+      className="text-gray-500 hover:text-gray-700"
       onClick={() => setTheme(resolvedTheme === 'light' ? 'dark' : 'light')}
     >
       {ToggleThemeIcon}

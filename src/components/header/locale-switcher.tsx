@@ -4,7 +4,6 @@ import { useLocale } from 'next-intl';
 import { useEffect, useState } from 'react';
 
 import { Loader } from '@/components/icons/loader';
-import { WorldIcon } from '@/components/icons/world';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -15,6 +14,7 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { locales } from '@/utils/constants';
+import { AiOutlineGlobal } from 'react-icons/ai';
 
 export const LocaleSwitcher = () => {
   const router = useRouter();
@@ -44,8 +44,12 @@ export const LocaleSwitcher = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button size="icon" variant="ghost" className="mr-3">
-          <WorldIcon className="size-5 stroke-current stroke-2 text-foreground" />
+        <Button
+          size="icon"
+          variant="ghost"
+          className="text-gray-500 hover:text-gray-700"
+        >
+          <AiOutlineGlobal className="h-5 w-5" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>

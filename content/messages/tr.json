@@ -4,7 +4,7 @@
         "about": "Hakkımızda",
         "applications": "Uygulamalarımız",
         "contact": "İletişim",
-        "donation": "Bağış"
+        "donate": "Bağış"
     },
     "Meta": {
         "title": "Sözler Köşkü",
@@ -13,14 +13,38 @@
     "Shared": {
         "copyright": "Sözler Köşkü \u00A9 {date}"
     },
+    "Languages": {
+        "tr": "Türkçe",
+        "en": "İngilizce",
+        "ar": "Arapça",
+        "ur": "Urduca",
+        "id": "Endonezce",
+        "ru": "Rusça",
+        "es": "İspanyolca",
+        "fr": "Fransızca",
+        "bn": "Bengalce",
+        "de": "Almanca",
+        "uz": "Özbekçe",
+        "fa": "Farsça",
+        "hi": "Hintçe"
+    },
     "Home": {
         "Meta": {
             "title": "Sözler Köşkü",
             "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
         },
         "intro": "Burası 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde İslami içerikler üreten bir sosyal medya platformu haline geldik.",
-        "who-are-we": " Biz Kimiz?",
-        "what-we-do-here": "Burada Ne Yapıyoruz?"
+        "what-we-do-here": "Burada Ne Yapıyoruz?",
+        "WhoWeAre": {
+            "title": " Biz Kimiz?",
+            "description": "Sözler Köşkü 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde <b>İslami içerikler</b> üreten bir sosyal medya platformu haline geldik.",
+            "languages": "<lang>Türkçe</lang><lang>İngilizce</lang><lang>Arapça</lang><lang>Urduca</lang><lang>Endonezce</lang><lang>Rusça</lang><lang>İspanyolca</lang><lang>Fransızca</lang><lang>Bengalce</lang><lang>Almanca</lang><lang>Özbekçe</lang><lang>Farsça</lang><lang>Hintçe</lang>",
+            "end": "Dillerinde ayda toplam 300 video üretiyoruz."
+        },
+        "Youtube": {
+            "title": "Youtube Kanallarımızın<br></br>Güncel Abone Sayıları",
+            "visit-the-channel": "Kanalı Ziyaret Et"
+        }
     },
     "About": {
         "Meta": {
