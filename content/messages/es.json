@@ -1,73 +1,118 @@
 {
-    "Navigation": {
-        "home": "Inicio",
-        "about": "Sobre Nosotros",
-        "applications": "Nuestras Aplicaciones",
-        "contact": "Contacto",
-        "donate": "Donar"
-    },
+  "Navigation": {
+    "home": "Página de inicio",
+    "about": "Acerca de nosotros",
+    "applications": "Nuestras aplicaciones",
+    "contact": "Contacto",
+    "donate": "Donar"
+  },
+  "Meta": {
+    "title": "Sözler Köşkü",
+    "description": "Sitio web de la Asociación de Ciencia y Cultura Sözler Köşkü"
+  },
+  "Shared": {
+    "Loading": "Cargando...",
+    "ToggleTheme": "Cambiar tema",
+    "phone": "Teléfono",
+    "email": "Correo electrónico",
+    "copyright": "Sözler Köşkü \u00A9 {date}"
+  },
+  "Languages": {
+    "tr": "Turco",
+    "en": "Inglés",
+    "ar": "Árabe",
+    "ur": "Urdu",
+    "id": "Indonesio",
+    "ru": "Ruso",
+    "es": "Español",
+    "fr": "Francés",
+    "bn": "Bengalí",
+    "de": "Alemán",
+    "uz": "Uzbeko",
+    "fa": "Persa",
+    "hi": "Hindi"
+  },
+  "Home": {
     "Meta": {
-        "title": "Sözler Köşkü",
-        "description": "Sitio web de la Asociación de Ciencia y Cultura Sözler Köşkü"
+      "title": "Sözler Köşkü",
+      "description": "Sözler Köşkü | Eterno Ser | Youtube | Instagram"
     },
-    "Shared": {
-      "Loading": "Loading...",
-      "ToggleTheme": "Toggle Theme",
-      "phone": "Teléfono",
-      "email": "Correo Electrónico",
-      "copyright": "Sözler Köşkü \u00A9 {date}"
+    "intro": "Este es un asociación oficial establecida hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce contenido islámico en 13 idiomas junto contigo.",
+    "what-we-do-here": "¿Qué hacemos aquí?",
+    "WhoWeAre": {
+      "title": "¿Quiénes somos?",
+      "description": "Sözler Köşkü es una asociación oficial establecida hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce <b>contenido islámico</b> en 13 idiomas junto contigo.",
+      "end": "Producimos un total de 300 videos al mes en sus idiomas."
     },
-    "Languages": {
-        "tr": "Turco",
-        "en": "Inglés",
-        "ar": "Árabe",
-        "ur": "Urdu",
-        "id": "Indonesio",
-        "ru": "Ruso",
-        "es": "Español",
-        "fr": "Francés",
-        "bn": "Bengalí",
-        "de": "Alemán",
-        "uz": "Uzbeko",
-        "fa": "Persa",
-        "hi": "Hindi"
+    "Youtube": {
+      "title": "Números de suscriptores actuales de nuestros canales de Youtube",
+      "visit-the-channel": "Visita el canal"
     },
-    "Home": {
-        "Meta": {
-            "title": "Sözler Köşkü",
-            "description": "Sözler Köşkü | Sé Infinito | Youtube | Instagram"
-        },
-        "intro": "Este es un instituto oficial establecido hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce contenido islámico en 13 idiomas junto con ustedes.",
-        "what-we-do-here": "¿Qué hacemos aquí?",
-        "WhoWeAre": {
-            "title": "¿Quiénes somos?",
-            "description": "Sözler Köşkü es un instituto oficial establecido hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce <b>contenido islámico</b> en 13 idiomas junto con ustedes.",
-            "languages": "<lang>Turco</lang><lang>Inglés</lang><lang>Árabe</lang><lang>Urdu</lang><lang>Indonesio</lang><lang>Ruso</lang><lang>Español</lang><lang>Francés</lang><lang>Bengalí</lang><lang>Alemán</lang><lang>Uzbeko</lang><lang>Persa</lang><lang>Hindi</lang>",
-            "end": "Producimos un total de 300 videos al mes en estos idiomas."
-        },
-        "Youtube": {
-            "title": "Número Actual de Suscriptores<br></br>de Nuestros Canales de Youtube",
-            "visit-the-channel": "Visitar el Canal"
-        },
-        "Donate": {
-            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-            "regular": "Düzenli Bağış",
-            "one-time": "Tek Seferlik Bağış"
-        }
-    },
-    "About": {
-        "Meta": {
-            "title": "Sobre Nosotros"
-        }
-    },
-    "Applications": {
-        "Meta": {
-            "title": "Nuestras Aplicaciones"
-        }
-    },
-    "Contact": {
-        "Meta": {
-            "title": "Contacto"
-        }
+    "Donate": {
+      "title": "¿Qué tipo de donación le gustaría hacer?",
+      "regular": "Donación regular",
+      "one-time": "Donación única"
     }
+  },
+  "About": {
+    "Meta": {
+      "Title": "Acerca de nosotros"
+    },
+    "Title": "¡Entramos en todos los hogares con un cable de Internet y hablamos de nuestro Señor!",
+    "SubTitle1": "Una fábrica que produce videos para la Ummah",
+    "SubTitle1Description": "El mundo se ha vuelto muy grande. Físicamente, se ha vuelto difícil entrar en todos los barrios y entregar el mensaje del Islam a todos los hogares. Allah, quien da el problema, también crea la cura. Es posible entregar el mensaje del Corán entrando en todos los hogares con un cable de Internet.",
+    "SubTitle2": "Damos respuestas claras a todas las preguntas que vienen a la mente",
+    "SubTitle2Description": "Preparamos videos en varios idiomas y explicamos la lección que tomamos del Corán como invitados en los hogares a través de la plataforma de Youtube. Damos respuestas satisfactorias a las preguntas de fe que vienen a la mente.",
+    "SubTitle3": "Hablamos del Islam en 13 idiomas",
+    "SubTitle3Description": "<p>El mundo se ha vuelto muy grande. Físicamente, se ha vuelto difícil entrar en todos los barrios y entregar el mensaje del Islam a todos los hogares.</p><p>Allah, quien da el problema, también crea la cura. ¡Es posible entregar el mensaje del Corán entrando en todos los hogares con un cable de Internet! Publicamos contenido en idiomas extranjeros</p><p>Llegamos a corazones hambrientos de Islam en todo el mundo con nuestros canales de Youtube.</p>"
+  },
+  "Applications": {
+    "Meta": {
+      "Title": "Nuestras aplicaciones móviles"
+    },
+    "Title": "Nuestras aplicaciones móviles"
+  },
+  "Contact": {
+    "Meta": {
+      "title": "Contacto"
+    },
+    "Form": {
+      "Name": "Su nombre",
+      "NameEnter": "Ingrese su nombre",
+      "NameRequired": "Por favor ingrese su nombre",
+      "NameLength": "Su nombre debe tener al menos 3 caracteres",
+      "Email": "Su dirección de correo electrónico",
+      "EmailEnter": "Ingrese su dirección de correo electrónico",
+      "EmailRequired": "Por favor, introduzca su dirección de correo electrónico",
+      "EmailInvalid": "Dirección de correo electrónico inválida",
+      "Phone": "Su número de teléfono",
+      "PhoneEnter": "Ingrese su número de teléfono",
+      "Message": "Su mensaje",
+      "MessageEnter": "Ingrese su mensaje",
+      "MessageRequired": "Por favor, introduzca su mensaje",
+      "MessageLength": "Su mensaje debe tener al menos 10 caracteres",
+      "Send": "Enviar"
+    },
+    "Privacy": "Declaro que acepto la <PrivacyPolicy>política de privacidad</PrivacyPolicy> al enviar este formulario.",
+    "Title": "Contacto"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "Política de privacidad"
+    },
+    "Title": "Política de privacidad",
+    "Description": "Como Sözler Köşkü, nos preocupamos por la privacidad de nuestros usuarios y tomamos todas las medidas necesarias para proteger sus datos personales. Esta política de privacidad explica cómo se utilizan y protegen los datos personales que recopilamos a través de nuestro formulario de contacto.",
+    "CollectedPersonalDataTitle": "Datos personales recopilados",
+    "CollectedPersonalDataDescription": "Cuando completa el formulario de contacto, se recopilan sus datos personales, como su nombre, dirección de correo electrónico, número de teléfono y mensaje.",
+    "PurposesUsingPersonalData": "Fines del uso de datos personales",
+    "PurposesUsingPersonalDataDescription": "Los datos personales que recopilamos se utilizan para los siguientes fines:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>Responder a sus solicitudes de contacto,</list><list>Responder a sus preguntas,</list><list>Evaluar sus comentarios,</list><list>Contactarlo cuando sea necesario.</list>",
+    "ProtectionPersonalData": "Protección de datos personales",
+    "ProtectionPersonalDataDescription": "Tomamos todas las medidas técnicas y administrativas necesarias para garantizar la seguridad de sus datos personales. Sus datos están protegidos contra acceso no autorizado, pérdida, alteración o divulgación.",
+    "SharingPersonalData": "Compartir datos personales",
+    "SharingPersonalDataDescription": "Sus datos personales no se comparten con terceros, excepto por obligaciones legales.",
+    "RightsPersonalDataOwner": "Derechos del propietario de los datos personales",
+    "RightsPersonalDataOwnerDescription": "Como propietario de datos personales, tiene los siguientes derechos:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Aprender si sus datos personales se procesan o no,</list><list>Si sus datos personales han sido procesados, solicitar información al respecto,</list><list>Aprender el propósito del procesamiento de sus datos personales y si se utilizan de acuerdo con su propósito,</list><list>Conocer a los terceros a quienes se transfieren sus datos personales en el país o en el extranjero,</list><list>Solicitar la eliminación o destrucción de sus datos personales,</list><list>Oponerse a la aparición de un resultado en su contra mediante el análisis de sus datos personales a través de sistemas automáticos,</list><list>Solicitar la reparación de los daños en caso de que sufra daños debido al procesamiento ilegal de sus datos personales.</list>"
+  }
 }

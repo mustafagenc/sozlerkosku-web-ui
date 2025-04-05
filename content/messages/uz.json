@@ -11,21 +11,21 @@
     "description": "So'zlar Ko'shki Ilm va Madaniyat Dernegi veb-sayti"
   },
   "Shared": {
-    "Loading": "Loading...",
-    "ToggleTheme": "Toggle Theme",
+    "Loading": "Yuklanmoqda...",
+    "ToggleTheme": "Temani o'zgartirish",
     "phone": "Telefon",
-    "email": "E-mail",
+    "email": "E-pochta",
     "copyright": "So'zlar Ko'shki \u00A9 {date}"
   },
   "Languages": {
     "tr": "Turkcha",
     "en": "Inglizcha",
     "ar": "Arabcha",
-    "ur": "Urdu",
+    "ur": "Urducha",
     "id": "Indonezcha",
     "ru": "Ruscha",
     "es": "Ispancha",
-    "fr": "Frantsuzcha",
+    "fr": "Fransuzcha",
     "bn": "Bengalcha",
     "de": "Nemischa",
     "uz": "O'zbekcha",
@@ -35,14 +35,13 @@
   "Home": {
     "Meta": {
       "title": "So'zlar Ko'shki",
-      "description": "So'zlar Ko'shki | Abadiy Bo'l | Youtube | Instagram"
+      "description": "So'zlar Ko'shki | Sonsuz Ol | Youtube | Instagram"
     },
-    "intro": "Bu 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda Islomiy kontent ishlab chiqaradigan ijtimoiy media platformasiga aylandik.",
+    "intro": "Bu yer 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda Islomiy kontent yaratadigan ijtimoiy media platformasiga aylandik.",
     "what-we-do-here": "Bu yerda nima qilamiz?",
     "WhoWeAre": {
       "title": "Biz kimmiz?",
-      "description": "So'zlar Ko'shki 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda <b>Islomiy kontent</b> ishlab chiqaradigan ijtimoiy media platformasiga aylandik.",
-      "languages": "<lang>Turkcha</lang><lang>Inglizcha</lang><lang>Arabcha</lang><lang>Urdu</lang><lang>Indonezcha</lang><lang>Ruscha</lang><lang>Ispancha</lang><lang>Frantsuzcha</lang><lang>Bengalcha</lang><lang>Nemischa</lang><lang>O'zbekcha</lang><lang>Forscha</lang><lang>Hindcha</lang>",
+      "description": "So'zlar Ko'shki 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda <b>Islomiy kontent</b> yaratadigan ijtimoiy media platformasiga aylandik.",
       "end": "Tillarda oyiga jami 300 ta video ishlab chiqaramiz."
     },
     "Youtube": {
@@ -50,24 +49,70 @@
       "visit-the-channel": "Kanalga tashrif buyuring"
     },
     "Donate": {
-      "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-      "regular": "Düzenli Bağış",
-      "one-time": "Tek Seferlik Bağış"
+      "title": "Qanday turdagi xayriya qilmoqchisiz?",
+      "regular": "Doimiy xayriya",
+      "one-time": "Bir martalik xayriya"
     }
   },
   "About": {
     "Meta": {
-      "title": "Biz haqimizda"
-    }
+      "Title": "Biz haqimizda"
+    },
+    "Title": "Internet kabeli orqali barcha uylarga kirib, Rabbimizni tanishtiramiz!",
+    "SubTitle1": "Ummat uchun videolar ishlab chiqaradigan fabrika misoli",
+    "SubTitle1Description": "Dunyo juda katta bo'ldi. Jismonan har bir mahallaga kirib, har bir uyga Islom xabarini etkazish qiyinlashdi. Dardni bergan Alloh davoni ham yaratadi. Internet kabeli orqali barcha uylarga kirish bilan Qur'onning xabarini etkazish mumkin.",
+    "SubTitle2": "Aqlga kelgan barcha savollarga aniq javoblar beramiz",
+    "SubTitle2Description": "Turli tillarda videolar tayyorlab, Youtube platformasi orqali uylarga mehmon bo'lib, Qur'ondan olgan darsimizni tushuntiramiz. Aqlga kelgan imoniy savollarga qoniqarli javoblar beramiz.",
+    "SubTitle3": "13 tilda Islomni tushuntiramiz",
+    "SubTitle3Description": "<p>Dunyo juda katta bo'ldi. Jismonan har bir mahallaga kirib, har bir uyga Islom xabarini etkazish qiyinlashdi.</p><p>Dardni bergan Alloh davoni ham yaratadi. Internet kabeli orqali barcha uylarga kirish bilan Qur'onning xabarini etkazish mumkin! Chet tillarda kontentlar chop etadigan</p><p>Youtube kanallarimiz bilan dunyoning to'rt bir burchagida Islomga chanqoq qalblarga etib boramiz.</p>"
   },
   "Applications": {
     "Meta": {
-      "title": "Ilovalarimiz"
-    }
+      "Title": "Mobil ilovalarimiz"
+    },
+    "Title": "Mobil ilovalarimiz"
   },
   "Contact": {
     "Meta": {
       "title": "Aloqa"
-    }
+    },
+    "Form": {
+      "Name": "Ismingiz",
+      "NameEnter": "Ismingizni kiriting",
+      "NameRequired": "Ismingizni kiriting",
+      "NameLength": "Ismingiz kamida 3 ta belgidan iborat bo'lishi kerak",
+      "Email": "E-pochta manzilingiz",
+      "EmailEnter": "E-pochta manzilingizni kiriting",
+      "EmailRequired": "E-pochta manzilingizni kiriting",
+      "EmailInvalid": "Noto'g'ri e-pochta manzili",
+      "Phone": "Telefon raqamingiz",
+      "PhoneEnter": "Telefon raqamingizni kiriting",
+      "Message": "Xabaringiz",
+      "MessageEnter": "Xabaringizni kiriting",
+      "MessageRequired": "Xabaringizni kiriting",
+      "MessageLength": "Xabaringiz kamida 10 ta belgidan iborat bo'lishi kerak",
+      "Send": "Jo'natish"
+    },
+    "Privacy": "Ushbu formani yuborish orqali <PrivacyPolicy>maxfiylik siyosatini</PrivacyPolicy> qabul qilganimni tasdiqlayman.",
+    "Title": "Aloqa"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "Maxfiylik siyosati"
+    },
+    "Title": "Maxfiylik siyosati",
+    "Description": "So'zlar Ko'shki sifatida biz foydalanuvchilarimizning maxfiyligini qadrlaymiz va shaxsiy ma'lumotlaringizni himoya qilish uchun barcha zarur choralarni ko'ramiz. Ushbu maxfiylik siyosati, aloqa formamiz orqali to'plagan shaxsiy ma'lumotlarning qanday ishlatilishi va himoya qilinishini tushuntiradi.",
+    "CollectedPersonalDataTitle": "To'plangan shaxsiy ma'lumotlar",
+    "CollectedPersonalDataDescription": "Aloqa formasini to'ldirganingizda, ismingiz, e-pochta manzilingiz, telefon raqamingiz va xabaringiz kabi shaxsiy ma'lumotlaringiz to'planadi.",
+    "PurposesUsingPersonalData": "Shaxsiy ma'lumotlardan foydalanish maqsadlari",
+    "PurposesUsingPersonalDataDescription": "To'plagan shaxsiy ma'lumotlar quyidagi maqsadlarda ishlatiladi:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>Aloqa so'rovlaringizga javob berish,</list><list>Savollaringizga javob berish,</list><list>Fikr-mulohazalaringizni baholash,</list><list>Zarur hollarda siz bilan bog'lanish.</list>",
+    "ProtectionPersonalData": "Shaxsiy ma'lumotlarni himoya qilish",
+    "ProtectionPersonalDataDescription": "Shaxsiy ma'lumotlaringizning xavfsizligini ta'minlash uchun barcha zarur texnik va ma'muriy choralarni ko'ramiz. Ma'lumotlaringiz ruxsatsiz kirish, yo'qolish, o'zgartirish yoki oshkor qilishdan himoyalangan.",
+    "SharingPersonalData": "Shaxsiy ma'lumotlarni baham ko'rish",
+    "SharingPersonalDataDescription": "Shaxsiy ma'lumotlaringiz, qonuniy majburiyatlar bundan mustasno, uchinchi tomonlar bilan baham ko'rilmaydi.",
+    "RightsPersonalDataOwner": "Shaxsiy ma'lumotlar egasining huquqlari",
+    "RightsPersonalDataOwnerDescription": "Shaxsiy ma'lumotlar egasi sifatida siz quyidagi huquqlarga egasiz:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Shaxsiy ma'lumotlaringizning qayta ishlangan yoki ishlanmaganligini bilish,</list><list>Shaxsiy ma'lumotlaringiz qayta ishlangan bo'lsa, bu haqda ma'lumot talab qilish,</list><list>Shaxsiy ma'lumotlaringizni qayta ishlash maqsadini va ularning maqsadga muvofiq ishlatilganligini bilish,</list><list>Shaxsiy ma'lumotlaringizning yurt ichida yoki chet elda o'tkazilgan uchinchi shaxslarni bilish,</list><list>Shaxsiy ma'lumotlaringizni o'chirish yoki yo'q qilishni talab qilish,</list><list>Shaxsiy ma'lumotlaringizni avtomatik tizimlar orqali tahlil qilish natijasida sizga qarshi natija chiqishiga e'tiroz bildirish,</list><list>Shaxsiy ma'lumotlaringizni qonunga xilof ravishda qayta ishlash sababli zarar ko'rgan bo'lsangiz, zararni qoplashni talab qilish.</list>"
   }
 }

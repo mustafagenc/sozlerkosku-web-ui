@@ -1,80 +1,118 @@
 {
   "Navigation": {
-    "home": "Ana Sayfa",
-    "about": "Hakkımızda",
-    "applications": "Uygulamalarımız",
-    "contact": "İletişim",
-    "donate": "Bağış"
+    "home": "होम",
+    "about": "के बारे में",
+    "applications": "अनुप्रयोग",
+    "contact": "संपर्क करें",
+    "donate": "दान करें"
   },
   "Meta": {
-    "title": "Sözler Köşkü",
-    "description": "Sözler Köşkü İlim ve Kültür Derneği web sitesi"
+    "title": "सोज़लर कोस्कु",
+    "description": "सोज़लर कोस्कु विज्ञान और संस्कृति संघ की वेबसाइट"
   },
   "Shared": {
-    "Loading": "Yükleniyor...",
-    "ToggleTheme": "Temayı Değiştir",
-    "phone": "Telefon",
-    "email": "E-posta",
-    "copyright": "Sözler Köşkü \u00A9 {date}"
+    "Loading": "लोड हो रहा है...",
+    "ToggleTheme": "थीम बदलें",
+    "phone": "फ़ोन",
+    "email": "ईमेल",
+    "copyright": "सोज़लर कोस्कु \u00A9 {date}"
   },
   "Languages": {
-    "tr": "Türkçe",
-    "en": "İngilizce",
-    "ar": "Arapça",
-    "ur": "Urduca",
-    "id": "Endonezce",
-    "ru": "Rusça",
-    "es": "İspanyolca",
-    "fr": "Fransızca",
-    "bn": "Bengalce",
-    "de": "Almanca",
-    "uz": "Özbekçe",
-    "fa": "Farsça",
-    "hi": "Hintçe"
+    "tr": "तुर्की",
+    "en": "अंग्रेज़ी",
+    "ar": "अरबी",
+    "ur": "उर्दू",
+    "id": "इंडोनेशियाई",
+    "ru": "रूसी",
+    "es": "स्पेनिश",
+    "fr": "फ्रेंच",
+    "bn": "बंगाली",
+    "de": "जर्मन",
+    "uz": "उज़्बेक",
+    "fa": "फ़ारसी",
+    "hi": "हिंदी"
   },
   "Home": {
     "Meta": {
-      "title": "Sözler Köşkü",
-      "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
+      "title": "सोज़लर कोस्कु",
+      "description": "सोज़लर कोस्कु | अनंत बनो | यूट्यूब | इंस्टाग्राम"
     },
-    "intro": "Burası 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde İslami içerikler üreten bir sosyal medya platformu haline geldik.",
-    "what-we-do-here": "Burada Ne Yapıyoruz?",
+    "intro": "यह एक आधिकारिक संघ है जिसकी स्थापना 13 साल पहले हुई थी। 13 वर्षों में, हम आपके साथ 13 भाषाओं में इस्लामी सामग्री का उत्पादन करने वाला एक सोशल मीडिया प्लेटफ़ॉर्म बन गए हैं।",
+    "what-we-do-here": "हम यहाँ क्या करते हैं?",
     "WhoWeAre": {
-      "title": " Biz Kimiz?",
-      "description": "Sözler Köşkü 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde <b>İslami içerikler</b> üreten bir sosyal medya platformu haline geldik.",
-      "languages": "<lang>Türkçe</lang><lang>İngilizce</lang><lang>Arapça</lang><lang>Urduca</lang><lang>Endonezce</lang><lang>Rusça</lang><lang>İspanyolca</lang><lang>Fransızca</lang><lang>Bengalce</lang><lang>Almanca</lang><lang>Özbekçe</lang><lang>Farsça</lang><lang>Hintçe</lang>",
-      "end": "Dillerinde ayda toplam 300 video üretiyoruz."
+      "title": "हम कौन हैं?",
+      "description": "सोज़लर कोस्कु एक आधिकारिक संघ है जिसकी स्थापना 13 साल पहले हुई थी। 13 वर्षों में, हम आपके साथ 13 भाषाओं में <b>इस्लामी सामग्री</b> का उत्पादन करने वाला एक सोशल मीडिया प्लेटफ़ॉर्म बन गए हैं।",
+      "end": "हम उनकी भाषाओं में प्रति माह कुल 300 वीडियो का निर्माण करते हैं।"
     },
     "Youtube": {
-      "title": "Youtube Kanallarımızın<br></br>Güncel Abone Sayıları",
-      "visit-the-channel": "Kanalı Ziyaret Et"
+      "title": "हमारे यूट्यूब चैनलों के<br></br>वर्तमान ग्राहक संख्या",
+      "visit-the-channel": "चैनल पर जाएं"
     },
     "Donate": {
-      "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-      "regular": "Düzenli Bağış",
-      "one-time": "Tek Seferlik Bağış"
+      "title": "आप किस प्रकार का दान करना चाहेंगे?",
+      "regular": "नियमित दान",
+      "one-time": "एकबारगी दान"
     }
   },
   "About": {
     "Meta": {
-      "Title": "Hakkımızda"
+      "Title": "के बारे में"
     },
-    "Title": "Bir İnternet Kablosuyla Tüm Evlere Girip Rabbimizi Anlatıyoruz!",
-    "SubTitle1": "Ümmet İçin Videolar Üreten Bir Fabrika Misali",
-    "SubTitle1Description": "Dünya çok büyüdü. Fiziksel olarak her mahalleye girip her eve İslamın mesajını ulaştırmak zorlaştı. Derdi veren Allah devayı da yaratır. Bir internet kablosuyla tüm evlere girmekle Kuran’ın mesajını ulaştırmak mümkün.",
-    "SubTitle2": "Akla Takılan Tüm Sorulara Net Cevaplar Veriyoruz",
-    "SubTitle2Description": "Muhtelif dillerde videolar hazırlayarak Youtube platformuyla evlere misafir olarak Kurandan aldığımız dersi anlatıyoruz. Akıllara takılan İmani sorulara tatmin edici cevaplar veriyoruz.",
-    "SubTitle3": "13 Dilde İslamı Anlatıyoruz",
-    "SubTitle3Description": "<p>Dünya çok büyüdü. Fiziksel olarak her mahalleye girip her eve İslamın mesajını ulaştırmak zorlaştı.</p><p>Derdi veren Allah devayı da yaratır. Bir internet kablosuyla tüm evlere girmekle Kuran’ın mesajını ulaştırmak mümkün! Yabancı dillerde içerikler yayınladığımız</p><p>Youtube Kanallarımızla dünyanın dört bir yanında İslama aç gönüllere ulaşıyoruz.</p>"
+    "Title": "हम एक इंटरनेट केबल के माध्यम से सभी घरों में प्रवेश करते हैं और अपने भगवान के बारे में बात करते हैं!",
+    "SubTitle1": "उम्माह के लिए वीडियो बनाने वाले एक कारखाने की तरह",
+    "SubTitle1Description": "दुनिया बहुत बड़ी हो गई है। शारीरिक रूप से हर पड़ोस में प्रवेश करना और इस्लाम के संदेश को हर घर तक पहुंचाना मुश्किल हो गया है। जो दर्द देता है, अल्लाह इलाज भी बनाता है। एक इंटरनेट केबल के माध्यम से सभी घरों में प्रवेश करके कुरान के संदेश को पहुंचाना संभव है।",
+    "SubTitle2": "हम सभी अनुत्तरित प्रश्नों के स्पष्ट उत्तर देते हैं",
+    "SubTitle2Description": "हम विभिन्न भाषाओं में वीडियो तैयार करके यूट्यूब प्लेटफॉर्म के माध्यम से घरों में मेहमान बनकर कुरान से प्राप्त सबक सिखाते हैं। हम दिमाग में आने वाले ईमान के सवालों के संतोषजनक जवाब देते हैं।",
+    "SubTitle3": "हम 13 भाषाओं में इस्लाम के बारे में बात करते हैं",
+    "SubTitle3Description": "<p>दुनिया बहुत बड़ी हो गई है। शारीरिक रूप से हर पड़ोस में प्रवेश करना और इस्लाम के संदेश को हर घर तक पहुंचाना मुश्किल हो गया है।</p><p>जो दर्द देता है, अल्लाह इलाज भी बनाता है। एक इंटरनेट केबल के माध्यम से सभी घरों में प्रवेश करके कुरान के संदेश को पहुंचाना संभव है! विदेशी भाषाओं में सामग्री प्रकाशित करके</p><p>हम अपने यूट्यूब चैनलों के माध्यम से दुनिया भर में इस्लाम के लिए खुले दिलों तक पहुंचते हैं।</p>"
   },
   "Applications": {
     "Meta": {
-      "title": "Uygulamalarımız"
-    }
+      "Title": "हमारे मोबाइल एप्लिकेशन"
+    },
+    "Title": "हमारे मोबाइल एप्लिकेशन"
   },
   "Contact": {
     "Meta": {
-      "title": "İletişim"
-    }
+      "title": "संपर्क करें"
+    },
+    "Form": {
+      "Name": "आपका नाम",
+      "NameEnter": "अपना नाम दर्ज करें",
+      "NameRequired": "अपना नाम दर्ज करें",
+      "NameLength": "आपका नाम कम से कम 3 अक्षरों का होना चाहिए",
+      "Email": "आपका ईमेल पता",
+      "EmailEnter": "अपना ईमेल पता दर्ज करें",
+      "EmailRequired": "अपना ईमेल पता दर्ज करें",
+      "EmailInvalid": "अमान्य ईमेल पता",
+      "Phone": "आपका फ़ोन नंबर",
+      "PhoneEnter": "अपना फ़ोन नंबर दर्ज करें",
+      "Message": "आपका संदेश",
+      "MessageEnter": "अपना संदेश दर्ज करें",
+      "MessageRequired": "अपना संदेश दर्ज करें",
+      "MessageLength": "आपका संदेश कम से कम 10 अक्षरों का होना चाहिए",
+      "Send": "भेजें"
+    },
+    "Privacy": "इस फॉर्म को जमा करके, मैं <PrivacyPolicy>गोपनीयता नीति</PrivacyPolicy> को स्वीकार करता हूं।",
+    "Title": "संपर्क करें"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "गोपनीयता नीति"
+    },
+    "Title": "गोपनीयता नीति",
+    "Description": "सोज़लर कोस्कु के रूप में, हम अपने उपयोगकर्ताओं की गोपनीयता को महत्व देते हैं और आपके व्यक्तिगत डेटा की सुरक्षा के लिए सभी आवश्यक उपाय करते हैं। यह गोपनीयता नीति बताती है कि हम अपने संपर्क फ़ॉर्म के माध्यम से एकत्र किए गए व्यक्तिगत डेटा का उपयोग और सुरक्षा कैसे करते हैं।",
+    "CollectedPersonalDataTitle": "एकत्रित व्यक्तिगत डेटा",
+    "CollectedPersonalDataDescription": "जब आप संपर्क फ़ॉर्म भरते हैं, तो आपका नाम, ईमेल पता, फ़ोन नंबर और संदेश जैसे व्यक्तिगत डेटा एकत्र किए जाते हैं।",
+    "PurposesUsingPersonalData": "व्यक्तिगत डेटा का उपयोग करने के उद्देश्य",
+    "PurposesUsingPersonalDataDescription": "हम जो व्यक्तिगत डेटा एकत्र करते हैं, उसका उपयोग निम्नलिखित उद्देश्यों के लिए किया जाता है:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>आपकी संपर्क अनुरोधों का जवाब देना,</list><list>आपके सवालों का जवाब देना,</list><list>आपकी प्रतिक्रिया का मूल्यांकन करना,</list><list>आवश्यक होने पर आपसे संपर्क करना।</list>",
+    "ProtectionPersonalData": "व्यक्तिगत डेटा का संरक्षण",
+    "ProtectionPersonalDataDescription": "हम आपके व्यक्तिगत डेटा की सुरक्षा सुनिश्चित करने के लिए सभी आवश्यक तकनीकी और प्रशासनिक उपाय करते हैं। आपके डेटा को अनधिकृत पहुंच, हानि, परिवर्तन या प्रकटीकरण से बचाया जाता है।",
+    "SharingPersonalData": "व्यक्तिगत डेटा का साझाकरण",
+    "SharingPersonalDataDescription": "आपका व्यक्तिगत डेटा कानूनी दायित्वों को छोड़कर तीसरे पक्ष के साथ साझा नहीं किया जाता है।",
+    "RightsPersonalDataOwner": "व्यक्तिगत डेटा स्वामी के अधिकार",
+    "RightsPersonalDataOwnerDescription": "एक व्यक्तिगत डेटा स्वामी के रूप में, आपके पास निम्नलिखित अधिकार हैं:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>यह जानने का अधिकार कि आपके व्यक्तिगत डेटा को संसाधित किया जा रहा है या नहीं,</list><list>यदि आपके व्यक्तिगत डेटा को संसाधित किया गया है, तो जानकारी का अनुरोध करने का अधिकार,</list><list>यह जानने का अधिकार कि आपके व्यक्तिगत डेटा को संसाधित करने का उद्देश्य क्या है और क्या उनका उपयोग उनके उद्देश्य के अनुसार किया जा रहा है,</list><list>उन तीसरे पक्षों को जानने का अधिकार जिनके साथ आपके व्यक्तिगत डेटा को देश या विदेश में स्थानांतरित किया जाता है,</list><list>आपके व्यक्तिगत डेटा को हटाने या नष्ट करने का अनुरोध करने का अधिकार,</list><list>स्वचालित प्रणालियों के माध्यम से आपके व्यक्तिगत डेटा का विश्लेषण करके आपके खिलाफ परिणाम पर आपत्ति करने का अधिकार,</list><list>कानून के उल्लंघन में आपके व्यक्तिगत डेटा को संसाधित करने के कारण नुकसान होने की स्थिति में नुकसान की भरपाई का अनुरोध करने का अधिकार।</list>"
   }
 }

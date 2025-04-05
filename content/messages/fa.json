@@ -1,80 +1,118 @@
 {
   "Navigation": {
-    "home": "Ana Sayfa",
-    "about": "Hakkımızda",
-    "applications": "Uygulamalarımız",
-    "contact": "İletişim",
-    "donate": "Bağış"
+    "home": "صفحه اصلی",
+    "about": "درباره ما",
+    "applications": "برنامه‌های ما",
+    "contact": "تماس",
+    "donate": "کمک مالی"
   },
   "Meta": {
-    "title": "Sözler Köşkü",
-    "description": "Sözler Köşkü İlim ve Kültür Derneği web sitesi"
+    "title": "سوزلر کوشکو",
+    "description": "وب سایت انجمن علم و فرهنگ سوزلر کوشکو"
   },
   "Shared": {
-    "Loading": "Yükleniyor...",
-    "ToggleTheme": "Temayı Değiştir",
-    "phone": "Telefon",
-    "email": "E-posta",
-    "copyright": "Sözler Köşkü \u00A9 {date}"
+    "Loading": "در حال بارگذاری...",
+    "ToggleTheme": "تغییر تم",
+    "phone": "تلفن",
+    "email": "ایمیل",
+    "copyright": "سوزلر کوشکو \u00A9 {date}"
   },
   "Languages": {
-    "tr": "Türkçe",
-    "en": "İngilizce",
-    "ar": "Arapça",
-    "ur": "Urduca",
-    "id": "Endonezce",
-    "ru": "Rusça",
-    "es": "İspanyolca",
-    "fr": "Fransızca",
-    "bn": "Bengalce",
-    "de": "Almanca",
-    "uz": "Özbekçe",
-    "fa": "Farsça",
-    "hi": "Hintçe"
+    "tr": "ترکی",
+    "en": "انگلیسی",
+    "ar": "عربی",
+    "ur": "اردو",
+    "id": "اندونزیایی",
+    "ru": "روسی",
+    "es": "اسپانیایی",
+    "fr": "فرانسوی",
+    "bn": "بنگالی",
+    "de": "آلمانی",
+    "uz": "ازبکی",
+    "fa": "فارسی",
+    "hi": "هندی"
   },
   "Home": {
     "Meta": {
-      "title": "Sözler Köşkü",
-      "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
+      "title": "سوزلر کوشکو",
+      "description": "سوزلر کوشکو | جاودانه شو | یوتیوب | اینستاگرام"
     },
-    "intro": "Burası 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde İslami içerikler üreten bir sosyal medya platformu haline geldik.",
-    "what-we-do-here": "Burada Ne Yapıyoruz?",
+    "intro": "اینجا یک انجمن رسمی است که 13 سال پیش تأسیس شده است. در 13 سال گذشته، ما با شما به یک پلتفرم رسانه‌های اجتماعی تبدیل شده‌ایم که محتوای اسلامی را به 13 زبان تولید می‌کند.",
+    "what-we-do-here": "ما اینجا چه می‌کنیم؟",
     "WhoWeAre": {
-      "title": " Biz Kimiz?",
-      "description": "Sözler Köşkü 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde <b>İslami içerikler</b> üreten bir sosyal medya platformu haline geldik.",
-      "languages": "<lang>Türkçe</lang><lang>İngilizce</lang><lang>Arapça</lang><lang>Urduca</lang><lang>Endonezce</lang><lang>Rusça</lang><lang>İspanyolca</lang><lang>Fransızca</lang><lang>Bengalce</lang><lang>Almanca</lang><lang>Özbekçe</lang><lang>Farsça</lang><lang>Hintçe</lang>",
-      "end": "Dillerinde ayda toplam 300 video üretiyoruz."
+      "title": "ما کی هستیم؟",
+      "description": "سوزلر کوشکو یک انجمن رسمی است که 13 سال پیش تأسیس شده است. در 13 سال گذشته، ما با شما به یک پلتفرم رسانه‌های اجتماعی تبدیل شده‌ایم که <b>محتوای اسلامی</b> را به 13 زبان تولید می‌کند.",
+      "end": "ما در مجموع 300 ویدیو در ماه به زبان‌های مختلف تولید می‌کنیم."
     },
     "Youtube": {
-      "title": "Youtube Kanallarımızın<br></br>Güncel Abone Sayıları",
-      "visit-the-channel": "Kanalı Ziyaret Et"
+      "title": "تعداد مشترکین فعلی<br></br>کانال‌های یوتیوب ما",
+      "visit-the-channel": "بازدید از کانال"
     },
     "Donate": {
-      "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-      "regular": "Düzenli Bağış",
-      "one-time": "Tek Seferlik Bağış"
+      "title": "کدام نوع کمک مالی را می‌خواهید انجام دهید؟",
+      "regular": "کمک مالی منظم",
+      "one-time": "کمک مالی یکباره"
     }
   },
   "About": {
     "Meta": {
-      "Title": "Hakkımızda"
+      "Title": "درباره ما"
     },
-    "Title": "Bir İnternet Kablosuyla Tüm Evlere Girip Rabbimizi Anlatıyoruz!",
-    "SubTitle1": "Ümmet İçin Videolar Üreten Bir Fabrika Misali",
-    "SubTitle1Description": "Dünya çok büyüdü. Fiziksel olarak her mahalleye girip her eve İslamın mesajını ulaştırmak zorlaştı. Derdi veren Allah devayı da yaratır. Bir internet kablosuyla tüm evlere girmekle Kuran’ın mesajını ulaştırmak mümkün.",
-    "SubTitle2": "Akla Takılan Tüm Sorulara Net Cevaplar Veriyoruz",
-    "SubTitle2Description": "Muhtelif dillerde videolar hazırlayarak Youtube platformuyla evlere misafir olarak Kurandan aldığımız dersi anlatıyoruz. Akıllara takılan İmani sorulara tatmin edici cevaplar veriyoruz.",
-    "SubTitle3": "13 Dilde İslamı Anlatıyoruz",
-    "SubTitle3Description": "<p>Dünya çok büyüdü. Fiziksel olarak her mahalleye girip her eve İslamın mesajını ulaştırmak zorlaştı.</p><p>Derdi veren Allah devayı da yaratır. Bir internet kablosuyla tüm evlere girmekle Kuran’ın mesajını ulaştırmak mümkün! Yabancı dillerde içerikler yayınladığımız</p><p>Youtube Kanallarımızla dünyanın dört bir yanında İslama aç gönüllere ulaşıyoruz.</p>"
+    "Title": "ما با یک کابل اینترنت وارد همه خانه‌ها می‌شویم و از پروردگارمان می‌گوییم!",
+    "SubTitle1": "مانند یک کارخانه تولید ویدیو برای امت",
+    "SubTitle1Description": "دنیا خیلی بزرگ شده است. از نظر فیزیکی، ورود به هر محله و رساندن پیام اسلام به هر خانه دشوار شده است. خدایی که درد را می‌دهد، درمان را هم می‌دهد. رساندن پیام قرآن با ورود به همه خانه‌ها از طریق یک کابل اینترنت ممکن است.",
+    "SubTitle2": "ما به تمام سوالات بی پاسخ پاسخ‌های قطعی می‌دهیم",
+    "SubTitle2Description": "ما با تهیه ویدیوها به زبان‌های مختلف و میزبانی در خانه‌ها از طریق پلتفرم یوتیوب، درسی را که از قرآن آموخته‌ایم، آموزش می‌دهیم. ما به سوالات ایمانی که در ذهن ایجاد می‌شود پاسخ‌های قانع‌کننده‌ای می‌دهیم.",
+    "SubTitle3": "ما اسلام را به 13 زبان آموزش می‌دهیم",
+    "SubTitle3Description": "<p>دنیا خیلی بزرگ شده است. از نظر فیزیکی، ورود به هر محله و رساندن پیام اسلام به هر خانه دشوار شده است.</p><p>خدایی که درد را می‌دهد، درمان را هم می‌دهد. رساندن پیام قرآن با ورود به همه خانه‌ها از طریق یک کابل اینترنت ممکن است! ما از طریق کانال‌های یوتیوب خود که محتوایی را به زبان‌های خارجی منتشر می‌کنیم، به قلب‌های تشنه اسلام در سراسر جهان می‌رسیم.</p>"
   },
   "Applications": {
     "Meta": {
-      "title": "Uygulamalarımız"
-    }
+      "Title": "برنامه‌های موبایل ما"
+    },
+    "Title": "برنامه‌های موبایل ما"
   },
   "Contact": {
     "Meta": {
-      "title": "İletişim"
-    }
+      "title": "تماس"
+    },
+    "Form": {
+      "Name": "نام شما",
+      "NameEnter": "نام خود را وارد کنید",
+      "NameRequired": "لطفاً نام خود را وارد کنید",
+      "NameLength": "نام شما باید حداقل 3 کاراکتر باشد",
+      "Email": "آدرس ایمیل شما",
+      "EmailEnter": "آدرس ایمیل خود را وارد کنید",
+      "EmailRequired": "لطفاً آدرس ایمیل خود را وارد کنید",
+      "EmailInvalid": "آدرس ایمیل نامعتبر",
+      "Phone": "شماره تلفن شما",
+      "PhoneEnter": "شماره تلفن خود را وارد کنید",
+      "Message": "پیام شما",
+      "MessageEnter": "پیام خود را وارد کنید",
+      "MessageRequired": "لطفاً پیام خود را وارد کنید",
+      "MessageLength": "پیام شما باید حداقل 10 کاراکتر باشد",
+      "Send": "ارسال"
+    },
+    "Privacy": "من با ارسال این فرم، اعلام می‌کنم که <PrivacyPolicy>سیاست حفظ حریم خصوصی</PrivacyPolicy> را قبول کرده‌ام.",
+    "Title": "تماس"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "سیاست حفظ حریم خصوصی"
+    },
+    "Title": "سیاست حفظ حریم خصوصی",
+    "Description": "ما به عنوان سوزلر کوشکو، به حریم خصوصی کاربران خود اهمیت می‌دهیم و تمام اقدامات لازم را برای محافظت از اطلاعات شخصی شما انجام می‌دهیم. این سیاست حفظ حریم خصوصی، نحوه استفاده و محافظت از اطلاعات شخصی جمع‌آوری شده از طریق فرم تماس ما را توضیح می‌دهد.",
+    "CollectedPersonalDataTitle": "اطلاعات شخصی جمع‌آوری شده",
+    "CollectedPersonalDataDescription": "هنگامی که فرم تماس را پر می‌کنید، اطلاعات شخصی شما مانند نام، آدرس ایمیل، شماره تلفن و پیام شما جمع‌آوری می‌شود.",
+    "PurposesUsingPersonalData": "اهداف استفاده از اطلاعات شخصی",
+    "PurposesUsingPersonalDataDescription": "اطلاعات شخصی جمع‌آوری شده، برای اهداف زیر استفاده می‌شود:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>پاسخ به درخواست‌های تماس شما،</list><list>پاسخ به سوالات شما،</list><list>ارزیابی بازخورد شما،</list><list>در صورت لزوم، تماس با شما.</list>",
+    "ProtectionPersonalData": "حفاظت از اطلاعات شخصی",
+    "ProtectionPersonalDataDescription": "ما تمام اقدامات فنی و اداری لازم را برای اطمینان از امنیت اطلاعات شخصی شما انجام می‌دهیم. اطلاعات شما در برابر دسترسی غیرمجاز، از دست دادن، تغییر یا افشا محافظت می‌شود.",
+    "SharingPersonalData": "به اشتراک گذاری اطلاعات شخصی",
+    "SharingPersonalDataDescription": "اطلاعات شخصی شما، به جز الزامات قانونی، با اشخاص ثالث به اشتراک گذاشته نمی‌شود.",
+    "RightsPersonalDataOwner": "حقوق صاحب اطلاعات شخصی",
+    "RightsPersonalDataOwnerDescription": "به عنوان صاحب اطلاعات شخصی، شما دارای حقوق زیر هستید:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>یادگیری اینکه آیا اطلاعات شخصی شما پردازش شده است یا خیر،</list><list>در صورت پردازش اطلاعات شخصی شما، درخواست اطلاعات مربوط به آن،</list><list>یادگیری هدف از پردازش اطلاعات شخصی شما و اینکه آیا از آنها مطابق با هدف استفاده می‌شود یا خیر،</list><list>دانستن اشخاص ثالثی که اطلاعات شخصی شما در داخل یا خارج از کشور به آنها منتقل می‌شود،</list><list>درخواست حذف یا نابودی اطلاعات شخصی شما،</list><list>اعتراض به ظهور نتیجه‌ای علیه شما از طریق تجزیه و تحلیل اطلاعات شخصی شما از طریق سیستم‌های خودکار،</list><list>در صورت آسیب دیدن به دلیل پردازش غیرقانونی اطلاعات شخصی خود، درخواست جبران خسارت.</list>"
   }
 }

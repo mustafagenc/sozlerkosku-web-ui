@@ -1,73 +1,118 @@
 {
-    "Navigation": {
-        "home": "Accueil",
-        "about": "À propos",
-        "applications": "Nos Applications",
-        "contact": "Contact",
-        "donate": "Faire un Don"
-    },
+  "Navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "applications": "Applications",
+    "contact": "Contact",
+    "donate": "Faire un don"
+  },
+  "Meta": {
+    "title": "Sözler Köşkü",
+    "description": "Site web de l'Association de la science et de la culture Sözler Köşkü"
+  },
+  "Shared": {
+    "Loading": "Chargement...",
+    "ToggleTheme": "Changer de thème",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "copyright": "Sözler Köşkü \u00A9 {date}"
+  },
+  "Languages": {
+    "tr": "Turc",
+    "en": "Anglais",
+    "ar": "Arabe",
+    "ur": "Ourdou",
+    "id": "Indonésien",
+    "ru": "Russe",
+    "es": "Espagnol",
+    "fr": "Français",
+    "bn": "Bengali",
+    "de": "Allemand",
+    "uz": "Ouzbek",
+    "fa": "Persan",
+    "hi": "Hindi"
+  },
+  "Home": {
     "Meta": {
-        "title": "Towards Eternity",
-        "description": "Site web de l'Association Towards Eternity pour la Science et la Culture"
+      "title": "Sözler Köşkü",
+      "description": "Sözler Köşkü | L'infini Existe | Youtube | Instagram"
     },
-    "Shared": {
-      "Loading": "Loading...",
-      "ToggleTheme": "Toggle Theme",
-      "phone": "Téléphone",
-      "email": "E-mail",
-      "copyright": "Towards Eternity \u00A9 {date}"
+    "intro": "C'est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du contenu islamique en 13 langues avec vous.",
+    "what-we-do-here": "Que faisons-nous ici ?",
+    "WhoWeAre": {
+      "title": "Qui sommes-nous ?",
+      "description": "Sözler Köşkü est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du <b>contenu islamique</b> en 13 langues avec vous.",
+      "end": "Nous produisons un total de 300 vidéos par mois dans leurs langues."
     },
-    "Languages": {
-        "tr": "Turc",
-        "en": "Anglais",
-        "ar": "Arabe",
-        "ur": "Ourdou",
-        "id": "Indonésien",
-        "ru": "Russe",
-        "es": "Espagnol",
-        "fr": "Français",
-        "bn": "Bengali",
-        "de": "Allemand",
-        "uz": "Ouzbek",
-        "fa": "Persan",
-        "hi": "Hindi"
+    "Youtube": {
+      "title": "Nombre actuel d'abonnés de nos chaînes Youtube",
+      "visit-the-channel": "Visitez la chaîne"
     },
-    "Home": {
-        "Meta": {
-            "title": "Towards Eternity",
-            "description": "Towards Eternity | Éternel | Youtube | Instagram"
-        },
-        "intro": "Ceci est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant des contenus islamiques en 13 langues avec vous.",
-        "what-we-do-here": "Que faisons-nous ici ?",
-        "WhoWeAre": {
-            "title": "Qui sommes-nous ?",
-            "description": "Towards Eternity est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant des <b>contenus islamiques</b> en 13 langues avec vous.",
-            "languages": "<lang>Turc</lang><lang>Anglais</lang><lang>Arabe</lang><lang>Ourdou</lang><lang>Indonésien</lang><lang>Russe</lang><lang>Espagnol</lang><lang>Français</lang><lang>Bengali</lang><lang>Allemand</lang><lang>Ouzbek</lang><lang>Persan</lang><lang>Hindi</lang>",
-            "end": "Nous produisons un total de 300 vidéos par mois dans ces langues."
-        },
-        "Youtube": {
-            "title": "Nombre d'abonnés<br></br>actuels de nos chaînes YouTube",
-            "visit-the-channel": "Visiter la chaîne"
-        },
-        "Donate": {
-            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-            "regular": "Düzenli Bağış",
-            "one-time": "Tek Seferlik Bağış"
-        }
-    },
-    "About": {
-        "Meta": {
-            "title": "À propos"
-        }
-    },
-    "Applications": {
-        "Meta": {
-            "title": "Nos Applications"
-        }
-    },
-    "Contact": {
-        "Meta": {
-            "title": "Contact"
-        }
+    "Donate": {
+      "title": "Quel type de don souhaitez-vous faire ?",
+      "regular": "Don régulier",
+      "one-time": "Don unique"
     }
+  },
+  "About": {
+    "Meta": {
+      "Title": "À propos de nous"
+    },
+    "Title": "Nous entrons dans toutes les maisons avec un câble Internet et parlons de notre Seigneur !",
+    "SubTitle1": "Comme une usine produisant des vidéos pour la Oumma",
+    "SubTitle1Description": "Le monde est devenu très grand. Il est devenu difficile d'entrer physiquement dans chaque quartier et de transmettre le message de l'Islam à chaque foyer. Allah, qui donne la douleur, crée aussi le remède. Il est possible de transmettre le message du Coran en entrant dans toutes les maisons avec un câble Internet.",
+    "SubTitle2": "Nous donnons des réponses claires à toutes les questions qui se posent",
+    "SubTitle2Description": "Nous expliquons la leçon que nous avons tirée du Coran en étant les invités des foyers via la plateforme Youtube en préparant des vidéos dans différentes langues. Nous donnons des réponses satisfaisantes aux questions de foi qui se posent.",
+    "SubTitle3": "Nous expliquons l'Islam en 13 langues",
+    "SubTitle3Description": "<p>Le monde est devenu très grand. Il est devenu difficile d'entrer physiquement dans chaque quartier et de transmettre le message de l'Islam à chaque foyer.</p><p>Allah, qui donne la douleur, crée aussi le remède. Il est possible de transmettre le message du Coran en entrant dans toutes les maisons avec un câble Internet !</p><p>Nous atteignons les cœurs ouverts à l'Islam dans le monde entier grâce à nos chaînes Youtube où nous publions du contenu en langues étrangères.</p>"
+  },
+  "Applications": {
+    "Meta": {
+      "Title": "Nos applications mobiles"
+    },
+    "Title": "Nos applications mobiles"
+  },
+  "Contact": {
+    "Meta": {
+      "title": "Contact"
+    },
+    "Form": {
+      "Name": "Votre nom",
+      "NameEnter": "Entrez votre nom",
+      "NameRequired": "Veuillez entrer votre nom",
+      "NameLength": "Votre nom doit comporter au moins 3 caractères",
+      "Email": "Votre adresse e-mail",
+      "EmailEnter": "Entrez votre adresse e-mail",
+      "EmailRequired": "Veuillez entrer votre adresse e-mail",
+      "EmailInvalid": "Adresse e-mail invalide",
+      "Phone": "Votre numéro de téléphone",
+      "PhoneEnter": "Entrez votre numéro de téléphone",
+      "Message": "Votre message",
+      "MessageEnter": "Entrez votre message",
+      "MessageRequired": "Veuillez entrer votre message",
+      "MessageLength": "Votre message doit comporter au moins 10 caractères",
+      "Send": "Envoyer"
+    },
+    "Privacy": "En soumettant ce formulaire, je déclare accepter la <PrivacyPolicy>politique de confidentialité</PrivacyPolicy>.",
+    "Title": "Contact"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "Politique de confidentialité"
+    },
+    "Title": "Politique de confidentialité",
+    "Description": "En tant que Sözler Köşkü, nous accordons de l'importance à la confidentialité de nos utilisateurs et prenons toutes les mesures nécessaires pour protéger vos données personnelles. Cette politique de confidentialité explique comment les données personnelles que nous collectons via notre formulaire de contact sont utilisées et protégées.",
+    "CollectedPersonalDataTitle": "Données personnelles collectées",
+    "CollectedPersonalDataDescription": "Lorsque vous remplissez le formulaire de contact, vos données personnelles telles que votre nom, votre adresse e-mail, votre numéro de téléphone et votre message sont collectées.",
+    "PurposesUsingPersonalData": "Objectifs de l'utilisation des données personnelles",
+    "PurposesUsingPersonalDataDescription": "Les données personnelles que nous collectons sont utilisées aux fins suivantes :",
+    "PurposesUsingPersonalDataDescriptionList": "<list>Répondre à vos demandes de contact,</list><list>Répondre à vos questions,</list><list>Évaluer vos commentaires,</list><list>Vous contacter si nécessaire.</list>",
+    "ProtectionPersonalData": "Protection des données personnelles",
+    "ProtectionPersonalDataDescription": "Nous prenons toutes les mesures techniques et administratives nécessaires pour assurer la sécurité de vos données personnelles. Vos données sont protégées contre l'accès non autorisé, la perte, la modification ou la divulgation.",
+    "SharingPersonalData": "Partage des données personnelles",
+    "SharingPersonalDataDescription": "Vos données personnelles ne sont pas partagées avec des tiers, sauf en cas d'obligations légales.",
+    "RightsPersonalDataOwner": "Droits du propriétaire des données personnelles",
+    "RightsPersonalDataOwnerDescription": "En tant que propriétaire des données personnelles, vous disposez des droits suivants :",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Savoir si vos données personnelles sont traitées ou non,</list><list>Si vos données personnelles ont été traitées, demander des informations à ce sujet,</list><list>Connaître la finalité du traitement de vos données personnelles et si elles sont utilisées conformément à leur finalité,</list><list>Connaître les tiers auxquels vos données personnelles sont transférées dans le pays ou à l'étranger,</list><list>Demander la suppression ou la destruction de vos données personnelles,</list><list>Vous opposer à l'émergence d'un résultat contre vous en analysant vos données personnelles via des systèmes automatisés,</list><list>Demander la réparation du préjudice en cas de dommage dû au traitement illégal de vos données personnelles.</list>"
+  }
 }

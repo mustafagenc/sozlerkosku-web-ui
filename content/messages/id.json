@@ -1,73 +1,118 @@
 {
-    "Navigation": {
-        "home": "Beranda",
-        "about": "Tentang Kami",
-        "applications": "Aplikasi Kami",
-        "contact": "Kontak",
-        "donate": "Donasi"
-    },
+  "Navigation": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "applications": "Aplikasi Kami",
+    "contact": "Kontak",
+    "donate": "Donasi"
+  },
+  "Meta": {
+    "title": "Sözler Köşkü",
+    "description": "Situs web Asosiasi Ilmu dan Budaya Sözler Köşkü"
+  },
+  "Shared": {
+    "Loading": "Memuat...",
+    "ToggleTheme": "Ubah Tema",
+    "phone": "Telepon",
+    "email": "Email",
+    "copyright": "Sözler Köşkü \u00A9 {date}"
+  },
+  "Languages": {
+    "tr": "Turki",
+    "en": "Inggris",
+    "ar": "Arab",
+    "ur": "Urdu",
+    "id": "Indonesia",
+    "ru": "Rusia",
+    "es": "Spanyol",
+    "fr": "Prancis",
+    "bn": "Bengali",
+    "de": "Jerman",
+    "uz": "Uzbek",
+    "fa": "Persia",
+    "hi": "Hindi"
+  },
+  "Home": {
     "Meta": {
-        "title": "Sözler Köşkü",
-        "description": "Situs web Asosiasi Ilmu dan Budaya Sözler Köşkü"
+      "title": "Sözler Köşkü",
+      "description": "Sözler Köşkü | Tanpa Batas | Youtube | Instagram"
     },
-    "Shared": {
-      "Loading": "Loading...",
-      "ToggleTheme": "Toggle Theme",
-      "phone": "Telepon",
-      "email": "Email",
-      "copyright": "Sözler Köşkü \u00A9 {date}"
+    "intro": "Ini adalah asosiasi resmi yang didirikan 13 tahun lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang menghasilkan konten Islami dalam 13 bahasa bersama Anda.",
+    "what-we-do-here": "Apa yang Kami Lakukan Di Sini?",
+    "WhoWeAre": {
+      "title": "Siapa Kami?",
+      "description": "Sözler Köşkü adalah asosiasi resmi yang didirikan 13 tahun lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang menghasilkan <b>konten Islami</b> dalam 13 bahasa bersama Anda.",
+      "end": "Kami memproduksi total 300 video per bulan dalam bahasa mereka."
     },
-    "Languages": {
-        "tr": "Turki",
-        "en": "Inggris",
-        "ar": "Arab",
-        "ur": "Urdu",
-        "id": "Indonesia",
-        "ru": "Rusia",
-        "es": "Spanyol",
-        "fr": "Perancis",
-        "bn": "Bengali",
-        "de": "Jerman",
-        "uz": "Uzbek",
-        "fa": "Persia",
-        "hi": "Hindi"
+    "Youtube": {
+      "title": "Jumlah Pelanggan Terbaru<br></br>Saluran Youtube Kami",
+      "visit-the-channel": "Kunjungi Saluran"
     },
-    "Home": {
-        "Meta": {
-            "title": "Sözler Köşkü",
-            "description": "Sözler Köşkü | Jadilah Abadi | Youtube | Instagram"
-        },
-        "intro": "Ini adalah asosiasi resmi yang didirikan 13 tahun yang lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang memproduksi konten Islami dalam 13 bahasa bersama Anda.",
-        "what-we-do-here": "Apa yang Kami Lakukan di Sini?",
-        "WhoWeAre": {
-            "title": " Siapa Kami?",
-            "description": "Sözler Köşkü adalah asosiasi resmi yang didirikan 13 tahun yang lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang memproduksi <b>konten Islami</b> dalam 13 bahasa bersama Anda.",
-            "languages": "<lang>Turki</lang><lang>Inggris</lang><lang>Arab</lang><lang>Urdu</lang><lang>Indonesia</lang><lang>Rusia</lang><lang>Spanyol</lang><lang>Perancis</lang><lang>Bengali</lang><lang>Jerman</lang><lang>Uzbek</lang><lang>Persia</lang><lang>Hindi</lang>",
-            "end": "Kami memproduksi total 300 video per bulan dalam bahasa-bahasa tersebut."
-        },
-        "Youtube": {
-            "title": "Jumlah Pelanggan<br></br>Saluran Youtube Kami Saat Ini",
-            "visit-the-channel": "Kunjungi Saluran"
-        },
-        "Donate": {
-            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-            "regular": "Düzenli Bağış",
-            "one-time": "Tek Seferlik Bağış"
-        }
-    },
-    "About": {
-        "Meta": {
-            "title": "Tentang Kami"
-        }
-    },
-    "Applications": {
-        "Meta": {
-            "title": "Aplikasi Kami"
-        }
-    },
-    "Contact": {
-        "Meta": {
-            "title": "Kontak"
-        }
+    "Donate": {
+      "title": "Jenis Donasi Apa yang Ingin Anda Lakukan?",
+      "regular": "Donasi Reguler",
+      "one-time": "Donasi Sekali Waktu"
     }
+  },
+  "About": {
+    "Meta": {
+      "Title": "Tentang Kami"
+    },
+    "Title": "Kami Memasuki Semua Rumah dengan Kabel Internet dan Menceritakan tentang Tuhan Kami!",
+    "SubTitle1": "Bagaikan Pabrik yang Memproduksi Video untuk Umat",
+    "SubTitle1Description": "Dunia telah menjadi sangat besar. Secara fisik, sulit untuk memasuki setiap lingkungan dan menyampaikan pesan Islam ke setiap rumah. Allah yang memberikan masalah juga menciptakan obatnya. Dimungkinkan untuk menyampaikan pesan Al-Qur'an dengan memasuki semua rumah dengan kabel internet.",
+    "SubTitle2": "Kami Memberikan Jawaban Jelas untuk Semua Pertanyaan yang Terlintas di Benak",
+    "SubTitle2Description": "Kami menjelaskan pelajaran yang kami ambil dari Al-Qur'an dengan menjadi tamu di rumah-rumah melalui platform Youtube dengan menyiapkan video dalam berbagai bahasa. Kami memberikan jawaban yang memuaskan untuk pertanyaan-pertanyaan iman yang terlintas di benak.",
+    "SubTitle3": "Kami Menjelaskan Islam dalam 13 Bahasa",
+    "SubTitle3Description": "<p>Dunia telah menjadi sangat besar. Secara fisik, sulit untuk memasuki setiap lingkungan dan menyampaikan pesan Islam ke setiap rumah.</p><p>Allah yang memberikan masalah juga menciptakan obatnya. Dimungkinkan untuk menyampaikan pesan Al-Qur'an dengan memasuki semua rumah dengan kabel internet! Kami menjangkau hati yang terbuka untuk Islam di seluruh dunia dengan Saluran Youtube kami tempat kami menerbitkan konten dalam bahasa asing.</p>"
+  },
+  "Applications": {
+    "Meta": {
+      "Title": "Aplikasi Seluler Kami"
+    },
+    "Title": "Aplikasi Seluler Kami"
+  },
+  "Contact": {
+    "Meta": {
+      "title": "Kontak"
+    },
+    "Form": {
+      "Name": "Nama Anda",
+      "NameEnter": "Masukkan Nama Anda",
+      "NameRequired": "Masukkan nama Anda",
+      "NameLength": "Nama Anda harus minimal 3 karakter",
+      "Email": "Alamat Email Anda",
+      "EmailEnter": "Masukkan Alamat Email Anda",
+      "EmailRequired": "Masukkan alamat email Anda",
+      "EmailInvalid": "Alamat email tidak valid",
+      "Phone": "Nomor Telepon Anda",
+      "PhoneEnter": "Masukkan Nomor Telepon Anda",
+      "Message": "Pesan Anda",
+      "MessageEnter": "Masukkan Pesan Anda",
+      "MessageRequired": "Masukkan pesan Anda",
+      "MessageLength": "Pesan Anda harus minimal 10 karakter",
+      "Send": "Kirim"
+    },
+    "Privacy": "Dengan mengirimkan formulir ini, saya menyatakan bahwa saya menerima <PrivacyPolicy>kebijakan privasi</PrivacyPolicy>.",
+    "Title": "Kontak"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "Kebijakan Privasi"
+    },
+    "Title": "Kebijakan Privasi",
+    "Description": "Sebagai Sözler Köşkü, kami peduli dengan privasi pengguna kami dan mengambil semua tindakan yang diperlukan untuk melindungi data pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana data pribadi yang kami kumpulkan melalui formulir kontak kami digunakan dan dilindungi.",
+    "CollectedPersonalDataTitle": "Data Pribadi yang Dikumpulkan",
+    "CollectedPersonalDataDescription": "Saat Anda mengisi formulir kontak, data pribadi Anda seperti nama, alamat email, nomor telepon, dan pesan Anda dikumpulkan.",
+    "PurposesUsingPersonalData": "Tujuan Penggunaan Data Pribadi",
+    "PurposesUsingPersonalDataDescription": "Data pribadi yang kami kumpulkan digunakan untuk tujuan berikut:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>Menanggapi permintaan kontak Anda,</list><list>Menjawab pertanyaan Anda,</list><list>Mengevaluasi umpan balik Anda,</list><list>Menghubungi Anda jika perlu.</list>",
+    "ProtectionPersonalData": "Perlindungan Data Pribadi",
+    "ProtectionPersonalDataDescription": "Kami mengambil semua tindakan teknis dan administratif yang diperlukan untuk memastikan keamanan data pribadi Anda. Data Anda dilindungi dari akses tidak sah, kehilangan, perubahan, atau pengungkapan.",
+    "SharingPersonalData": "Pembagian Data Pribadi",
+    "SharingPersonalDataDescription": "Data pribadi Anda tidak dibagikan dengan pihak ketiga kecuali diwajibkan oleh hukum.",
+    "RightsPersonalDataOwner": "Hak Pemilik Data Pribadi",
+    "RightsPersonalDataOwnerDescription": "Sebagai pemilik data pribadi, Anda memiliki hak berikut:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Untuk mengetahui apakah data pribadi Anda sedang diproses atau tidak,</list><list>Untuk meminta informasi terkait jika data pribadi Anda telah diproses,</list><list>Untuk mempelajari tujuan pemrosesan data pribadi Anda dan apakah data tersebut digunakan sesuai dengan tujuannya atau tidak,</list><list>Untuk mengetahui pihak ketiga yang menjadi tempat data pribadi Anda ditransfer di dalam atau di luar negeri,</list><list>Untuk meminta data pribadi Anda dihapus atau dimusnahkan,</list><list>Untuk mengajukan keberatan terhadap munculnya hasil yang merugikan Anda dengan menganalisis data pribadi Anda melalui sistem otomatis,</list><list>Untuk meminta ganti rugi jika Anda menderita kerugian karena pemrosesan data pribadi Anda secara melanggar hukum.</list>"
+  }
 }

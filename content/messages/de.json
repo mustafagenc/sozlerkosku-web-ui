@@ -1,21 +1,21 @@
 {
   "Navigation": {
     "home": "Startseite",
-    "about": "Über uns",
+    "about": "Über Uns",
     "applications": "Unsere Apps",
     "contact": "Kontakt",
     "donate": "Spenden"
   },
   "Meta": {
-    "title": "Towards Eternity",
-    "description": "Die offizielle Website des Towards Eternity Wissenschafts- und Kulturvereins"
+    "title": "Sözler Köşkü",
+    "description": "Webseite des Sözler Köşkü Vereins für Wissenschaft und Kultur"
   },
   "Shared": {
-    "Loading": "Loading...",
-    "ToggleTheme": "Toggle Theme",
+    "Loading": "Wird geladen...",
+    "ToggleTheme": "Thema wechseln",
     "phone": "Telefon",
     "email": "E-Mail",
-    "copyright": "Towards Eternity \u00A9 {date}"
+    "copyright": "Sözler Köşkü \u00A9 {date}"
   },
   "Languages": {
     "tr": "Türkisch",
@@ -34,40 +34,85 @@
   },
   "Home": {
     "Meta": {
-      "title": "Towards Eternity",
-      "description": "Towards Eternity | Unendlich Sein | Youtube | Instagram"
+      "title": "Sözler Köşkü",
+      "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
     },
-    "intro": "Dies ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zusammen zu einer Social-Media-Plattform geworden, die Inhalte in 13 Sprachen produziert.",
+    "intro": "Dies ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir zusammen mit Ihnen zu einer Social-Media-Plattform geworden, die islamische Inhalte in 13 Sprachen produziert.",
     "what-we-do-here": "Was machen wir hier?",
     "WhoWeAre": {
       "title": "Wer sind wir?",
-      "description": "Towards Eternity ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zusammen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
-      "languages": "<lang>Türkisch</lang><lang>Englisch</lang><lang>Arabisch</lang><lang>Urdu</lang><lang>Indonesisch</lang><lang>Russisch</lang><lang>Spanisch</lang><lang>Französisch</lang><lang>Bengalisch</lang><lang>Deutsch</lang><lang>Usbekisch</lang><lang>Persisch</lang><lang>Hindi</lang>",
-      "end": "Wir produzieren monatlich insgesamt 300 Videos in diesen Sprachen."
+      "description": "Sözler Köşkü ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir zusammen mit Ihnen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
+      "end": "Wir produzieren insgesamt 300 Videos pro Monat in ihren Sprachen."
     },
     "Youtube": {
-      "title": "Aktuelle Abonnentenzahlen<br></br>unserer YouTube-Kanäle",
-      "visit-the-channel": "Kanal besuchen"
+      "title": "Aktuelle Abonnentenzahlen unserer<br></br>Youtube-Kanäle",
+      "visit-the-channel": "Besuche den Kanal"
     },
     "Donate": {
-      "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-      "regular": "Düzenli Bağış",
-      "one-time": "Tek Seferlik Bağış"
+      "title": "Welche Art von Spende möchten Sie machen?",
+      "regular": "Regelmäßige Spende",
+      "one-time": "Einmalige Spende"
     }
   },
   "About": {
     "Meta": {
-      "title": "Über uns"
-    }
+      "Title": "Über Uns"
+    },
+    "Title": "Wir betreten alle Häuser mit einem Internetkabel und erzählen von unserem Herrn!",
+    "SubTitle1": "Eine Fabrik, die Videos für die Ummah produziert",
+    "SubTitle1Description": "Die Welt ist sehr groß geworden. Es ist schwierig geworden, physisch in jede Nachbarschaft zu gehen und die Botschaft des Islam in jedes Haus zu bringen. Allah, der das Leiden gibt, erschafft auch die Heilung. Es ist möglich, die Botschaft des Korans zu vermitteln, indem man mit einem Internetkabel alle Häuser betritt.",
+    "SubTitle2": "Wir geben klare Antworten auf alle Fragen, die einem in den Sinn kommen",
+    "SubTitle2Description": "Wir bereiten Videos in verschiedenen Sprachen vor und erzählen als Gast in den Häusern über die Youtube-Plattform die Lektion, die wir aus dem Koran gelernt haben. Wir geben zufriedenstellende Antworten auf Glaubensfragen, die einem in den Sinn kommen.",
+    "SubTitle3": "Wir erklären den Islam in 13 Sprachen",
+    "SubTitle3Description": "<p>Die Welt ist sehr groß geworden. Es ist schwierig geworden, physisch in jede Nachbarschaft zu gehen und die Botschaft des Islam in jedes Haus zu bringen.</p><p>Allah, der das Leiden gibt, erschafft auch die Heilung. Es ist möglich, die Botschaft des Korans zu vermitteln, indem man mit einem Internetkabel alle Häuser betritt! Wir erreichen mit unseren</p><p>Youtube-Kanälen, auf denen wir Inhalte in Fremdsprachen veröffentlichen, die nach Islam hungernden Herzen auf der ganzen Welt.</p>"
   },
   "Applications": {
     "Meta": {
-      "title": "Unsere Apps"
-    }
+      "Title": "Unsere Mobilen Apps"
+    },
+    "Title": "Unsere Mobilen Apps"
   },
   "Contact": {
     "Meta": {
       "title": "Kontakt"
-    }
+    },
+    "Form": {
+      "Name": "Ihr Name",
+      "NameEnter": "Geben Sie Ihren Namen ein",
+      "NameRequired": "Bitte geben Sie Ihren Namen ein",
+      "NameLength": "Ihr Name muss mindestens 3 Zeichen lang sein",
+      "Email": "Ihre E-Mail-Adresse",
+      "EmailEnter": "Geben Sie Ihre E-Mail-Adresse ein",
+      "EmailRequired": "Bitte geben Sie Ihre E-Mail-Adresse ein",
+      "EmailInvalid": "Ungültige E-Mail-Adresse",
+      "Phone": "Ihre Telefonnummer",
+      "PhoneEnter": "Geben Sie Ihre Telefonnummer ein",
+      "Message": "Ihre Nachricht",
+      "MessageEnter": "Geben Sie Ihre Nachricht ein",
+      "MessageRequired": "Bitte geben Sie Ihre Nachricht ein",
+      "MessageLength": "Ihre Nachricht muss mindestens 10 Zeichen lang sein",
+      "Send": "Senden"
+    },
+    "Privacy": "Ich erkläre, dass ich durch das Senden dieses Formulars die <PrivacyPolicy>Datenschutzrichtlinie</PrivacyPolicy> akzeptiere.",
+    "Title": "Kontakt"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "Datenschutzrichtlinie"
+    },
+    "Title": "Datenschutzrichtlinie",
+    "Description": "Als Sözler Köşkü legen wir Wert auf die Privatsphäre unserer Nutzer und ergreifen alle notwendigen Maßnahmen, um Ihre persönlichen Daten zu schützen. Diese Datenschutzrichtlinie erläutert, wie die persönlichen Daten, die wir über unser Kontaktformular sammeln, verwendet und geschützt werden.",
+    "CollectedPersonalDataTitle": "Erfasste Persönliche Daten",
+    "CollectedPersonalDataDescription": "Wenn Sie das Kontaktformular ausfüllen, werden Ihre persönlichen Daten wie Ihr Name, Ihre E-Mail-Adresse, Ihre Telefonnummer und Ihre Nachricht erfasst.",
+    "PurposesUsingPersonalData": "Zwecke der Verwendung Persönlicher Daten",
+    "PurposesUsingPersonalDataDescription": "Die von uns erfassten persönlichen Daten werden für folgende Zwecke verwendet:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>Beantwortung Ihrer Kontaktanfragen,</list><list>Beantwortung Ihrer Fragen,</list><list>Auswertung Ihres Feedbacks,</list><list>Kontaktaufnahme mit Ihnen bei Bedarf.</list>",
+    "ProtectionPersonalData": "Schutz Persönlicher Daten",
+    "ProtectionPersonalDataDescription": "Wir ergreifen alle notwendigen technischen und administrativen Maßnahmen, um die Sicherheit Ihrer persönlichen Daten zu gewährleisten. Ihre Daten werden vor unbefugtem Zugriff, Verlust, Veränderung oder Offenlegung geschützt.",
+    "SharingPersonalData": "Weitergabe Persönlicher Daten",
+    "SharingPersonalDataDescription": "Ihre persönlichen Daten werden außer bei gesetzlichen Verpflichtungen nicht an Dritte weitergegeben.",
+    "RightsPersonalDataOwner": "Rechte des Inhabers Persönlicher Daten",
+    "RightsPersonalDataOwnerDescription": "Als Inhaber persönlicher Daten haben Sie folgende Rechte:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Auskunft darüber, ob Ihre persönlichen Daten verarbeitet werden,</list><list>Auskunft über die Verarbeitung Ihrer persönlichen Daten zu verlangen, wenn diese verarbeitet wurden,</list><list>den Zweck der Verarbeitung Ihrer persönlichen Daten und ob diese ihrem Zweck entsprechend verwendet werden, zu erfahren,</list><list>die Dritten zu kennen, an die Ihre persönlichen Daten im In- oder Ausland übermittelt werden,</list><list>die Löschung oder Vernichtung Ihrer persönlichen Daten zu verlangen,</list><list>Widerspruch gegen das Ergebnis zu erheben, das durch die Analyse Ihrer persönlichen Daten ausschließlich über automatisierte Systeme gegen Sie entstanden ist,</list><list>Schadensersatz zu verlangen, wenn Sie aufgrund der rechtswidrigen Verarbeitung Ihrer persönlichen Daten einen Schaden erlitten haben.</list>"
   }
 }

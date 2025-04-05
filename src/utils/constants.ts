@@ -21,9 +21,9 @@ export const locales = [
   { id: 'hi', name: 'हिन्दी', flag: '/flags/in.svg' },
   { id: 'id', name: 'Indonesia', flag: '/flags/id.svg' },
   { id: 'ru', name: 'Русский', flag: '/flags/ru.svg' },
-  { id: 'uz', name: 'Oʻzbek', flag: '/flags/uz.svg' },
   { id: 'tr', name: 'Türkçe', flag: '/flags/tr.svg' },
   { id: 'ur', name: 'اردو', flag: '/flags/pk.svg' },
+  { id: 'uz', name: 'Oʻzbek', flag: '/flags/uz.svg' },
 ];
 
 export const socials: ISocialIcon[] = [

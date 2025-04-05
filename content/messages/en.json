@@ -2,20 +2,20 @@
   "Navigation": {
     "home": "Home",
     "about": "About Us",
-    "applications": "Our Applications",
+    "applications": "Applications",
     "contact": "Contact",
     "donate": "Donate"
   },
   "Meta": {
-    "title": "Towards Eternity",
-    "description": "Towards Eternity"
+    "title": "Sözler Köşkü",
+    "description": "Sözler Köşkü Association of Science and Culture website"
   },
   "Shared": {
     "Loading": "Loading...",
     "ToggleTheme": "Toggle Theme",
     "phone": "Phone",
     "email": "Email",
-    "copyright": "Towards Eternity © {date}"
+    "copyright": "Sözler Köşkü \u00A9 {date}"
   },
   "Languages": {
     "tr": "Turkish",
@@ -34,40 +34,85 @@
   },
   "Home": {
     "Meta": {
-      "title": "Towards Eternity",
-      "description": "Towards Eternity | Be Eternal | Youtube | Instagram"
+      "title": "Sözler Köşkü",
+      "description": "Sözler Köşkü | Infinite Be | Youtube | Instagram"
     },
-    "intro": "This is an officially established association founded 13 years ago. In 13 years, we have become a social media platform producing Islamic content in 13 languages together with you.",
+    "intro": "This is an official association founded 13 years ago. In 13 years, we have become a social media platform that produces Islamic content in 13 languages with you.",
     "what-we-do-here": "What Do We Do Here?",
     "WhoWeAre": {
       "title": "Who Are We?",
-      "description": "Towards Eternity is an officially established association founded 13 years ago. In 13 years, we have become a social media platform producing <b>Islamic content</b> in 13 languages together with you.",
-      "languages": "<lang>Turkish</lang><lang>English</lang><lang>Arabic</lang><lang>Urdu</lang><lang>Indonesian</lang><lang>Russian</lang><lang>Spanish</lang><lang>French</lang><lang>Bengali</lang><lang>German</lang><lang>Uzbek</lang><lang>Persian</lang><lang>Hindi</lang>",
-      "end": "We produce a total of 300 videos per month in these languages."
+      "description": "Sözler Köşkü is an official association founded 13 years ago. In 13 years, we have become a social media platform that produces <b>Islamic content</b> in 13 languages with you.",
+      "end": "We produce a total of 300 videos per month in their languages."
     },
     "Youtube": {
-      "title": "Current Subscriber Counts<br></br>of Our Youtube Channels",
-      "visit-the-channel": "Visit the Channel"
+      "title": "Current Subscriber Counts of Our<br></br>Youtube Channels",
+      "visit-the-channel": "Visit The Channel"
     },
     "Donate": {
-      "title": "What type of donation would you like to make?",
+      "title": "What Type of Donation Would You Like to Make?",
       "regular": "Regular Donation",
-      "one-time": "One Time Donation"
+      "one-time": "One-Time Donation"
     }
   },
   "About": {
     "Meta": {
-      "title": "About Us"
-    }
+      "Title": "About Us"
+    },
+    "Title": "We Enter All Homes With An Internet Cable And Tell About Our Lord!",
+    "SubTitle1": "Like A Factory Producing Videos For The Ummah",
+    "SubTitle1Description": "The world has grown a lot. It has become difficult to physically enter every neighborhood and deliver the message of Islam to every home. Allah, who gives the pain, also creates the cure. It is possible to deliver the message of the Quran by entering all homes with an internet cable.",
+    "SubTitle2": "We Give Clear Answers To All Questions That Come To Mind",
+    "SubTitle2Description": "We explain the lesson we learned from the Quran by being guests in homes with the Youtube platform by preparing videos in various languages. We give satisfactory answers to the İmani questions that come to mind.",
+    "SubTitle3": "We Explain Islam In 13 Languages",
+    "SubTitle3Description": "<p>The world has grown a lot. It has become difficult to physically enter every neighborhood and deliver the message of Islam to every home.</p><p>Allah, who gives the pain, also creates the cure. It is possible to deliver the message of the Quran by entering all homes with an internet cable! We reach the hearts open to Islam all over the world with our</p><p>Youtube Channels where we publish content in foreign languages.</p>"
   },
   "Applications": {
     "Meta": {
-      "title": "Our Applications"
-    }
+      "Title": "Our Mobile Applications"
+    },
+    "Title": "Our Mobile Applications"
   },
   "Contact": {
     "Meta": {
       "title": "Contact"
-    }
+    },
+    "Form": {
+      "Name": "Name",
+      "NameEnter": "Enter Your Name",
+      "NameRequired": "Please enter your name",
+      "NameLength": "Your name must be at least 3 characters",
+      "Email": "Email Address",
+      "EmailEnter": "Enter Your Email Address",
+      "EmailRequired": "Please enter your email address",
+      "EmailInvalid": "Invalid email address",
+      "Phone": "Phone Number",
+      "PhoneEnter": "Enter Your Phone Number",
+      "Message": "Message",
+      "MessageEnter": "Enter Your Message",
+      "MessageRequired": "Please enter your message",
+      "MessageLength": "Your message must be at least 10 characters",
+      "Send": "Send"
+    },
+    "Privacy": "By submitting this form, I declare that I accept the <PrivacyPolicy>privacy policy</PrivacyPolicy>.",
+    "Title": "Contact"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "Privacy Policy"
+    },
+    "Title": "Privacy Policy",
+    "Description": "As Sözler Köşkü, we care about the privacy of our users and take all necessary measures to protect your personal data. This privacy policy explains how the personal data we collect through our contact form is used and protected.",
+    "CollectedPersonalDataTitle": "Collected Personal Data",
+    "CollectedPersonalDataDescription": "When you fill out the contact form, your personal data such as your name, e-mail address, phone number and message are collected.",
+    "PurposesUsingPersonalData": "Purposes of Using Personal Data",
+    "PurposesUsingPersonalDataDescription": "The personal data we collect is used for the following purposes:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>Responding to your contact requests,</list><list>Answering your questions,</list><list>Evaluating your feedback,</list><list>Contacting you when necessary.</list>",
+    "ProtectionPersonalData": "Protection of Personal Data",
+    "ProtectionPersonalDataDescription": "We take all necessary technical and administrative measures to ensure the security of your personal data. Your data is protected against unauthorized access, loss, modification or disclosure.",
+    "SharingPersonalData": "Sharing of Personal Data",
+    "SharingPersonalDataDescription": "Your personal data is not shared with third parties except for legal obligations.",
+    "RightsPersonalDataOwner": "Rights of Personal Data Owner",
+    "RightsPersonalDataOwnerDescription": "As a personal data owner, you have the following rights:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>To learn whether your personal data is processed,</list><list>If your personal data has been processed, to request information regarding this,</list><list>To learn the purpose of processing your personal data and whether they are used in accordance with their purpose,</list><list>To know the third parties to whom your personal data is transferred domestically or abroad,</list><list>To request the deletion or destruction of your personal data,</list><list>To object to the occurrence of a result against you by analyzing your personal data through automated systems,</list><list>To demand compensation for the damage in case you suffer damage due to unlawful processing of your personal data.</list>"
   }
 }
