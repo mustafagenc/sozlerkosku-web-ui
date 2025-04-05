@@ -2,7 +2,6 @@
 
 [![CodeFactor](https://www.codefactor.io/repository/github/mustafagenc/sozlerkosku-web-ui/badge)](https://www.codefactor.io/repository/github/mustafagenc/sozlerkosku-web-ui) [![HelpWanted](https://img.shields.io/badge/Help%20Wanted-Contribute-blue)](https://github.com/mustafagenc/sozlerkosku-web-ui/issues?q=is:issue+is:open+label:%22%F0%9F%99%8B%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8Fhelp+wanted%22) [![Commit Per Month](https://img.shields.io/github/commit-activity/m/mustafagenc/sozlerkosku-web-ui?)](https://github.com/mustafagenc/sozlerkosku-web-ui/commits/main) [![Last Commit](https://img.shields.io/github/last-commit/mustafagenc/sozlerkosku-web-ui?)](https://github.com/mustafagenc/sozlerkosku-web-ui/commits/main) ![License](https://img.shields.io/github/license/mustafagenc/sozlerkosku-web-ui?label=License) [![Github Star](https://img.shields.io/github/stars/mustafagenc/sozlerkosku-web-ui)](https://github.com/mustafagenc/sozlerkosku-web-ui/stargazers)
 
-This repository contains the source code for my personal website built with Next.js. Visit my website to learn more about my work and experiences.
 
 [Live Demo](https://sozlerkosku.vercel.app) ·
 [Report Bug](https://github.com/mustafagenc/sozlerkosku-web-ui/issues) ·
