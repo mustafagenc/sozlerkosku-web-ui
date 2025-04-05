@@ -24,7 +24,7 @@ Run the following command on your local environment:
 git clone https://github.com/mustafagenc/sozlerkosku-web-ui.git
 
 # Access
-cd homepage
+cd sozlerkosku-web-ui
 
 # Install dependencies
 yarn
