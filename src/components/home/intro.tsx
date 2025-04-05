@@ -22,7 +22,7 @@ export const Intro = () => {
             })}
           </p>
         </div>
-        <div className="flex flex-row items-center justify-center gap-4">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 mt-6 lg:mt-0">
           <Link
             href="/#who-are-we"
             scroll={true}

@@ -7,9 +7,9 @@ import { getLangDir } from 'rtl-detect';
 import { Link, usePathname } from '@/i18n/navigation';
 import { NAV_LINKS } from '@/utils/constants';
 
+import { Donate } from './donate';
 import { LocaleSwitcher } from './locale-switcher';
 import { ThemeToggle } from './theme-toggle';
-import { Donate } from './donate';
 
 export const Navbar = () => {
   const pathName = usePathname();
@@ -38,7 +38,7 @@ export const Navbar = () => {
               width={96}
               height={96}
             />
-            <div className="text-2xl tracking-tight	font-semibold ml-4">
+            <div className="text-2xl tracking-tight	font-semibold ml-4 hidden lg:flex">
               {t('Meta.title')}
             </div>
           </Link>

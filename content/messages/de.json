@@ -1,71 +1,73 @@
 {
-    "Navigation": {
-        "home": "Startseite",
-        "about": "Über uns",
-        "applications": "Unsere Apps",
-        "contact": "Kontakt",
-        "donate": "Spenden"
-    },
+  "Navigation": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "applications": "Unsere Apps",
+    "contact": "Kontakt",
+    "donate": "Spenden"
+  },
+  "Meta": {
+    "title": "Towards Eternity",
+    "description": "Die offizielle Website des Towards Eternity Wissenschafts- und Kulturvereins"
+  },
+  "Shared": {
+    "Loading": "Loading...",
+    "ToggleTheme": "Toggle Theme",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "copyright": "Towards Eternity \u00A9 {date}"
+  },
+  "Languages": {
+    "tr": "Türkisch",
+    "en": "Englisch",
+    "ar": "Arabisch",
+    "ur": "Urdu",
+    "id": "Indonesisch",
+    "ru": "Russisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "bn": "Bengalisch",
+    "de": "Deutsch",
+    "uz": "Usbekisch",
+    "fa": "Persisch",
+    "hi": "Hindi"
+  },
+  "Home": {
     "Meta": {
-        "title": "Towards Eternity",
-        "description": "Die offizielle Website des Towards Eternity Wissenschafts- und Kulturvereins"
+      "title": "Towards Eternity",
+      "description": "Towards Eternity | Unendlich Sein | Youtube | Instagram"
     },
-    "Shared": {
-        "phone": "Telefon",
-        "email": "E-Mail",
-        "copyright": "Towards Eternity \u00A9 {date}"
+    "intro": "Dies ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zusammen zu einer Social-Media-Plattform geworden, die Inhalte in 13 Sprachen produziert.",
+    "what-we-do-here": "Was machen wir hier?",
+    "WhoWeAre": {
+      "title": "Wer sind wir?",
+      "description": "Towards Eternity ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zusammen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
+      "languages": "<lang>Türkisch</lang><lang>Englisch</lang><lang>Arabisch</lang><lang>Urdu</lang><lang>Indonesisch</lang><lang>Russisch</lang><lang>Spanisch</lang><lang>Französisch</lang><lang>Bengalisch</lang><lang>Deutsch</lang><lang>Usbekisch</lang><lang>Persisch</lang><lang>Hindi</lang>",
+      "end": "Wir produzieren monatlich insgesamt 300 Videos in diesen Sprachen."
     },
-    "Languages": {
-        "tr": "Türkisch",
-        "en": "Englisch",
-        "ar": "Arabisch",
-        "ur": "Urdu",
-        "id": "Indonesisch",
-        "ru": "Russisch",
-        "es": "Spanisch",
-        "fr": "Französisch",
-        "bn": "Bengalisch",
-        "de": "Deutsch",
-        "uz": "Usbekisch",
-        "fa": "Persisch",
-        "hi": "Hindi"
+    "Youtube": {
+      "title": "Aktuelle Abonnentenzahlen<br></br>unserer YouTube-Kanäle",
+      "visit-the-channel": "Kanal besuchen"
     },
-    "Home": {
-        "Meta": {
-            "title": "Towards Eternity",
-            "description": "Towards Eternity | Unendlich Sein | Youtube | Instagram"
-        },
-        "intro": "Dies ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zusammen zu einer Social-Media-Plattform geworden, die Inhalte in 13 Sprachen produziert.",
-        "what-we-do-here": "Was machen wir hier?",
-        "WhoWeAre": {
-            "title": "Wer sind wir?",
-            "description": "Towards Eternity ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zusammen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
-            "languages": "<lang>Türkisch</lang><lang>Englisch</lang><lang>Arabisch</lang><lang>Urdu</lang><lang>Indonesisch</lang><lang>Russisch</lang><lang>Spanisch</lang><lang>Französisch</lang><lang>Bengalisch</lang><lang>Deutsch</lang><lang>Usbekisch</lang><lang>Persisch</lang><lang>Hindi</lang>",
-            "end": "Wir produzieren monatlich insgesamt 300 Videos in diesen Sprachen."
-        },
-        "Youtube": {
-            "title": "Aktuelle Abonnentenzahlen<br></br>unserer YouTube-Kanäle",
-            "visit-the-channel": "Kanal besuchen"
-        },
-        "Donate": {
-            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-            "regular": "Düzenli Bağış",
-            "one-time": "Tek Seferlik Bağış"
-        }
-    },
-    "About": {
-        "Meta": {
-            "title": "Über uns"
-        }
-    },
-    "Applications": {
-        "Meta": {
-            "title": "Unsere Apps"
-        }
-    },
-    "Contact": {
-        "Meta": {
-            "title": "Kontakt"
-        }
+    "Donate": {
+      "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+      "regular": "Düzenli Bağış",
+      "one-time": "Tek Seferlik Bağış"
     }
+  },
+  "About": {
+    "Meta": {
+      "title": "Über uns"
+    }
+  },
+  "Applications": {
+    "Meta": {
+      "title": "Unsere Apps"
+    }
+  },
+  "Contact": {
+    "Meta": {
+      "title": "Kontakt"
+    }
+  }
 }

@@ -11,9 +11,11 @@
         "description": "Situs web Asosiasi Ilmu dan Budaya Sözler Köşkü"
     },
     "Shared": {
-        "phone": "Telepon",
-        "email": "Email",
-        "copyright": "Sözler Köşkü \u00A9 {date}"
+      "Loading": "Loading...",
+      "ToggleTheme": "Toggle Theme",
+      "phone": "Telepon",
+      "email": "Email",
+      "copyright": "Sözler Köşkü \u00A9 {date}"
     },
     "Languages": {
         "tr": "Turki",

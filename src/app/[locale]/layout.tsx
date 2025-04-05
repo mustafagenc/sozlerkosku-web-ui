@@ -12,7 +12,6 @@ import { routing } from '@/i18n/routing';
 import Providers from '@/providers/providers';
 import { env } from '@/utils/env';
 
-
 import type { Metadata } from 'next';
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
@@ -70,7 +69,7 @@ export default async function RootLayout({
           <Providers>
             <div className="min-h-screen bg-gray-100 dark:bg-gray-800">
               <Navbar />
-              <main className="mt-10 grow">{children}</main>
+              <main className="mt-4 lg:mt-10 grow">{children}</main>
             </div>
             <Footer />
           </Providers>

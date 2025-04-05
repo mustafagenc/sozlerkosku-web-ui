@@ -11,9 +11,11 @@
         "description": "Site web de l'Association Towards Eternity pour la Science et la Culture"
     },
     "Shared": {
-        "phone": "Téléphone",
-        "email": "E-mail",
-        "copyright": "Towards Eternity \u00A9 {date}"
+      "Loading": "Loading...",
+      "ToggleTheme": "Toggle Theme",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "copyright": "Towards Eternity \u00A9 {date}"
     },
     "Languages": {
         "tr": "Turc",

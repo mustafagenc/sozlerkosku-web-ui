@@ -8,7 +8,7 @@ export const WhoWeAre = () => {
       className="bg-white dark:bg-gray-900 px-3 py-20 min-h-screen"
       key={'who-we-are'}
     >
-      <div className=" max-w-7xl px-3 grow mx-auto antialiased flex flex-row justify-start gap-10">
+      <div className=" max-w-7xl px-3 grow mx-auto antialiased flex flex-col lg:flex-row justify-start gap-10">
         <div className="flex flex-col basis-2/4 justify-start">
           <h2 className="mb-4 no-underline text-6xl font-bold dark:text-gray-200">
             {t('title')}
@@ -30,13 +30,13 @@ export const WhoWeAre = () => {
           </p>
           <p className="mb-6 text-xl dark:text-gray-200">{t('end')}</p>
         </div>
-        <div className="flex-none basis-2/4">
+        <div className="flex-none basis-2/4 order-first lg:order-last">
           <Image
             src="/images/genclik-merkezi-anasayfa.jpg"
             alt="Intro"
             width={400}
             height={400}
-            className="rounded-3xl object-cover object-contain w-full h-160 shadow"
+            className="rounded-3xl object-cover w-full lg:h-160 shadow"
             priority
           />
         </div>

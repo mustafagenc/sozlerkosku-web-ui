@@ -11,9 +11,11 @@
         "description": "Веб-сайт Ассоциации науки и культуры Сёзлер Кёшкю"
     },
     "Shared": {
-        "phone": "Телефон",
-        "email": "Электронная почта",
-        "copyright": "Сёзлер Кёшкю \u00A9 {date}"
+      "Loading": "Loading...",
+      "ToggleTheme": "Toggle Theme",
+      "phone": "Телефон",
+      "email": "Электронная почта",
+      "copyright": "Сёзлер Кёшкю \u00A9 {date}"
     },
     "Languages": {
         "tr": "Турецкий",

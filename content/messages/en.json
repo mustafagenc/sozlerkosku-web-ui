@@ -1,71 +1,73 @@
 {
-    "Navigation": {
-        "home": "Home",
-        "about": "About Us",
-        "applications": "Our Applications",
-        "contact": "Contact",
-        "donate": "Donate"
-    },
+  "Navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "applications": "Our Applications",
+    "contact": "Contact",
+    "donate": "Donate"
+  },
+  "Meta": {
+    "title": "Towards Eternity",
+    "description": "Towards Eternity"
+  },
+  "Shared": {
+    "Loading": "Loading...",
+    "ToggleTheme": "Toggle Theme",
+    "phone": "Phone",
+    "email": "Email",
+    "copyright": "Towards Eternity © {date}"
+  },
+  "Languages": {
+    "tr": "Turkish",
+    "en": "English",
+    "ar": "Arabic",
+    "ur": "Urdu",
+    "id": "Indonesian",
+    "ru": "Russian",
+    "es": "Spanish",
+    "fr": "French",
+    "bn": "Bengali",
+    "de": "German",
+    "uz": "Uzbek",
+    "fa": "Persian",
+    "hi": "Hindi"
+  },
+  "Home": {
     "Meta": {
-        "title": "Towards Eternity",
-        "description": "Towards Eternity"
+      "title": "Towards Eternity",
+      "description": "Towards Eternity | Be Eternal | Youtube | Instagram"
     },
-    "Shared": {
-        "phone": "Phone",
-        "email": "Email",
-        "copyright": "Towards Eternity \u00A9 {date}"
+    "intro": "This is an officially established association founded 13 years ago. In 13 years, we have become a social media platform producing Islamic content in 13 languages together with you.",
+    "what-we-do-here": "What Do We Do Here?",
+    "WhoWeAre": {
+      "title": "Who Are We?",
+      "description": "Towards Eternity is an officially established association founded 13 years ago. In 13 years, we have become a social media platform producing <b>Islamic content</b> in 13 languages together with you.",
+      "languages": "<lang>Turkish</lang><lang>English</lang><lang>Arabic</lang><lang>Urdu</lang><lang>Indonesian</lang><lang>Russian</lang><lang>Spanish</lang><lang>French</lang><lang>Bengali</lang><lang>German</lang><lang>Uzbek</lang><lang>Persian</lang><lang>Hindi</lang>",
+      "end": "We produce a total of 300 videos per month in these languages."
     },
-    "Languages": {
-        "tr": "Turkish",
-        "en": "English",
-        "ar": "Arabic",
-        "ur": "Urdu",
-        "id": "Indonesian",
-        "ru": "Russian",
-        "es": "Spanish",
-        "fr": "French",
-        "bn": "Bengali",
-        "de": "German",
-        "uz": "Uzbek",
-        "fa": "Persian",
-        "hi": "Hindi"
+    "Youtube": {
+      "title": "Current Subscriber Counts<br></br>of Our Youtube Channels",
+      "visit-the-channel": "Visit the Channel"
     },
-    "Home": {
-        "Meta": {
-            "title": "Towards Eternity",
-            "description": "Towards Eternity | Be Eternal | Youtube | Instagram"
-        },
-        "intro": "This is an officially established association founded 13 years ago. In 13 years, we have become a social media platform producing Islamic content in 13 languages together with you.",
-        "what-we-do-here": "What Do We Do Here?",
-        "WhoWeAre": {
-            "title": "Who Are We?",
-            "description": "Towards Eternity is an officially established association founded 13 years ago. In 13 years, we have become a social media platform producing <b>Islamic content</b> in 13 languages together with you.",
-            "languages": "<lang>Turkish</lang><lang>English</lang><lang>Arabic</lang><lang>Urdu</lang><lang>Indonesian</lang><lang>Russian</lang><lang>Spanish</lang><lang>French</lang><lang>Bengali</lang><lang>German</lang><lang>Uzbek</lang><lang>Persian</lang><lang>Hindi</lang>",
-            "end": "We produce a total of 300 videos per month in these languages."
-        },
-        "Youtube": {
-            "title": "Current Subscriber Counts<br></br>of Our Youtube Channels",
-            "visit-the-channel": "Visit the Channel"
-        },
-        "Donate": {
-            "title": "What type of donation would you like to make?",
-            "regular": "Regular Donation",
-            "one-time": "One Time Donation"
-        }
-    },
-    "About": {
-        "Meta": {
-            "title": "About Us"
-        }
-    },
-    "Applications": {
-        "Meta": {
-            "title": "Our Applications"
-        }
-    },
-    "Contact": {
-        "Meta": {
-            "title": "Contact"
-        }
+    "Donate": {
+      "title": "What type of donation would you like to make?",
+      "regular": "Regular Donation",
+      "one-time": "One Time Donation"
     }
+  },
+  "About": {
+    "Meta": {
+      "title": "About Us"
+    }
+  },
+  "Applications": {
+    "Meta": {
+      "title": "Our Applications"
+    }
+  },
+  "Contact": {
+    "Meta": {
+      "title": "Contact"
+    }
+  }
 }

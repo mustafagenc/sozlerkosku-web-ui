@@ -1,71 +1,73 @@
 {
-    "Navigation": {
-        "home": "Ana Sayfa",
-        "about": "Hakkımızda",
-        "applications": "Uygulamalarımız",
-        "contact": "İletişim",
-        "donate": "Bağış"
-    },
+  "Navigation": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "applications": "Uygulamalarımız",
+    "contact": "İletişim",
+    "donate": "Bağış"
+  },
+  "Meta": {
+    "title": "Sözler Köşkü",
+    "description": "Sözler Köşkü İlim ve Kültür Derneği web sitesi"
+  },
+  "Shared": {
+    "Loading": "Yükleniyor...",
+    "ToggleTheme": "Temayı Değiştir",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "copyright": "Sözler Köşkü \u00A9 {date}"
+  },
+  "Languages": {
+    "tr": "Türkçe",
+    "en": "İngilizce",
+    "ar": "Arapça",
+    "ur": "Urduca",
+    "id": "Endonezce",
+    "ru": "Rusça",
+    "es": "İspanyolca",
+    "fr": "Fransızca",
+    "bn": "Bengalce",
+    "de": "Almanca",
+    "uz": "Özbekçe",
+    "fa": "Farsça",
+    "hi": "Hintçe"
+  },
+  "Home": {
     "Meta": {
-        "title": "Sözler Köşkü",
-        "description": "Sözler Köşkü İlim ve Kültür Derneği web sitesi"
+      "title": "Sözler Köşkü",
+      "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
     },
-    "Shared": {
-        "phone": "Telefon",
-        "email": "E-posta",
-        "copyright": "Sözler Köşkü \u00A9 {date}"
+    "intro": "Burası 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde İslami içerikler üreten bir sosyal medya platformu haline geldik.",
+    "what-we-do-here": "Burada Ne Yapıyoruz?",
+    "WhoWeAre": {
+      "title": " Biz Kimiz?",
+      "description": "Sözler Köşkü 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde <b>İslami içerikler</b> üreten bir sosyal medya platformu haline geldik.",
+      "languages": "<lang>Türkçe</lang><lang>İngilizce</lang><lang>Arapça</lang><lang>Urduca</lang><lang>Endonezce</lang><lang>Rusça</lang><lang>İspanyolca</lang><lang>Fransızca</lang><lang>Bengalce</lang><lang>Almanca</lang><lang>Özbekçe</lang><lang>Farsça</lang><lang>Hintçe</lang>",
+      "end": "Dillerinde ayda toplam 300 video üretiyoruz."
     },
-    "Languages": {
-        "tr": "Türkçe",
-        "en": "İngilizce",
-        "ar": "Arapça",
-        "ur": "Urduca",
-        "id": "Endonezce",
-        "ru": "Rusça",
-        "es": "İspanyolca",
-        "fr": "Fransızca",
-        "bn": "Bengalce",
-        "de": "Almanca",
-        "uz": "Özbekçe",
-        "fa": "Farsça",
-        "hi": "Hintçe"
+    "Youtube": {
+      "title": "Youtube Kanallarımızın<br></br>Güncel Abone Sayıları",
+      "visit-the-channel": "Kanalı Ziyaret Et"
     },
-    "Home": {
-        "Meta": {
-            "title": "Sözler Köşkü",
-            "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
-        },
-        "intro": "Burası 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde İslami içerikler üreten bir sosyal medya platformu haline geldik.",
-        "what-we-do-here": "Burada Ne Yapıyoruz?",
-        "WhoWeAre": {
-            "title": " Biz Kimiz?",
-            "description": "Sözler Köşkü 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde <b>İslami içerikler</b> üreten bir sosyal medya platformu haline geldik.",
-            "languages": "<lang>Türkçe</lang><lang>İngilizce</lang><lang>Arapça</lang><lang>Urduca</lang><lang>Endonezce</lang><lang>Rusça</lang><lang>İspanyolca</lang><lang>Fransızca</lang><lang>Bengalce</lang><lang>Almanca</lang><lang>Özbekçe</lang><lang>Farsça</lang><lang>Hintçe</lang>",
-            "end": "Dillerinde ayda toplam 300 video üretiyoruz."
-        },
-        "Youtube": {
-            "title": "Youtube Kanallarımızın<br></br>Güncel Abone Sayıları",
-            "visit-the-channel": "Kanalı Ziyaret Et"
-        },
-        "Donate": {
-            "title": "Hangi Türde Bağış Yapmak İstersiniz?",
-            "regular": "Düzenli Bağış",
-            "one-time": "Tek Seferlik Bağış"
-        }
-    },
-    "About": {
-        "Meta": {
-            "title": "Hakkımızda"
-        }
-    },
-    "Applications": {
-        "Meta": {
-            "title": "Uygulamalarımız"
-        }
-    },
-    "Contact": {
-        "Meta": {
-            "title": "İletişim"
-        }
+    "Donate": {
+      "title": "Hangi Türde Bağış Yapmak İstersiniz?",
+      "regular": "Düzenli Bağış",
+      "one-time": "Tek Seferlik Bağış"
     }
+  },
+  "About": {
+    "Meta": {
+      "title": "Hakkımızda"
+    }
+  },
+  "Applications": {
+    "Meta": {
+      "title": "Uygulamalarımız"
+    }
+  },
+  "Contact": {
+    "Meta": {
+      "title": "İletişim"
+    }
+  }
 }

@@ -15,7 +15,9 @@ export const YoutubeCard = ({ metadata }: YoutubeCardProps) => {
   return (
     <Card className="rounded-3xl border-0 dark:border">
       <CardContent className="flex flex-col items-start gap-3 pt-6 md:pt-8">
-        <h5 className="text-7xl font-bold text-orange-400">{subscribers}</h5>
+        <h5 className="text-5xl lg:text-7xl font-bold text-orange-400">
+          {subscribers}
+        </h5>
         <p className="text-3xl font-bold text-foreground">
           {t('Languages.' + name)}
         </p>
