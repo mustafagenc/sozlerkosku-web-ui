@@ -2,6 +2,27 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import { locales } from '@/utils/constants';
+import { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
+
+type Params = Promise<{ locale: string }>;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Params;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'About' });
+
+  const baseMetadata = {
+    title: t('Meta.Title'),
+  };
+
+  return {
+    ...baseMetadata,
+  };
+}
 
 export default function Page() {
   const t = useTranslations();
@@ -80,7 +101,9 @@ export default function Page() {
                 <CardContent className="flex flex-col items-start gap-3 pt-6">
                   <ol className="list-inside list-decimal">
                     {locales.map((locale) => (
-                      <li key={locale.id} className='font-semibold'>{t('Languages.' + locale.id)}</li>
+                      <li key={locale.id} className="font-semibold">
+                        {t('Languages.' + locale.id)}
+                      </li>
                     ))}
                   </ol>
                 </CardContent>

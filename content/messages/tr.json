@@ -42,7 +42,6 @@
     "WhoWeAre": {
       "title": " Biz Kimiz?",
       "description": "Sözler Köşkü 13 yıl önce kurulmuş resmi bir dernek. 13 yılda sizinle beraber 13 dilde <b>İslami içerikler</b> üreten bir sosyal medya platformu haline geldik.",
-      "languages": "<lang>Türkçe</lang><lang>İngilizce</lang><lang>Arapça</lang><lang>Urduca</lang><lang>Endonezce</lang><lang>Rusça</lang><lang>İspanyolca</lang><lang>Fransızca</lang><lang>Bengalce</lang><lang>Almanca</lang><lang>Özbekçe</lang><lang>Farsça</lang><lang>Hintçe</lang>",
       "end": "Dillerinde ayda toplam 300 video üretiyoruz."
     },
     "Youtube": {
@@ -69,12 +68,51 @@
   },
   "Applications": {
     "Meta": {
-      "title": "Uygulamalarımız"
-    }
+      "Title": "Mobil Uygulamalarımız"
+    },
+    "Title": "Mobil Uygulamalarımız"
   },
   "Contact": {
     "Meta": {
       "title": "İletişim"
-    }
+    },
+    "Form": {
+      "Name": "Adınız",
+      "NameEnter": "Adınızı Girin",
+      "NameRequired": "Adınızı giriniz",
+      "NameLength": "Adınız en az 3 karakter olmalıdır",
+      "Email": "E-posta Adresiniz",
+      "EmailEnter": "E-posta Adresinizi Girin",
+      "EmailRequired": "E-posta adresinizi giriniz",
+      "EmailInvalid": "Geçersiz e-posta adresi",
+      "Phone": "Telefon Numaranız",
+      "PhoneEnter": "Telefon Numaranızı Girin",
+      "Message": "Mesajınız",
+      "MessageEnter": "Mesajınızı Girin",
+      "MessageRequired": "Mesajınızı giriniz",
+      "MessageLength": "Mesajınız en az 10 karakter olmalıdır",
+      "Send": "Gönder"
+    },
+    "Privacy": "Bu formu göndererek <PrivacyPolicy>gizlilik politikasını</PrivacyPolicy> kabul ettiğimi beyan ediyorum.",
+    "Title": "İletişim"
+  },
+  "PrivacyPolicy": {
+    "Meta": {
+      "Title": "Gizlilik Politikası"
+    },
+    "Title": "Gizlilik Politikası",
+    "Description": "Sözler Köşkü olarak, kullanıcılarımızın gizliliğini önemsiyoruz ve kişisel verilerinizi korumak için gerekli tüm önlemleri alıyoruz. Bu gizlilik politikası, iletişim formumuz aracılığıyla topladığımız kişisel verilerin nasıl kullanıldığını ve korunduğunu açıklamaktadır.",
+    "CollectedPersonalDataTitle": "Toplanan Kişisel Veriler",
+    "CollectedPersonalDataDescription": "İletişim formunu doldurduğunuzda, adınız, e-posta adresiniz, telefon numaranız ve mesajınız gibi kişisel verileriniz toplanır.",
+    "PurposesUsingPersonalData": "Kişisel Verilerin Kullanım Amaçları",
+    "PurposesUsingPersonalDataDescription": "Topladığımız kişisel veriler, aşağıdaki amaçlarla kullanılmaktadır:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>İletişim taleplerinize cevap vermek,</list><list>Sorularınızı yanıtlamak,</list><list>Geri bildirimlerinizi değerlendirmek,</list><list>Gerekli durumlarda sizinle iletişime geçmek.</list>",
+    "ProtectionPersonalData": "Kişisel Verilerin Korunması",
+    "ProtectionPersonalDataDescription": "Kişisel verilerinizin güvenliğini sağlamak için gerekli tüm teknik ve idari önlemleri alıyoruz. Verileriniz, yetkisiz erişime, kaybolmaya, değiştirilmeye veya ifşa edilmeye karşı korunmaktadır.",
+    "SharingPersonalData": "Kişisel Verilerin Paylaşımı",
+    "SharingPersonalDataDescription": "Kişisel verileriniz, yasal zorunluluklar dışında üçüncü taraflarla paylaşılmamaktadır.",
+    "RightsPersonalDataOwner": "Kişisel Veri Sahibinin Hakları",
+    "RightsPersonalDataOwnerDescription": "Kişisel veri sahibi olarak, aşağıdaki haklara sahipsiniz:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Kişisel verilerinizin işlenip işlenmediğini öğrenme,</list><list>Kişisel verileriniz işlenmişse, buna ilişkin bilgi talep etme,</list><list>Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,</list><list>Kişisel verilerinizin yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</list><list>Kişisel verilerinizin silinmesini veya yok edilmesini isteme,</list><list>Kişisel verilerinizin otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,</list><list>Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme.</list>"
   }
 }

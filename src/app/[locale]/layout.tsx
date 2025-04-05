@@ -24,7 +24,10 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return {
     metadataBase: new URL(env.SITE_URL),
-    title: t('title'),
+    title: {
+      default: t('title'),
+      template: `%s • ${t('title')}`,
+    },
     description: t('description'),
     twitter: {
       card: 'summary_large_image',

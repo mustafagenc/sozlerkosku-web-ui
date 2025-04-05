@@ -11,7 +11,7 @@ import { Button } from '@/components/ui/button';
 export const ThemeToggle = () => {
   const { resolvedTheme, setTheme } = useTheme();
   const [mounted, setMounted] = useState<boolean>(false);
-  const t  = useTranslations('Shared');
+  const t = useTranslations('Shared');
 
   useEffect(() => {
     setMounted(true);
