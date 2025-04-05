@@ -6,13 +6,13 @@ import { Card, CardContent } from '@/components/ui/card';
 import { TContact } from '@/types/TContact';
 
 export const Contact = async () => {
-  const sozlerKoskuPath = path.join(
+  const contactPath = path.join(
     process.cwd(),
     'content',
     'data',
-    'sozlerkosku.json'
+    'contact.json'
   );
-  const file = await fs.readFile(sozlerKoskuPath, 'utf8');
+  const file = await fs.readFile(contactPath, 'utf8');
   const contactData: TContact = JSON.parse(file);
   const t = await getTranslations();
   return (
