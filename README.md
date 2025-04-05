@@ -12,13 +12,9 @@ This repository contains the source code for my personal website built with Next
 
 - [`Next.js`](https://nextjs.org/)
 - [`TypeScript`](https://www.typescriptlang.org/)
-- [`React.js`](https://react.dev/)
 - [`TailwindCSS`](https://tailwindcss.com/)
-- [`GraphQL`](https://graphql.org)
 - [`Vercel`](https://vercel.com/)
-- [`Hashnode`](https://hashnode.com/)
 - [`Resend`](https://resend.com/)
-- [`Cal.com`](https://cal.com)
 
 ## 🏁 Run project locally
 
