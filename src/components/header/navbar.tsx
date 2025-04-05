@@ -10,6 +10,7 @@ import { NAV_LINKS } from '@/utils/constants';
 import { Donate } from './donate';
 import { LocaleSwitcher } from './locale-switcher';
 import { ThemeToggle } from './theme-toggle';
+import { NavbarMobile } from './navbar-mobile';
 
 export const Navbar = () => {
   const pathName = usePathname();
@@ -29,7 +30,7 @@ export const Navbar = () => {
     <nav className="sticky top-5 opacity-90 z-50 bg-white dark:bg-gray-900 shadow rounded-full mx-auto max-w-7xl">
       <div className="px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
-          <Link href={'/'} className="flex items-center ml-4">
+          <Link href={'/'} className="flex items-center">
             <Image
               className={`h-12 w-auto md:h10 ${isRtl ? 'mr-4' : 'ml-4'}`}
               src="/images/logo.png"
@@ -40,6 +41,9 @@ export const Navbar = () => {
             />
             <div className="text-2xl tracking-tight	font-semibold ml-4 hidden lg:flex">
               {t('Meta.title')}
+            </div>
+            <div className="flex lg:hidden">
+              <NavbarMobile />
             </div>
           </Link>
         </div>
