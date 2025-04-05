@@ -143,7 +143,7 @@ export const ContactForm = () => {
             <Button
               type="submit"
               disabled={form.formState.isSubmitting}
-              className="w-full disabled:opacity-50 bg-orange-500"
+              className="w-full rounded-full disabled:opacity-50 bg-orange-500 hover:bg-orange-400"
             >
               {form.formState.isSubmitting ? (
                 <Loader className="mr-2 size-5 animate-spin" />
@@ -151,7 +151,7 @@ export const ContactForm = () => {
               {t('Form.Send')}
             </Button>
           </div>
-          <p className="mt-4 text-xs text-muted-foreground">
+          <p className="mt-4 text-xs text-center text-muted-foreground">
             {t.rich('Privacy', {
               PrivacyPolicy: (chunks) => (
                 <Link
