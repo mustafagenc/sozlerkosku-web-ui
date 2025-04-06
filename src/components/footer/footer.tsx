@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
-import { SocialIcon } from 'next-social-icons';
 
 import { Link } from '@/i18n/navigation';
-import { NAV_LINKS, socials } from '@/utils/constants';
+import { NAV_LINKS } from '@/utils/constants';
+import { SocialIcons } from './social-icons';
 
 export const Footer = () => {
   const t = useTranslations();
@@ -19,19 +19,7 @@ export const Footer = () => {
           </Link>
         ))}
       </div>
-      <div className="flex items-center justify-center space-x-4 mt-10">
-        {socials.map((link) => (
-          <SocialIcon
-            key={link.name}
-            href={link.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            platform={link.name}
-            bgColor="white"
-            fgColor="black"
-          />
-        ))}
-      </div>
+      <SocialIcons />
       <div className="flex items-center justify-center space-x-4 mt-10 text-white">
         {t.rich('Shared.copyright', { date: new Date().getFullYear() })}
       </div>

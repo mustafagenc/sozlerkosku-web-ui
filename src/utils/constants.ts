@@ -1,7 +1,15 @@
-import { SocialIconProps } from 'next-social-icons';
+import {
+  BiLogoFacebookCircle,
+  BiLogoInstagram,
+  BiLogoPatreon,
+  BiLogoSpotify,
+  BiLogoTelegram,
+  BiLogoTiktok,
+  BiLogoTwitter,
+  BiLogoYoutube,
+} from 'react-icons/bi';
 
 export const PUBLIC_MAIL = 'eposta@mustafagenc.info';
-
 export const ROUTES = ['', '/about', '/applications', '/contact', '/privacy'];
 
 export const NAV_LINKS = [
@@ -28,27 +36,47 @@ export const locales = [
   { id: 'uz', name: 'Oʻzbek', flag: '/flags/uz.svg' },
 ];
 
-export const socials: ISocialIcon[] = [
+export const socials = [
   {
     name: 'youtube',
     url: 'https://www.youtube.com/@sozlerkosku',
+    icon: BiLogoYoutube,
   },
   {
     name: 'instagram',
     url: 'https://www.instagram.com/sozlerkosku',
+    icon: BiLogoInstagram,
   },
   {
     name: 'tiktok',
     url: 'https://www.tiktok.com/@sozlerkoskutiktok',
+    icon: BiLogoTiktok,
   },
   {
     name: 'facebook',
     url: 'https://www.facebook.com/SozlerKoskuIzmir',
+    icon: BiLogoFacebookCircle,
   },
-  { name: 'twitter', url: 'https://x.com/sozler_kosku' },
+  { name: 'twitter', url: 'https://x.com/sozler_kosku', icon: BiLogoTwitter },
+  {
+    name: 'spotify',
+    url: 'https://open.spotify.com/show/2KOaKlh1uqEn13CMgc3ALQ?si=bfc10ae318ca47d3&nd=1&dlsi=147f12c677634bfd',
+    icon: BiLogoSpotify,
+  },
+  {
+    name: 'telegram',
+    url: 'https://t.me/sozlerkoskuresmi',
+    icon: BiLogoTelegram,
+  },
+  {
+    name: 'patreon',
+    url: 'https://www.patreon.com/towardseternity',
+    icon: BiLogoPatreon,
+  },
 ];
 
 export interface ISocialIcon {
-  name: SocialIconProps['platform'];
+  name: string;
   url: string;
+  icon: React.ElementType;
 }
