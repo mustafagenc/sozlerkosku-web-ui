@@ -103,7 +103,7 @@ export default function Page() {
                   <ol className="list-inside list-decimal">
                     {locales.map((locale) => (
                       <li key={locale.id} className="font-semibold">
-                        {t('Languages.' + locale.id)}
+                        {t(`Languages.${locale.id}`)}
                       </li>
                     ))}
                   </ol>

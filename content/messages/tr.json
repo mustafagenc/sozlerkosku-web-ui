@@ -68,9 +68,36 @@
   },
   "Applications": {
     "Meta": {
-      "Title": "Mobil Uygulamalarımız"
+      "Title": "Uygulamalarımız"
     },
-    "Title": "Mobil Uygulamalarımız"
+    "Title": "Uygulamalarımız",
+    "AndroidDownload": "İndir",
+    "IosDownload": "İndir",
+    "DownloadDescription": "Aşağıdaki butonlardan uygulamamızı ücretsiz olarak indirebilirsiniz.",
+    "beste5v2": {
+      "name": "5te5 Namaz",
+      "definition": "Seni 40 günlük bir Namaz Alışkanlığı Kazanma programına alıyoruz. Sen namazlarını kıldıkça bahçen de güzelleşecek :)",
+      "title": "40 Günlük Namaz Alışkanlığı Kazanma Uygulaması",
+      "description": "<p>Dinin direğini sağlama almadan dini ayakta tutma mücadelesinde başarılı olunamaz. İslam’ın en çok üzerinde durduğu emri olan namaz konusunda insanların namaza 5 vakit devamlılığını sağlaması için onlara yardımcı olacak harika bir uygulama yaptık!</p>"
+    },
+    "lamelif": {
+      "name": "Lamelif Kuran",
+      "definition": "Kuran-ı Kerim ve Tecvid eğitimini özenle seçtiğimiz videolardan öğrenirken seviyene göre alıştırmalarla pekiştirebileceksin.",
+      "title": "Kur'an-ı Kerim ve Tecvid Öğrenme Uygulaması",
+      "description": "<p>Kuran-ı Kerim'i öğrenmek artık Lamelif Kuran ve Tecvid Eğitim Programı ile çok daha kolay! Bu uygulama size Kuran-ı Kerim'in orijinal dilinde, tecvid kurallarına uygun bir şekilde okumayı öğretmek için kılavuzluk edecek. Üstelik bu eğitim programı ücretsiz ve reklamsızdır, böylece kesintisiz bir öğrenme deneyimi yaşayabilirsiniz.</p>"
+    },
+    "kopgit": {
+      "name": "Kopgit",
+      "definition": "Kuran Tefsiri Risale-i Nur eserlerini okumakta zorlanıyor musun? Kopgit, okuma alışkanlığı kazanman ve konuları anlaman için hazırlandı.",
+      "title": "Kur'an Tefsiri Risale-i Nur Okuma Uygulaması",
+      "description": "<p>Sözler Köşkü’nün en büyük ve kapsamlı projesi: Kopgit. Kuranın manasını ve tefsirini devamlı olarak ve anlayarak okumak isteyen kardeşlerimiz için bir uygulama hazırladık.</p><p>İnternet üzerinden her şehirden farklı farklı kardeşlerimiz, çatısı gökyüzü olan bir medresede önünde kitaplarını mütalaa ediyorlar. Uygulamamız ayrıca her seviyedeki Risale-i Nur okumak isteyen kardeşlerimiz için özel olarak yapıldı. Yeni başlayanlarlar için video destekli bir okuma deneyimi sunuluyor. çeşitli video, yazı ve mesajlarla her fırsatta İslami yeni bilgiler eşliğinde onlara çok yönlü bir eğitim olanağı sağlıyor.</p>"
+    },
+    "sunnah": {
+      "name": "Pusulam",
+      "title": "Sünneti Hayata Geçirme",
+      "definition": "Pusulam uygulaması, Peygamber Efendimizin (a.s.m) sünnetlerini adım adım hayatımıza katmak için hazırlanmıştır.",
+      "description": "<p>Peygamber Efendimizin (a.s.m) sünnetlerini adım adım hayatımıza katmak için hazırlamış olduğumuz Pusulam uygulamasıyla herbirimiz Peygamber Efendimizin (a.s.m) sünnetini uygulayan bireyler olacağız inşaallah.</p>"
+    }
   },
   "Contact": {
     "Meta": {

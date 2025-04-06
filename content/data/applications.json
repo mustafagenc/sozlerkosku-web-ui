@@ -1,0 +1,36 @@
+{
+  "apps": [
+    {
+      "name": "beste5v2",
+      "icon": "/applications/beste5namaz.webp",
+      "image": "/images/5te5-namaz.jpg",
+      "android": "https://play.google.com/store/apps/details?id=com.sozlerkosku.beste5v2",
+      "ios": "https://apps.apple.com/tr/app/5te5-start-praying/id1602490524",
+      "isMobile": true
+    },
+    {
+      "name": "lamelif",
+      "icon": "/applications/lamelif.webp",
+      "image": "/images/lamelif-kuran.jpg",
+      "android": "https://play.google.com/store/apps/details?id=com.lamelif.kuran",
+      "ios": "https://apps.apple.com/tr/app/lamelif-quran-and-tajweed/id1541395117",
+      "isMobile": true
+    },
+    {
+      "name": "kopgit",
+      "icon": "/applications/kopgit.webp",
+      "image": "/images/kopgit.jpg",
+      "android": "https://play.google.com/store/apps/details?id=com.kopgit.risaleinur",
+      "ios": "https://apps.apple.com/tr/app/kopgit-risale-i-nur-e%C4%9Fitimi/id1534780135?l=tr",
+      "isMobile": true
+    },
+    {
+      "name": "sunnah",
+      "icon": "/applications/sunnah.webp",
+      "image": "/images/m5a0143-1256x837.jpg",
+      "android": "https://play.google.com/store/apps/details?id=com.sunnah.app",
+      "ios": "https://apps.apple.com/tr/app/pusulam-s%C3%BCnneti-hayata-ge%C3%A7ir/id1542536987",
+      "isMobile": true
+    }
+  ]
+}

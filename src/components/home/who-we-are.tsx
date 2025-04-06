@@ -24,7 +24,7 @@ export const WhoWeAre = () => {
           <p className="mb-6 text-xl dark:text-gray-200">
             {locales.map((locale) => (
               <span key={locale.id} className="font-semibold block mb-1">
-                - {t('Languages.' + locale.id)}
+                - {t(`Languages.${locale.id}`)}
               </span>
             ))}
           </p>

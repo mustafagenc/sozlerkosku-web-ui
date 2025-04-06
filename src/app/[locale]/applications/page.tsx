@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import { ApplicationCard } from '@/components/applications/application-card';
+import { getApplications } from '@/utils/applications';
 
 type Params = Promise<{ locale: string }>;
 
@@ -21,8 +22,10 @@ export async function generateMetadata({
   };
 }
 
-export default function Page() {
-  const t = useTranslations();
+export default async function Page() {
+  const applications = await getApplications();
+  const t = await getTranslations();
+
   return (
     <>
       <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">
@@ -31,6 +34,12 @@ export default function Page() {
             <h1 className="text-4xl lg:text-5xl font-semibold dark:text-gray-200">
               {t('Applications.Title')}
             </h1>
+          </div>
+
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
+            {applications.map((application) => (
+              <ApplicationCard key={application.name} metadata={application} />
+            ))}
           </div>
         </div>
       </section>

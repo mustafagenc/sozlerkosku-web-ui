@@ -27,7 +27,7 @@ export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
           {subscriberNumber}
         </h5>
         <p className="text-3xl font-bold text-foreground">
-          {t('Languages.' + name)}
+          {t(`Languages.${name}`)}
         </p>
         <div className="flex items-center gap-1 hover:text-foreground hover:transition">
           <a
