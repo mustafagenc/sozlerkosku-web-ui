@@ -22,6 +22,10 @@ const poppins = Poppins({
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getTranslations('Meta');
 
+  const imageData = {
+    images: [{ url: env.SITE_URL + '/images/sozler-kosku-hero.jpg' }],
+  };
+
   return {
     metadataBase: new URL(env.SITE_URL),
     title: {
@@ -29,8 +33,12 @@ export async function generateMetadata(): Promise<Metadata> {
       template: `%s • ${t('title')}`,
     },
     description: t('description'),
+    openGraph: {
+      ...imageData,
+    },
     twitter: {
       card: 'summary_large_image',
+      ...imageData,
     },
     robots: {
       index: true,

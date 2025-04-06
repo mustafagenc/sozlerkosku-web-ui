@@ -22,7 +22,13 @@ export async function generateMetadata({ params }: { params: Params }) {
     if (!application)
       throw new Error(`Application not found: ${applicationName}`);
 
-    const { name } = application;
+    const { name, image } = application;
+
+    const imageData = image
+      ? {
+          images: [{ url: image }],
+        }
+      : undefined;
 
     const baseMetadata = {
       title: t(`Applications.${name}.name`),
@@ -38,11 +44,13 @@ export async function generateMetadata({ params }: { params: Params }) {
           `/applications/${applicationName}`,
           env.SITE_URL
         ).toString(),
+        ...imageData,
       },
       twitter: {
         ...baseMetadata,
         card: 'summary_large_image',
       },
+      ...imageData,
     };
   } catch (error) {
     console.error(

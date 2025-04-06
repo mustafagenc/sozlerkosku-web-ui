@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 
 import { ContactForm } from '@/components/contact/contact-form';
 import { Contact } from '@/components/contact/contact-info';
+import { env } from '@/utils/env';
 
 type Params = Promise<{ locale: string }>;
 
@@ -19,8 +20,22 @@ export async function generateMetadata({
     title: t('Meta.title'),
   };
 
+  const imageData = {
+    images: [{ url: env.SITE_URL + '/images/sozler-kosku-video-800x600.jpg' }],
+  };
+
   return {
     ...baseMetadata,
+    openGraph: {
+      ...baseMetadata,
+      url: new URL(`/contact`, env.SITE_URL).toString(),
+      ...imageData,
+    },
+    twitter: {
+      ...baseMetadata,
+      card: 'summary_large_image',
+      ...imageData,
+    },
   };
 }
 

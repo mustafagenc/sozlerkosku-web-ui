@@ -4,6 +4,7 @@ import { getTranslations } from 'next-intl/server';
 import { ApplicationCard } from '@/components/applications/application-card';
 import { getApplications } from '@/utils/applications';
 import { notFound } from 'next/navigation';
+import { env } from '@/utils/env';
 
 type Params = Promise<{ locale: string }>;
 
@@ -19,8 +20,22 @@ export async function generateMetadata({
     title: t('Meta.Title'),
   };
 
+  const imageData = {
+    images: [{ url: env.SITE_URL + '/images/5te5-namaz.jpg' }],
+  };
+
   return {
     ...baseMetadata,
+    openGraph: {
+      ...baseMetadata,
+      url: new URL(`/applications`, env.SITE_URL).toString(),
+      ...imageData,
+    },
+    twitter: {
+      ...baseMetadata,
+      card: 'summary_large_image',
+      ...imageData,
+    },
   };
 }
 

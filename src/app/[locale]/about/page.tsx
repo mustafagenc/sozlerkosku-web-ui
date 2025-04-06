@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import { Card, CardContent } from '@/components/ui/card';
 import { locales } from '@/utils/constants';
+import { env } from '@/utils/env';
 
 type Params = Promise<{ locale: string }>;
 
@@ -16,12 +17,26 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'About' });
 
+  const imageData = {
+    images: [{ url: env.SITE_URL + '/images/m5a0143-1256x837.jpg' }],
+  };
+
   const baseMetadata = {
     title: t('Meta.Title'),
   };
 
   return {
     ...baseMetadata,
+    openGraph: {
+      ...baseMetadata,
+      url: new URL(`/about`, env.SITE_URL).toString(),
+      ...imageData,
+    },
+    twitter: {
+      ...baseMetadata,
+      card: 'summary_large_image',
+      ...imageData,
+    },
   };
 }
 
