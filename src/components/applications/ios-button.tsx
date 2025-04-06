@@ -27,7 +27,7 @@ export const IosButton = ({ application }: AppDownloadProps) => {
   return (
     <>
       <a
-        href={application.android}
+        href={application.ios}
         className="flex min-w-50 items-center justify-center gap-2 border-2 dark:border-gray-950 bg-gray-100 dark:bg-gray-900 hover:bg-gray-200 dark:hover:bg-gray-950 rounded-lg p-3"
         target="_blank"
         rel="noopener noreferrer"
