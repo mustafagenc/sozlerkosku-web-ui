@@ -27,43 +27,55 @@ export const Navbar = () => {
 
   const isRtl = direction === 'ltr';
   return (
-    <nav className="sticky top-5 opacity-90 z-50 bg-white dark:bg-gray-900 shadow rounded-full mx-auto max-w-7xl">
-      <div className="px-4 py-3 flex justify-between items-center">
-        <div className="flex items-center">
-          <Link href={'/'} className="flex items-center">
-            <Image
-              className={`h-12 w-auto md:h10 ${isRtl ? 'mr-4' : 'ml-4'}`}
-              src="/images/logo.png"
-              alt={t('Meta.title')}
-              dir={isRtl ? 'rtl' : 'ltr'}
-              width={96}
-              height={96}
-            />
-            <div className="text-2xl tracking-tight	font-semibold ml-4 hidden lg:flex">
-              {t('Meta.title')}
-            </div>
-            <div className="flex lg:hidden">
-              <NavbarMobile />
-            </div>
-          </Link>
-        </div>
-        <div className=" items-center space-x-4 flex-grow justify-center hidden lg:flex">
-          {NAV_LINKS.map((link) => (
-            <Link
-              key={link.name}
-              href={link.path}
-              className={getClassnameForLink(link.path)}
-            >
-              {t(link.name)}
+    <>
+      <nav className="sticky top-5 opacity-90 z-50 bg-white dark:bg-gray-900 shadow rounded-full mx-auto max-w-7xl">
+        <div className="px-4 py-3 flex justify-between items-center">
+          <div className="flex items-center">
+            <Link href={'/'} className="flex items-center">
+              <Image
+                className={`h-12 w-auto md:h10 ${isRtl ? 'mr-4' : 'ml-4'}`}
+                src="/images/logo.png"
+                alt={t('Meta.title')}
+                dir={isRtl ? 'rtl' : 'ltr'}
+                width={96}
+                height={96}
+              />
+              <div className="text-2xl tracking-tight	font-semibold ml-4 hidden lg:flex">
+                {t('Meta.title')}
+              </div>
+              <div className="flex lg:hidden">
+                <NavbarMobile />
+              </div>
             </Link>
-          ))}
+          </div>
+          <div className=" items-center space-x-4 flex-grow justify-center hidden lg:flex">
+            {NAV_LINKS.map((link) => (
+              <Link
+                key={link.name}
+                href={link.path}
+                className={getClassnameForLink(link.path)}
+              >
+                {t(link.name)}
+              </Link>
+            ))}
+          </div>
+          <div className="flex items-center space-x-4">
+            <LocaleSwitcher />
+            <ThemeToggle />
+            <Donate />
+          </div>
         </div>
-        <div className="flex items-center space-x-4">
-          <LocaleSwitcher />
-          <ThemeToggle />
-          <Donate />
-        </div>
-      </div>
-    </nav>
+      </nav>
+      {/* <div className="sticky top-0 mx-auto max-w-7xl -bottom-35">
+        <Image
+          src="/images/palestine-flag.png"
+          alt="Intro"
+          width={1752}
+          height={394}
+          className="w-7xl object-cover opacity-[.2]"
+          priority
+        />
+      </div> */}
+    </>
   );
 };
