@@ -35,7 +35,7 @@ export default function Page() {
               {t('Description')}
             </p>
           </div>
-          <div className="w-4xl mb-6 text-left">
+          <div className="w-4xl mb-6">
             <h2 className="text-2xl font-semibold dark:text-gray-200">
               {t('CollectedPersonalDataTitle')}
             </h2>
@@ -43,7 +43,7 @@ export default function Page() {
               {t('CollectedPersonalDataDescription')}
             </p>
           </div>
-          <div className="w-4xl mb-6 text-left">
+          <div className="w-4xl mb-6">
             <h2 className="text-2xl font-semibold dark:text-gray-200">
               {t('PurposesUsingPersonalData')}
             </h2>
@@ -56,7 +56,7 @@ export default function Page() {
               })}
             </ul>
           </div>
-          <div className="w-4xl mb-6 text-left">
+          <div className="w-4xl mb-6">
             <h2 className="text-2xl font-semibold dark:text-gray-200">
               {t('ProtectionPersonalData')}
             </h2>
@@ -64,7 +64,7 @@ export default function Page() {
               {t('ProtectionPersonalDataDescription')}
             </p>
           </div>
-          <div className="w-4xl mb-6 text-left">
+          <div className="w-4xl mb-6">
             <h2 className="text-2xl font-semibold dark:text-gray-200">
               {t('SharingPersonalData')}
             </h2>
@@ -72,7 +72,7 @@ export default function Page() {
               {t('SharingPersonalDataDescription')}
             </p>
           </div>
-          <div className="w-4xl mb-6 text-left">
+          <div className="w-4xl mb-6">
             <h2 className="text-2xl font-semibold dark:text-gray-200">
               {t('RightsPersonalDataOwner')}
             </h2>

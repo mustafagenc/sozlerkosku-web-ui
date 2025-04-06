@@ -7,13 +7,21 @@ import { toast } from 'sonner';
 import { Loader } from '@/components/icons/loader';
 import { Button } from '@/components/ui/button';
 import {
-    Form, FormControl, FormField, FormItem, FormLabel, FormMessage
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
 } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Link } from '@/i18n/navigation';
 import { sendEmail } from '@/utils/apis/resend';
-import { ContactFormSchema, TContactFormSchema } from '@/utils/validators/contact-form';
+import {
+  ContactFormSchema,
+  TContactFormSchema,
+} from '@/utils/validators/contact-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 export const ContactForm = () => {
@@ -49,14 +57,11 @@ export const ContactForm = () => {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-xs font-bold uppercase text-zinc-700 dark:text-zinc-400">
-                      {t('Form.Name')}
-                    </FormLabel>
                     <FormControl>
                       <Input
                         id="name"
                         autoFocus
-                        placeholder={t('Form.NameEnter')}
+                        placeholder={t('Form.Name')}
                         {...field}
                       />
                     </FormControl>
@@ -71,13 +76,10 @@ export const ContactForm = () => {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-xs font-bold uppercase text-zinc-700 dark:text-zinc-400">
-                      {t('Form.Email')}
-                    </FormLabel>
                     <FormControl>
                       <Input
                         id="email"
-                        placeholder={t('Form.EmailEnter')}
+                        placeholder={t('Form.Email')}
                         {...field}
                       />
                     </FormControl>
@@ -92,13 +94,10 @@ export const ContactForm = () => {
                 name="phone"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-xs font-bold uppercase text-zinc-700 dark:text-zinc-400">
-                      {t('Form.Phone')}
-                    </FormLabel>
                     <FormControl>
                       <Input
                         id="phone"
-                        placeholder={t('Form.PhoneEnter')}
+                        placeholder={t('Form.Phone')}
                         {...field}
                       />
                     </FormControl>
@@ -113,14 +112,11 @@ export const ContactForm = () => {
                 name="message"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-xs font-bold uppercase text-zinc-700 dark:text-zinc-400">
-                      {t('Form.Message')}
-                    </FormLabel>
                     <FormControl>
                       <Textarea
                         rows={8}
                         id="message"
-                        placeholder={t('Form.MessageEnter')}
+                        placeholder={t('Form.Message')}
                         className="max-h-72"
                         {...field}
                       />
@@ -135,7 +131,7 @@ export const ContactForm = () => {
             <Button
               type="submit"
               disabled={form.formState.isSubmitting}
-              className="w-full rounded-full disabled:opacity-50 bg-orange-500 hover:bg-orange-400"
+              className="w-full rounded-full p-7 text-lg text-white disabled:opacity-50 bg-orange-500 hover:bg-orange-400"
             >
               {form.formState.isSubmitting ? (
                 <Loader className="mr-2 size-5 animate-spin" />

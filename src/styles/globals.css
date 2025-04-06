@@ -142,3 +142,7 @@ html {
   position: fixed;
   z-index: 999;
 }
+
+textarea {
+  resize: none;
+}
