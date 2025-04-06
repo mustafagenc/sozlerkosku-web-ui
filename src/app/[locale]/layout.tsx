@@ -13,6 +13,8 @@ import Providers from '@/providers/providers';
 import { env } from '@/utils/env';
 
 import type { Metadata } from 'next';
+import { FlagOfPalestine } from '@/components/footer/flag-of-palestine';
+
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
   variable: '--font-poppins',
@@ -74,7 +76,7 @@ export default async function RootLayout({
       className="scroll-smooth"
     >
       <body
-        className={`${poppins.variable}  mx-auto flex flex-col min-h-screen antialiased`}
+        className={`${poppins.variable} mx-auto flex flex-col min-h-screen antialiased`}
       >
         <NextIntlClientProvider>
           <Providers>
@@ -83,6 +85,7 @@ export default async function RootLayout({
               <main className="mt-4 lg:mt-10 grow">{children}</main>
             </div>
             <Footer />
+            <FlagOfPalestine />
           </Providers>
         </NextIntlClientProvider>
       </body>

@@ -66,16 +66,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-      {/* <div className="sticky top-0 mx-auto max-w-7xl -bottom-35">
-        <Image
-          src="/images/palestine-flag.png"
-          alt="Intro"
-          width={1752}
-          height={394}
-          className="w-7xl object-cover opacity-[.2]"
-          priority
-        />
-      </div> */}
     </>
   );
 };

@@ -9,7 +9,7 @@ export const Intro = () => {
   const t = useTranslations('Home');
   return (
     <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">
-      <div className="flex flex-col justify-center text-center w-full bg-top bg-contain bg-no-repeat bg-[url(/images/palestine-flag.png)]">
+      <div className="flex flex-col justify-center text-center w-full">
         <div>
           <h1 className="mb-4 no-underline text-7xl font-bold dark:text-gray-200">
             {t('Meta.title')}
