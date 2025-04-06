@@ -7,15 +7,15 @@
     "donate": "Donar"
   },
   "Meta": {
-    "title": "Sözler Köşkü",
-    "description": "Sitio web de la Asociación de Ciencia y Cultura Sözler Köşkü"
+    "title": "Towards Eternity",
+    "description": "Sitio web de la Asociación de Ciencia y Cultura Towards Eternity"
   },
   "Shared": {
     "Loading": "Cargando...",
     "ToggleTheme": "Cambiar tema",
     "phone": "Teléfono",
     "email": "Correo electrónico",
-    "copyright": "Sözler Köşkü \u00A9 {date}"
+    "copyright": "Towards Eternity \u00A9 {date}"
   },
   "Languages": {
     "tr": "Turco",
@@ -34,14 +34,14 @@
   },
   "Home": {
     "Meta": {
-      "title": "Sözler Köşkü",
-      "description": "Sözler Köşkü | Eterno Ser | Youtube | Instagram"
+      "title": "Towards Eternity",
+      "description": "Towards Eternity | Eterno Ser | Youtube | Instagram"
     },
     "intro": "Este es un asociación oficial establecida hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce contenido islámico en 13 idiomas junto contigo.",
     "what-we-do-here": "¿Qué hacemos aquí?",
     "WhoWeAre": {
       "title": "¿Quiénes somos?",
-      "description": "Sözler Köşkü es una asociación oficial establecida hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce <b>contenido islámico</b> en 13 idiomas junto contigo.",
+      "description": "Towards Eternity es una asociación oficial establecida hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce <b>contenido islámico</b> en 13 idiomas junto contigo.",
       "end": "Producimos un total de 300 videos al mes en sus idiomas."
     },
     "Youtube": {
@@ -101,7 +101,7 @@
       "Title": "Política de privacidad"
     },
     "Title": "Política de privacidad",
-    "Description": "Como Sözler Köşkü, nos preocupamos por la privacidad de nuestros usuarios y tomamos todas las medidas necesarias para proteger sus datos personales. Esta política de privacidad explica cómo se utilizan y protegen los datos personales que recopilamos a través de nuestro formulario de contacto.",
+    "Description": "Como Towards Eternity, nos preocupamos por la privacidad de nuestros usuarios y tomamos todas las medidas necesarias para proteger sus datos personales. Esta política de privacidad explica cómo se utilizan y protegen los datos personales que recopilamos a través de nuestro formulario de contacto.",
     "CollectedPersonalDataTitle": "Datos personales recopilados",
     "CollectedPersonalDataDescription": "Cuando completa el formulario de contacto, se recopilan sus datos personales, como su nombre, dirección de correo electrónico, número de teléfono y mensaje.",
     "PurposesUsingPersonalData": "Fines del uso de datos personales",

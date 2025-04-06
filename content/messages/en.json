@@ -7,15 +7,15 @@
     "donate": "Donate"
   },
   "Meta": {
-    "title": "Sözler Köşkü",
-    "description": "Sözler Köşkü Association of Science and Culture website"
+    "title": "Towards Eternity",
+    "description": "Towards Eternity Association of Science and Culture website"
   },
   "Shared": {
     "Loading": "Loading...",
     "ToggleTheme": "Toggle Theme",
     "phone": "Phone",
     "email": "Email",
-    "copyright": "Sözler Köşkü \u00A9 {date}"
+    "copyright": "Towards Eternity \u00A9 {date}"
   },
   "Languages": {
     "tr": "Turkish",
@@ -34,14 +34,14 @@
   },
   "Home": {
     "Meta": {
-      "title": "Sözler Köşkü",
-      "description": "Sözler Köşkü | Infinite Be | Youtube | Instagram"
+      "title": "Towards Eternity",
+      "description": "Towards Eternity | Infinite Be | Youtube | Instagram"
     },
     "intro": "This is an official association founded 13 years ago. In 13 years, we have become a social media platform that produces Islamic content in 13 languages with you.",
     "what-we-do-here": "What Do We Do Here?",
     "WhoWeAre": {
       "title": "Who Are We?",
-      "description": "Sözler Köşkü is an official association founded 13 years ago. In 13 years, we have become a social media platform that produces <b>Islamic content</b> in 13 languages with you.",
+      "description": "Towards Eternity is an official association founded 13 years ago. In 13 years, we have become a social media platform that produces <b>Islamic content</b> in 13 languages with you.",
       "end": "We produce a total of 300 videos per month in their languages."
     },
     "Youtube": {
@@ -101,7 +101,7 @@
       "Title": "Privacy Policy"
     },
     "Title": "Privacy Policy",
-    "Description": "As Sözler Köşkü, we care about the privacy of our users and take all necessary measures to protect your personal data. This privacy policy explains how the personal data we collect through our contact form is used and protected.",
+    "Description": "As Towards Eternity, we care about the privacy of our users and take all necessary measures to protect your personal data. This privacy policy explains how the personal data we collect through our contact form is used and protected.",
     "CollectedPersonalDataTitle": "Collected Personal Data",
     "CollectedPersonalDataDescription": "When you fill out the contact form, your personal data such as your name, e-mail address, phone number and message are collected.",
     "PurposesUsingPersonalData": "Purposes of Using Personal Data",

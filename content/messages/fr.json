@@ -7,15 +7,15 @@
     "donate": "Faire un don"
   },
   "Meta": {
-    "title": "Sözler Köşkü",
-    "description": "Site web de l'Association de la science et de la culture Sözler Köşkü"
+    "title": "Towards Eternity",
+    "description": "Site web de l'Association de la science et de la culture Towards Eternity"
   },
   "Shared": {
     "Loading": "Chargement...",
     "ToggleTheme": "Changer de thème",
     "phone": "Téléphone",
     "email": "E-mail",
-    "copyright": "Sözler Köşkü \u00A9 {date}"
+    "copyright": "Towards Eternity \u00A9 {date}"
   },
   "Languages": {
     "tr": "Turc",
@@ -34,14 +34,14 @@
   },
   "Home": {
     "Meta": {
-      "title": "Sözler Köşkü",
-      "description": "Sözler Köşkü | L'infini Existe | Youtube | Instagram"
+      "title": "Towards Eternity",
+      "description": "Towards Eternity | L'infini Existe | Youtube | Instagram"
     },
     "intro": "C'est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du contenu islamique en 13 langues avec vous.",
     "what-we-do-here": "Que faisons-nous ici ?",
     "WhoWeAre": {
       "title": "Qui sommes-nous ?",
-      "description": "Sözler Köşkü est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du <b>contenu islamique</b> en 13 langues avec vous.",
+      "description": "Towards Eternity est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du <b>contenu islamique</b> en 13 langues avec vous.",
       "end": "Nous produisons un total de 300 vidéos par mois dans leurs langues."
     },
     "Youtube": {
@@ -101,7 +101,7 @@
       "Title": "Politique de confidentialité"
     },
     "Title": "Politique de confidentialité",
-    "Description": "En tant que Sözler Köşkü, nous accordons de l'importance à la confidentialité de nos utilisateurs et prenons toutes les mesures nécessaires pour protéger vos données personnelles. Cette politique de confidentialité explique comment les données personnelles que nous collectons via notre formulaire de contact sont utilisées et protégées.",
+    "Description": "En tant que Towards Eternity, nous accordons de l'importance à la confidentialité de nos utilisateurs et prenons toutes les mesures nécessaires pour protéger vos données personnelles. Cette politique de confidentialité explique comment les données personnelles que nous collectons via notre formulaire de contact sont utilisées et protégées.",
     "CollectedPersonalDataTitle": "Données personnelles collectées",
     "CollectedPersonalDataDescription": "Lorsque vous remplissez le formulaire de contact, vos données personnelles telles que votre nom, votre adresse e-mail, votre numéro de téléphone et votre message sont collectées.",
     "PurposesUsingPersonalData": "Objectifs de l'utilisation des données personnelles",

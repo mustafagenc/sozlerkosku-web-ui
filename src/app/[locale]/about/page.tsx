@@ -1,9 +1,10 @@
+import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import Image from 'next/image';
+
 import { Card, CardContent } from '@/components/ui/card';
 import { locales } from '@/utils/constants';
-import { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
 
 type Params = Promise<{ locale: string }>;
 

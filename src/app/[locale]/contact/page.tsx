@@ -1,8 +1,9 @@
-import { ContactForm } from '@/components/contact/contact-form';
-import { Contact } from '@/components/contact/contact-info';
 import { Metadata } from 'next';
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+
+import { ContactForm } from '@/components/contact/contact-form';
+import { Contact } from '@/components/contact/contact-info';
 
 type Params = Promise<{ locale: string }>;
 

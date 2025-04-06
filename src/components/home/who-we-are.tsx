@@ -1,6 +1,7 @@
-import { locales } from '@/utils/constants';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+
+import { locales } from '@/utils/constants';
 
 export const WhoWeAre = () => {
   const t = useTranslations();

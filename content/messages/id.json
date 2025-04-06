@@ -7,15 +7,15 @@
     "donate": "Donasi"
   },
   "Meta": {
-    "title": "Sözler Köşkü",
-    "description": "Situs web Asosiasi Ilmu dan Budaya Sözler Köşkü"
+    "title": "Towards Eternity",
+    "description": "Situs web Asosiasi Ilmu dan Budaya Towards Eternity"
   },
   "Shared": {
     "Loading": "Memuat...",
     "ToggleTheme": "Ubah Tema",
     "phone": "Telepon",
     "email": "Email",
-    "copyright": "Sözler Köşkü \u00A9 {date}"
+    "copyright": "Towards Eternity \u00A9 {date}"
   },
   "Languages": {
     "tr": "Turki",
@@ -34,14 +34,14 @@
   },
   "Home": {
     "Meta": {
-      "title": "Sözler Köşkü",
-      "description": "Sözler Köşkü | Tanpa Batas | Youtube | Instagram"
+      "title": "Towards Eternity",
+      "description": "Towards Eternity | Tanpa Batas | Youtube | Instagram"
     },
     "intro": "Ini adalah asosiasi resmi yang didirikan 13 tahun lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang menghasilkan konten Islami dalam 13 bahasa bersama Anda.",
     "what-we-do-here": "Apa yang Kami Lakukan Di Sini?",
     "WhoWeAre": {
       "title": "Siapa Kami?",
-      "description": "Sözler Köşkü adalah asosiasi resmi yang didirikan 13 tahun lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang menghasilkan <b>konten Islami</b> dalam 13 bahasa bersama Anda.",
+      "description": "Towards Eternity adalah asosiasi resmi yang didirikan 13 tahun lalu. Dalam 13 tahun, kami telah menjadi platform media sosial yang menghasilkan <b>konten Islami</b> dalam 13 bahasa bersama Anda.",
       "end": "Kami memproduksi total 300 video per bulan dalam bahasa mereka."
     },
     "Youtube": {
@@ -101,7 +101,7 @@
       "Title": "Kebijakan Privasi"
     },
     "Title": "Kebijakan Privasi",
-    "Description": "Sebagai Sözler Köşkü, kami peduli dengan privasi pengguna kami dan mengambil semua tindakan yang diperlukan untuk melindungi data pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana data pribadi yang kami kumpulkan melalui formulir kontak kami digunakan dan dilindungi.",
+    "Description": "Sebagai Towards Eternity, kami peduli dengan privasi pengguna kami dan mengambil semua tindakan yang diperlukan untuk melindungi data pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana data pribadi yang kami kumpulkan melalui formulir kontak kami digunakan dan dilindungi.",
     "CollectedPersonalDataTitle": "Data Pribadi yang Dikumpulkan",
     "CollectedPersonalDataDescription": "Saat Anda mengisi formulir kontak, data pribadi Anda seperti nama, alamat email, nomor telepon, dan pesan Anda dikumpulkan.",
     "PurposesUsingPersonalData": "Tujuan Penggunaan Data Pribadi",

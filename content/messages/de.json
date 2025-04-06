@@ -7,15 +7,15 @@
     "donate": "Spenden"
   },
   "Meta": {
-    "title": "Sözler Köşkü",
-    "description": "Webseite des Sözler Köşkü Vereins für Wissenschaft und Kultur"
+    "title": "Towards Eternity",
+    "description": "Webseite des Towards Eternity Vereins für Wissenschaft und Kultur"
   },
   "Shared": {
     "Loading": "Wird geladen...",
     "ToggleTheme": "Thema wechseln",
     "phone": "Telefon",
     "email": "E-Mail",
-    "copyright": "Sözler Köşkü \u00A9 {date}"
+    "copyright": "Towards Eternity \u00A9 {date}"
   },
   "Languages": {
     "tr": "Türkisch",
@@ -34,14 +34,14 @@
   },
   "Home": {
     "Meta": {
-      "title": "Sözler Köşkü",
-      "description": "Sözler Köşkü | Sonsuz Ol | Youtube | Instagram"
+      "title": "Towards Eternity",
+      "description": "Towards Eternity | Sonsuz Ol | Youtube | Instagram"
     },
     "intro": "Dies ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir zusammen mit Ihnen zu einer Social-Media-Plattform geworden, die islamische Inhalte in 13 Sprachen produziert.",
     "what-we-do-here": "Was machen wir hier?",
     "WhoWeAre": {
       "title": "Wer sind wir?",
-      "description": "Sözler Köşkü ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir zusammen mit Ihnen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
+      "description": "Towards Eternity ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir zusammen mit Ihnen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
       "end": "Wir produzieren insgesamt 300 Videos pro Monat in ihren Sprachen."
     },
     "Youtube": {
@@ -101,7 +101,7 @@
       "Title": "Datenschutzrichtlinie"
     },
     "Title": "Datenschutzrichtlinie",
-    "Description": "Als Sözler Köşkü legen wir Wert auf die Privatsphäre unserer Nutzer und ergreifen alle notwendigen Maßnahmen, um Ihre persönlichen Daten zu schützen. Diese Datenschutzrichtlinie erläutert, wie die persönlichen Daten, die wir über unser Kontaktformular sammeln, verwendet und geschützt werden.",
+    "Description": "Als Towards Eternity legen wir Wert auf die Privatsphäre unserer Nutzer und ergreifen alle notwendigen Maßnahmen, um Ihre persönlichen Daten zu schützen. Diese Datenschutzrichtlinie erläutert, wie die persönlichen Daten, die wir über unser Kontaktformular sammeln, verwendet und geschützt werden.",
     "CollectedPersonalDataTitle": "Erfasste Persönliche Daten",
     "CollectedPersonalDataDescription": "Wenn Sie das Kontaktformular ausfüllen, werden Ihre persönlichen Daten wie Ihr Name, Ihre E-Mail-Adresse, Ihre Telefonnummer und Ihre Nachricht erfasst.",
     "PurposesUsingPersonalData": "Zwecke der Verwendung Persönlicher Daten",

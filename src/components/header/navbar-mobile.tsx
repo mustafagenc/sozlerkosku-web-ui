@@ -1,17 +1,15 @@
 'use client';
 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/popover';
-import { Link } from '@/i18n/navigation';
-import { NAV_LINKS } from '@/utils/constants';
-import { AiOutlineMenu } from 'react-icons/ai';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import { Button } from '../ui/button';
+import { AiOutlineMenu } from 'react-icons/ai';
+
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { Link } from '@/i18n/navigation';
+import { NAV_LINKS } from '@/utils/constants';
+
 import { Loader } from '../icons/loader';
+import { Button } from '../ui/button';
 
 export function NavbarMobile() {
   const [isOpen, setIsOpen] = useState<boolean>(false);

@@ -1,9 +1,9 @@
 'use client';
 
+import { useTranslations } from 'next-intl';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
 import { AiOutlineMoon, AiOutlineSun } from 'react-icons/ai';
-import { useTranslations } from 'next-intl';
 
 import { Loader } from '@/components/icons/loader';
 import { Button } from '@/components/ui/button';

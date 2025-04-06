@@ -1,69 +1,69 @@
 {
-    "channels": [
-        {
-            "name": "tr",
-            "url": "https://www.youtube.com/@sozlerkosku",
-            "subscribers": "4.34M"
-        },
-        {
-            "name": "en",
-            "url": "https://www.youtube.com/@TowardsEternity",
-            "subscribers": "2.7M"
-        },
-        {
-            "name": "ar",
-            "url": "https://www.youtube.com/@TowardsEternityArabic",
-            "subscribers": "1.07M"
-        },
-        {
-            "name": "ur",
-            "url": "https://www.youtube.com/@TowardsEternityUrduHindi",
-            "subscribers": "676B"
-        },
-        {
-            "name": "fr",
-            "url": "https://www.youtube.com/@TowardsEternityFrancais",
-            "subscribers": "217B"
-        },
-        {
-            "name": "es",
-            "url": "https://www.youtube.com/@TowardsEternityEspanol",
-            "subscribers": "37.3B"
-        },
-        {
-            "name": "ru",
-            "url": "https://www.youtube.com/@TowardsEternityRussian",
-            "subscribers": "410B"
-        },
-        {
-            "name": "id",
-            "url": "https://www.youtube.com/@TowardsEternityIndonesian",
-            "subscribers": "697B"
-        },
-        {
-            "name": "bn",
-            "url": "https://www.youtube.com/@TEBangla",
-            "subscribers": "777B"
-        },
-        {
-            "name": "hi",
-            "url": "https://www.youtube.com/@TowardsEternity-Hindi",
-            "subscribers": "734B"
-        },
-        {
-            "name": "de",
-            "url": "https://www.youtube.com/@TowardsEternityDeutsch",
-            "subscribers": "34.2B"
-        },
-        {
-            "name": "uz",
-            "url": "https://www.youtube.com/@TowardsEternity-Uzbek",
-            "subscribers": "25.3B"
-        },
-        {
-            "name": "fa",
-            "url": "https://www.youtube.com/@TowardsEternityPersian",
-            "subscribers": "890"
-        }
-    ]
+  "channels": [
+    {
+      "name": "tr",
+      "url": "https://www.youtube.com/@sozlerkosku",
+      "subscribers": 4350000
+    },
+    {
+      "name": "en",
+      "url": "https://www.youtube.com/@TowardsEternity",
+      "subscribers": 2710000
+    },
+    {
+      "name": "ar",
+      "url": "https://www.youtube.com/@TowardsEternityArabic",
+      "subscribers": 1090000
+    },
+    {
+      "name": "ur",
+      "url": "https://www.youtube.com/@TowardsEternityUrduHindi",
+      "subscribers": 682000
+    },
+    {
+      "name": "fr",
+      "url": "https://www.youtube.com/@TowardsEternityFrancais",
+      "subscribers": 220000
+    },
+    {
+      "name": "es",
+      "url": "https://www.youtube.com/@TowardsEternityEspanol",
+      "subscribers": 37400
+    },
+    {
+      "name": "ru",
+      "url": "https://www.youtube.com/@TowardsEternityRussian",
+      "subscribers": 418000
+    },
+    {
+      "name": "id",
+      "url": "https://www.youtube.com/@TowardsEternityIndonesian",
+      "subscribers": 699000
+    },
+    {
+      "name": "bn",
+      "url": "https://www.youtube.com/@TEBangla",
+      "subscribers": 796000
+    },
+    {
+      "name": "hi",
+      "url": "https://www.youtube.com/@TowardsEternity-Hindi",
+      "subscribers": 18200
+    },
+    {
+      "name": "de",
+      "url": "https://www.youtube.com/@TowardsEternityDeutsch",
+      "subscribers": 35100
+    },
+    {
+      "name": "uz",
+      "url": "https://www.youtube.com/@TowardsEternity-Uzbek",
+      "subscribers": 27900
+    },
+    {
+      "name": "fa",
+      "url": "https://www.youtube.com/@TowardsEternityPersian",
+      "subscribers": 1030
+    }
+  ]
 }
