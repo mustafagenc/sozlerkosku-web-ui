@@ -2,11 +2,11 @@
 
 [![Support Palestine](https://raw.githubusercontent.com/Safouene1/support-palestine-banner/master/banner-support.svg)](https://github.com/Safouene1/support-palestine-banner/blob/master/Markdown-pages/Support.md)
 
-[![CodeFactor](https://www.codefactor.io/repository/github/mustafagenc/sozlerkosku-web-ui/badge)](https://www.codefactor.io/repository/github/mustafagenc/sozlerkosku-web-ui) [![HelpWanted](https://img.shields.io/badge/Help%20Wanted-Contribute-blue)](https://github.com/mustafagenc/sozlerkosku-web-ui/issues?q=is:issue+is:open+label:%22%F0%9F%99%8B%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8Fhelp+wanted%22) [![Commit Per Month](https://img.shields.io/github/commit-activity/m/mustafagenc/sozlerkosku-web-ui?)](https://github.com/mustafagenc/sozlerkosku-web-ui/commits/main) [![Last Commit](https://img.shields.io/github/last-commit/mustafagenc/sozlerkosku-web-ui?)](https://github.com/mustafagenc/sozlerkosku-web-ui/commits/main) ![License](https://img.shields.io/github/license/mustafagenc/sozlerkosku-web-ui?label=License) [![Github Star](https://img.shields.io/github/stars/mustafagenc/sozlerkosku-web-ui)](https://github.com/mustafagenc/sozlerkosku-web-ui/stargazers)
+[![CodeFactor](https://www.codefactor.io/repository/github/sozlerkosku/sozlerkosku-web-ui/badge)](https://www.codefactor.io/repository/github/sozlerkosku/sozlerkosku-web-ui) [![HelpWanted](https://img.shields.io/badge/Help%20Wanted-Contribute-blue)](https://github.com/sozlerkosku/sozlerkosku-web-ui/issues?q=is:issue+is:open+label:%22%F0%9F%99%8B%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8Fhelp+wanted%22) [![Commit Per Month](https://img.shields.io/github/commit-activity/m/sozlerkosku/sozlerkosku-web-ui?)](https://github.com/sozlerkosku/sozlerkosku-web-ui/commits/main) [![Last Commit](https://img.shields.io/github/last-commit/sozlerkosku/sozlerkosku-web-ui?)](https://github.com/sozlerkosku/sozlerkosku-web-ui/commits/main) ![License](https://img.shields.io/github/license/sozlerkosku/sozlerkosku-web-ui?label=License) [![Github Star](https://img.shields.io/github/stars/sozlerkosku/sozlerkosku-web-ui)](https://github.com/sozlerkosku/sozlerkosku-web-ui/stargazers)
 
 [Live Demo](https://sozlerkosku.vercel.app) ·
-[Report Bug](https://github.com/mustafagenc/sozlerkosku-web-ui/issues) ·
-[Request Feature](https://github.com/mustafagenc/sozlerkosku-web-ui/issues)
+[Report Bug](https://github.com/sozlerkosku/sozlerkosku-web-ui/issues) ·
+[Request Feature](https://github.com/sozlerkosku/sozlerkosku-web-ui/issues)
 
 ## 🪄 Stack
 
@@ -22,7 +22,7 @@ Run the following command on your local environment:
 
 ```bash
 # Clone this project
-git clone https://github.com/mustafagenc/sozlerkosku-web-ui.git
+git clone https://github.com/sozlerkosku/sozlerkosku-web-ui.git
 
 # Access
 cd sozlerkosku-web-ui
