@@ -1,8 +1,9 @@
 import Image from 'next/image';
+import React from 'react';
 
 export const FlagOfPalestine = () => {
   return (
-    <div className="sticky inset-y-[0] left-36">
+    <div className="free-palestine">
       <Image
         src="/Flag_of_Palestine.svg"
         alt="Free Palestine"
