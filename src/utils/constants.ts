@@ -2,6 +2,8 @@ import { SocialIconProps } from 'next-social-icons';
 
 export const PUBLIC_MAIL = 'eposta@mustafagenc.info';
 
+export const ROUTES = ['', '/about', '/applications', '/contact', '/privacy'];
+
 export const NAV_LINKS = [
   { name: 'Navigation.home', path: '/' },
   { name: 'Navigation.about', path: '/about/' },
