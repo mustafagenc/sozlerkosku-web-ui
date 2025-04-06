@@ -1,9 +1,10 @@
 import { getTranslations } from 'next-intl/server';
-import { env } from '@/utils/env';
-import { getApplicationByName } from '@/utils/applications';
-import { TApplication } from '@/types/TApplication';
 import Image from 'next/image';
+
 import { AppDownloadButtons } from '@/components/applications/download-buttons';
+import { TApplication } from '@/types/TApplication';
+import { getApplicationByName } from '@/utils/applications';
+import { env } from '@/utils/env';
 
 type Params = Promise<{ applicationName: string; locale: string }>;
 

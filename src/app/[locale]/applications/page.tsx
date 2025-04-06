@@ -1,7 +1,9 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
+
 import { ApplicationCard } from '@/components/applications/application-card';
 import { getApplications } from '@/utils/applications';
+import { notFound } from 'next/navigation';
 
 type Params = Promise<{ locale: string }>;
 
@@ -23,9 +25,9 @@ export async function generateMetadata({
 }
 
 export default async function Page() {
-  const applications = await getApplications();
   const t = await getTranslations();
-
+  const applications = await getApplications();
+  if (!applications) notFound();
   return (
     <>
       <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">

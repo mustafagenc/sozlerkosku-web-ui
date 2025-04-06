@@ -4,11 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai';
 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/popover';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Link } from '@/i18n/navigation';
 import { NAV_LINKS } from '@/utils/constants';
 

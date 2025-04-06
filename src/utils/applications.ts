@@ -1,6 +1,7 @@
-import { TApplication } from '@/types/TApplication';
 import { promises as fs } from 'fs';
 import path from 'path';
+
+import { TApplication } from '@/types/TApplication';
 
 export async function getApplications(): Promise<TApplication[]> {
   const applicationsPath = path.join(

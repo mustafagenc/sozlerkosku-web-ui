@@ -1,20 +1,12 @@
-import { promises as fs } from 'fs';
 import { getTranslations } from 'next-intl/server';
-import path from 'path';
 
 import { Card, CardContent } from '@/components/ui/card';
-import { TContact } from '@/types/TContact';
+import { getContactData } from '@/utils/contact';
 
 export const Contact = async () => {
-  const contactPath = path.join(
-    process.cwd(),
-    'content',
-    'data',
-    'contact.json'
-  );
-  const file = await fs.readFile(contactPath, 'utf8');
-  const contactData: TContact = JSON.parse(file);
   const t = await getTranslations();
+  const contactData = await getContactData();
+  if (!contactData) throw new Error(`Contact data not found`);
   return (
     <section className="bg-white dark:bg-gray-900 px-3 py-20">
       <div className=" max-w-7xl px-3 grow mx-auto antialiased flex flex-row justify-start gap-10">
