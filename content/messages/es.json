@@ -12,7 +12,7 @@
   },
   "Shared": {
     "Loading": "Cargando...",
-    "ToggleTheme": "Cambiar tema",
+    "ToggleTheme": "Cambiar el tema",
     "phone": "Teléfono",
     "email": "Correo electrónico",
     "copyright": "Towards Eternity \u00A9 {date}"
@@ -37,7 +37,7 @@
       "title": "Towards Eternity",
       "description": "Towards Eternity | Eterno Ser | Youtube | Instagram"
     },
-    "intro": "Este es un asociación oficial establecida hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce contenido islámico en 13 idiomas junto contigo.",
+    "intro": "Esta es una asociación oficial establecida hace 13 años. En 13 años, nos hemos convertido en una plataforma de redes sociales que produce contenido islámico en 13 idiomas junto contigo.",
     "what-we-do-here": "¿Qué hacemos aquí?",
     "WhoWeAre": {
       "title": "¿Quiénes somos?",
@@ -58,19 +58,46 @@
     "Meta": {
       "Title": "Acerca de nosotros"
     },
-    "Title": "¡Entramos en todos los hogares con un cable de Internet y hablamos de nuestro Señor!",
-    "SubTitle1": "Una fábrica que produce videos para la Ummah",
-    "SubTitle1Description": "El mundo se ha vuelto muy grande. Físicamente, se ha vuelto difícil entrar en todos los barrios y entregar el mensaje del Islam a todos los hogares. Allah, quien da el problema, también crea la cura. Es posible entregar el mensaje del Corán entrando en todos los hogares con un cable de Internet.",
+    "Title": "¡Estamos entrando en todos los hogares con un cable de Internet y hablando de nuestro Señor!",
+    "SubTitle1": "Como una fábrica que produce videos para la Ummah",
+    "SubTitle1Description": "El mundo se ha vuelto muy grande. Físicamente, se ha vuelto difícil entrar en todos los barrios y entregar el mensaje del Islam a todos los hogares. Allah, quien da el problema, también crea la cura. Es posible entrar en todos los hogares con un cable de Internet y entregar el mensaje del Corán.",
     "SubTitle2": "Damos respuestas claras a todas las preguntas que vienen a la mente",
-    "SubTitle2Description": "Preparamos videos en varios idiomas y explicamos la lección que tomamos del Corán como invitados en los hogares a través de la plataforma de Youtube. Damos respuestas satisfactorias a las preguntas de fe que vienen a la mente.",
-    "SubTitle3": "Hablamos del Islam en 13 idiomas",
-    "SubTitle3Description": "<p>El mundo se ha vuelto muy grande. Físicamente, se ha vuelto difícil entrar en todos los barrios y entregar el mensaje del Islam a todos los hogares.</p><p>Allah, quien da el problema, también crea la cura. ¡Es posible entregar el mensaje del Corán entrando en todos los hogares con un cable de Internet! Publicamos contenido en idiomas extranjeros</p><p>Llegamos a corazones hambrientos de Islam en todo el mundo con nuestros canales de Youtube.</p>"
+    "SubTitle2Description": "Preparamos videos en varios idiomas y, como invitados en los hogares a través de la plataforma de Youtube, explicamos la lección que tomamos del Corán. Damos respuestas satisfactorias a las preguntas de fe que vienen a la mente.",
+    "SubTitle3": "Explicamos el Islam en 13 idiomas",
+    "SubTitle3Description": "<p>El mundo se ha vuelto muy grande. Físicamente, se ha vuelto difícil entrar en todos los barrios y entregar el mensaje del Islam a todos los hogares.</p><p>Allah, quien da el problema, también crea la cura. ¡Es posible entrar en todos los hogares con un cable de Internet y entregar el mensaje del Corán! Publicamos contenido en idiomas extranjeros</p><p>Llegamos a corazones hambrientos de Islam en todo el mundo con nuestros canales de Youtube.</p>"
   },
   "Applications": {
     "Meta": {
-      "Title": "Nuestras aplicaciones móviles"
+      "Title": "Nuestras aplicaciones"
     },
-    "Title": "Nuestras aplicaciones móviles"
+    "Title": "Nuestras aplicaciones",
+    "AndroidDownload": "Descargar",
+    "IosDownload": "Descargar",
+    "DownloadDescription": "Puede descargar nuestra aplicación de forma gratuita desde los botones a continuación.",
+    "beste5v2": {
+      "name": "5te5 Oración",
+      "definition": "Lo estamos llevando a un programa de 40 días para adquirir el hábito de la oración. A medida que ore, su jardín se volverá más hermoso :)",
+      "title": "Aplicación para adquirir el hábito de la oración de 40 días",
+      "description": "<p>No se puede tener éxito en la lucha por mantener la religión en pie sin asegurar el pilar de la religión. ¡Hemos creado una gran aplicación para ayudar a las personas a mantener su continuidad en la oración 5 veces al día, que es el mandamiento en el que más insiste el Islam!</p>"
+    },
+    "lamelif": {
+      "name": "Lamelif Corán",
+      "definition": "Mientras aprende el Corán y la educación de Tajwid de los videos que hemos seleccionado cuidadosamente, podrá reforzarlo con ejercicios de acuerdo con su nivel.",
+      "title": "Aplicación de aprendizaje del Corán y Tajwid",
+      "description": "<p>¡Aprender el Corán ahora es mucho más fácil con el programa de educación de Corán y Tajwid de Lamelif! Esta aplicación lo guiará para aprender a leer el Corán en su idioma original, de acuerdo con las reglas de Tajwid. Además, este programa de educación es gratuito y sin publicidad, para que pueda tener una experiencia de aprendizaje ininterrumpida.</p>"
+    },
+    "kopgit": {
+      "name": "Kopgit",
+      "definition": "¿Tiene dificultades para leer las obras de Risale-i Nur de la interpretación del Corán? Kopgit fue preparado para que adquiera el hábito de la lectura y comprenda los temas.",
+      "title": "Aplicación de lectura de Risale-i Nur de la interpretación del Corán",
+      "description": "<p>El proyecto más grande y completo de Towards Eternity: Kopgit. Hemos preparado una aplicación para nuestros hermanos que desean leer el significado y la interpretación del Corán de forma continua y comprensiva.</p><p>Varios hermanos de diferentes ciudades en Internet están contemplando sus libros en una madraza cuyo techo es el cielo. Nuestra aplicación también está hecha especialmente para nuestros hermanos que desean leer Risale-i Nur en todos los niveles. Se ofrece una experiencia de lectura con soporte de video para principiantes. Con varios videos, textos y mensajes, brinda una oportunidad de educación versátil con nueva información islámica en cada oportunidad.</p>"
+    },
+    "sunnah": {
+      "name": "Mi brújula",
+      "title": "Implementando la Sunnah en la vida",
+      "definition": "La aplicación Mi brújula ha sido preparada para agregar los Sunnah de nuestro Profeta (PBD) a nuestras vidas paso a paso.",
+      "description": "<p>Con la aplicación Mi brújula, que hemos preparado para agregar los Sunnah de nuestro Profeta (PBD) a nuestras vidas paso a paso, cada uno de nosotros será individuos que practiquen los Sunnah de nuestro Profeta (PBD), si Allah quiere.</p>"
+    }
   },
   "Contact": {
     "Meta": {
@@ -83,17 +110,17 @@
       "NameLength": "Su nombre debe tener al menos 3 caracteres",
       "Email": "Su dirección de correo electrónico",
       "EmailEnter": "Ingrese su dirección de correo electrónico",
-      "EmailRequired": "Por favor, introduzca su dirección de correo electrónico",
+      "EmailRequired": "Por favor ingrese su dirección de correo electrónico",
       "EmailInvalid": "Dirección de correo electrónico inválida",
       "Phone": "Su número de teléfono",
       "PhoneEnter": "Ingrese su número de teléfono",
       "Message": "Su mensaje",
       "MessageEnter": "Ingrese su mensaje",
-      "MessageRequired": "Por favor, introduzca su mensaje",
+      "MessageRequired": "Por favor ingrese su mensaje",
       "MessageLength": "Su mensaje debe tener al menos 10 caracteres",
       "Send": "Enviar"
     },
-    "Privacy": "Declaro que acepto la <PrivacyPolicy>política de privacidad</PrivacyPolicy> al enviar este formulario.",
+    "Privacy": "Al enviar este formulario, declaro que acepto la <PrivacyPolicy>política de privacidad</PrivacyPolicy>.",
     "Title": "Contacto"
   },
   "PrivacyPolicy": {
@@ -112,7 +139,7 @@
     "SharingPersonalData": "Compartir datos personales",
     "SharingPersonalDataDescription": "Sus datos personales no se comparten con terceros, excepto por obligaciones legales.",
     "RightsPersonalDataOwner": "Derechos del propietario de los datos personales",
-    "RightsPersonalDataOwnerDescription": "Como propietario de datos personales, tiene los siguientes derechos:",
-    "RightsPersonalDataOwnerDescriptionList": "<list>Aprender si sus datos personales se procesan o no,</list><list>Si sus datos personales han sido procesados, solicitar información al respecto,</list><list>Aprender el propósito del procesamiento de sus datos personales y si se utilizan de acuerdo con su propósito,</list><list>Conocer a los terceros a quienes se transfieren sus datos personales en el país o en el extranjero,</list><list>Solicitar la eliminación o destrucción de sus datos personales,</list><list>Oponerse a la aparición de un resultado en su contra mediante el análisis de sus datos personales a través de sistemas automáticos,</list><list>Solicitar la reparación de los daños en caso de que sufra daños debido al procesamiento ilegal de sus datos personales.</list>"
+    "RightsPersonalDataOwnerDescription": "Como propietario de los datos personales, tiene los siguientes derechos:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Aprender si sus datos personales han sido procesados ​​o no,</list><list>Si sus datos personales han sido procesados, solicitar información al respecto,</list><list>Aprender el propósito del procesamiento de sus datos personales y si se utilizan de acuerdo con su propósito,</list><list>Conocer a los terceros a quienes se transfieren sus datos personales en el país o en el extranjero,</list><list>Solicitar la eliminación o destrucción de sus datos personales,</list><list>Oponerse a la aparición de un resultado en su contra mediante el análisis de sus datos personales a través de sistemas automáticos,</list><list>Solicitar la reparación de los daños en caso de que sufra daños debido al procesamiento ilegal de sus datos personales.</list>"
   }
 }

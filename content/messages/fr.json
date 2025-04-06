@@ -1,8 +1,8 @@
 {
   "Navigation": {
     "home": "Accueil",
-    "about": "À propos",
-    "applications": "Applications",
+    "about": "À propos de nous",
+    "applications": "Nos applications",
     "contact": "Contact",
     "donate": "Faire un don"
   },
@@ -35,7 +35,7 @@
   "Home": {
     "Meta": {
       "title": "Towards Eternity",
-      "description": "Towards Eternity | L'infini Existe | Youtube | Instagram"
+      "description": "Towards Eternity | Sois infini | Youtube | Instagram"
     },
     "intro": "C'est une association officielle fondée il y a 13 ans. En 13 ans, nous sommes devenus une plateforme de médias sociaux produisant du contenu islamique en 13 langues avec vous.",
     "what-we-do-here": "Que faisons-nous ici ?",
@@ -60,17 +60,44 @@
     },
     "Title": "Nous entrons dans toutes les maisons avec un câble Internet et parlons de notre Seigneur !",
     "SubTitle1": "Comme une usine produisant des vidéos pour la Oumma",
-    "SubTitle1Description": "Le monde est devenu très grand. Il est devenu difficile d'entrer physiquement dans chaque quartier et de transmettre le message de l'Islam à chaque foyer. Allah, qui donne la douleur, crée aussi le remède. Il est possible de transmettre le message du Coran en entrant dans toutes les maisons avec un câble Internet.",
+    "SubTitle1Description": "Le monde s'est beaucoup agrandi. Il est devenu difficile d'entrer physiquement dans chaque quartier et de transmettre le message de l'islam à chaque foyer. Allah, qui donne la douleur, crée aussi le remède. Il est possible de transmettre le message du Coran en entrant dans toutes les maisons avec un câble Internet.",
     "SubTitle2": "Nous donnons des réponses claires à toutes les questions qui se posent",
     "SubTitle2Description": "Nous expliquons la leçon que nous avons tirée du Coran en étant les invités des foyers via la plateforme Youtube en préparant des vidéos dans différentes langues. Nous donnons des réponses satisfaisantes aux questions de foi qui se posent.",
-    "SubTitle3": "Nous expliquons l'Islam en 13 langues",
-    "SubTitle3Description": "<p>Le monde est devenu très grand. Il est devenu difficile d'entrer physiquement dans chaque quartier et de transmettre le message de l'Islam à chaque foyer.</p><p>Allah, qui donne la douleur, crée aussi le remède. Il est possible de transmettre le message du Coran en entrant dans toutes les maisons avec un câble Internet !</p><p>Nous atteignons les cœurs ouverts à l'Islam dans le monde entier grâce à nos chaînes Youtube où nous publions du contenu en langues étrangères.</p>"
+    "SubTitle3": "Nous expliquons l'islam en 13 langues",
+    "SubTitle3Description": "<p>Le monde s'est beaucoup agrandi. Il est devenu difficile d'entrer physiquement dans chaque quartier et de transmettre le message de l'islam à chaque foyer.</p><p>Allah, qui donne la douleur, crée aussi le remède. Il est possible de transmettre le message du Coran en entrant dans toutes les maisons avec un câble Internet !</p><p>Nous atteignons les cœurs affamés d'islam dans le monde entier grâce à nos chaînes Youtube où nous publions du contenu en langues étrangères.</p>"
   },
   "Applications": {
     "Meta": {
-      "Title": "Nos applications mobiles"
+      "Title": "Nos applications"
     },
-    "Title": "Nos applications mobiles"
+    "Title": "Nos applications",
+    "AndroidDownload": "Télécharger",
+    "IosDownload": "Télécharger",
+    "DownloadDescription": "Vous pouvez télécharger gratuitement notre application à partir des boutons ci-dessous.",
+    "beste5v2": {
+      "name": "5te5 Namaz",
+      "definition": "Nous vous inscrivons à un programme de 40 jours pour prendre l'habitude de prier. Votre jardin s'embellira au fur et à mesure que vous ferez vos prières :)",
+      "title": "Application pour prendre l'habitude de prier pendant 40 jours",
+      "description": "<p>Il est impossible de réussir dans la lutte pour maintenir la religion debout sans sécuriser le pilier de la religion. Nous avons créé une excellente application pour aider les gens à assurer la continuité de la prière 5 fois par jour, qui est le commandement sur lequel l'islam insiste le plus !</p>"
+    },
+    "lamelif": {
+      "name": "Lamelif Coran",
+      "definition": "Vous pourrez apprendre le Coran et l'éducation au tajwid à partir de vidéos que nous avons soigneusement sélectionnées, tout en renforçant vos connaissances avec des exercices adaptés à votre niveau.",
+      "title": "Application d'apprentissage du Coran et du Tajwid",
+      "description": "<p>Apprendre le Coran est désormais beaucoup plus facile avec le programme d'éducation au Coran et au Tajwid Lamelif ! Cette application vous guidera pour apprendre à lire le Coran dans sa langue originale, conformément aux règles du tajwid. De plus, ce programme d'éducation est gratuit et sans publicité, vous pouvez donc profiter d'une expérience d'apprentissage ininterrompue.</p>"
+    },
+    "kopgit": {
+      "name": "Kopgit",
+      "definition": "Avez-vous du mal à lire le commentaire du Coran Risale-i Nur ? Kopgit a été préparé pour vous aider à prendre l'habitude de lire et à comprendre les sujets.",
+      "title": "Application de lecture du commentaire du Coran Risale-i Nur",
+      "description": "<p>Le plus grand et le plus complet projet de Towards Eternity : Kopgit. Nous avons préparé une application pour nos frères et sœurs qui souhaitent lire continuellement et en comprenant le sens et le commentaire du Coran.</p><p>Différents frères et sœurs de chaque ville sur Internet étudient leurs livres dans une madrasa dont le toit est le ciel. Notre application est également spécialement conçue pour nos frères et sœurs qui souhaitent lire Risale-i Nur à tous les niveaux. Une expérience de lecture assistée par vidéo est offerte aux débutants. Diverses vidéos, écrits et messages leur offrent une opportunité d'éducation polyvalente avec de nouvelles informations islamiques à chaque occasion.</p>"
+    },
+    "sunnah": {
+      "name": "Pusulam",
+      "title": "Mettre la Sunna en pratique",
+      "definition": "L'application Pusulam a été préparée pour ajouter étape par étape les sunnahs de notre Prophète (psl) à nos vies.",
+      "description": "<p>Avec l'application Pusulam, que nous avons préparée pour ajouter étape par étape les sunnahs de notre Prophète (psl) à nos vies, chacun de nous deviendra des individus qui pratiquent la sunnah de notre Prophète (psl), si Allah le veut.</p>"
+    }
   },
   "Contact": {
     "Meta": {
@@ -80,7 +107,7 @@
       "Name": "Votre nom",
       "NameEnter": "Entrez votre nom",
       "NameRequired": "Veuillez entrer votre nom",
-      "NameLength": "Votre nom doit comporter au moins 3 caractères",
+      "NameLength": "Votre nom doit contenir au moins 3 caractères",
       "Email": "Votre adresse e-mail",
       "EmailEnter": "Entrez votre adresse e-mail",
       "EmailRequired": "Veuillez entrer votre adresse e-mail",
@@ -90,7 +117,7 @@
       "Message": "Votre message",
       "MessageEnter": "Entrez votre message",
       "MessageRequired": "Veuillez entrer votre message",
-      "MessageLength": "Votre message doit comporter au moins 10 caractères",
+      "MessageLength": "Votre message doit contenir au moins 10 caractères",
       "Send": "Envoyer"
     },
     "Privacy": "En soumettant ce formulaire, je déclare accepter la <PrivacyPolicy>politique de confidentialité</PrivacyPolicy>.",
@@ -113,6 +140,6 @@
     "SharingPersonalDataDescription": "Vos données personnelles ne sont pas partagées avec des tiers, sauf en cas d'obligations légales.",
     "RightsPersonalDataOwner": "Droits du propriétaire des données personnelles",
     "RightsPersonalDataOwnerDescription": "En tant que propriétaire des données personnelles, vous disposez des droits suivants :",
-    "RightsPersonalDataOwnerDescriptionList": "<list>Savoir si vos données personnelles sont traitées ou non,</list><list>Si vos données personnelles ont été traitées, demander des informations à ce sujet,</list><list>Connaître la finalité du traitement de vos données personnelles et si elles sont utilisées conformément à leur finalité,</list><list>Connaître les tiers auxquels vos données personnelles sont transférées dans le pays ou à l'étranger,</list><list>Demander la suppression ou la destruction de vos données personnelles,</list><list>Vous opposer à l'émergence d'un résultat contre vous en analysant vos données personnelles via des systèmes automatisés,</list><list>Demander la réparation du préjudice en cas de dommage dû au traitement illégal de vos données personnelles.</list>"
+    "RightsPersonalDataOwnerDescriptionList": "<list>Savoir si vos données personnelles sont traitées ou non,</list><list>Si vos données personnelles ont été traitées, demander des informations à ce sujet,</list><list>Connaître la finalité du traitement de vos données personnelles et si elles sont utilisées conformément à leur finalité,</list><list>Connaître les tiers auxquels vos données personnelles sont transférées dans le pays ou à l'étranger,</list><list>Demander la suppression ou la destruction de vos données personnelles,</list><list>Vous opposer à l'apparition d'un résultat contre vous en analysant vos données personnelles via des systèmes automatisés,</list><list>Demander la réparation du préjudice en cas de dommage dû au traitement illégal de vos données personnelles.</list>"
   }
 }

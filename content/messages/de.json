@@ -37,11 +37,11 @@
       "title": "Towards Eternity",
       "description": "Towards Eternity | Sonsuz Ol | Youtube | Instagram"
     },
-    "intro": "Dies ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir zusammen mit Ihnen zu einer Social-Media-Plattform geworden, die islamische Inhalte in 13 Sprachen produziert.",
+    "intro": "Dies ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zu einer Social-Media-Plattform geworden, die islamische Inhalte in 13 Sprachen produziert.",
     "what-we-do-here": "Was machen wir hier?",
     "WhoWeAre": {
       "title": "Wer sind wir?",
-      "description": "Towards Eternity ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir zusammen mit Ihnen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
+      "description": "Towards Eternity ist ein offizieller Verein, der vor 13 Jahren gegründet wurde. In 13 Jahren sind wir mit Ihnen zu einer Social-Media-Plattform geworden, die <b>islamische Inhalte</b> in 13 Sprachen produziert.",
       "end": "Wir produzieren insgesamt 300 Videos pro Monat in ihren Sprachen."
     },
     "Youtube": {
@@ -59,18 +59,45 @@
       "Title": "Über Uns"
     },
     "Title": "Wir betreten alle Häuser mit einem Internetkabel und erzählen von unserem Herrn!",
-    "SubTitle1": "Eine Fabrik, die Videos für die Ummah produziert",
-    "SubTitle1Description": "Die Welt ist sehr groß geworden. Es ist schwierig geworden, physisch in jede Nachbarschaft zu gehen und die Botschaft des Islam in jedes Haus zu bringen. Allah, der das Leiden gibt, erschafft auch die Heilung. Es ist möglich, die Botschaft des Korans zu vermitteln, indem man mit einem Internetkabel alle Häuser betritt.",
+    "SubTitle1": "Wie eine Fabrik, die Videos für die Ummah produziert",
+    "SubTitle1Description": "Die Welt ist sehr groß geworden. Es ist schwierig geworden, physisch in jede Nachbarschaft zu gehen und die Botschaft des Islam in jedes Haus zu bringen. Allah, der das Leid gibt, erschafft auch die Heilung. Es ist möglich, die Botschaft des Korans zu vermitteln, indem man mit einem Internetkabel alle Häuser betritt.",
     "SubTitle2": "Wir geben klare Antworten auf alle Fragen, die einem in den Sinn kommen",
     "SubTitle2Description": "Wir bereiten Videos in verschiedenen Sprachen vor und erzählen als Gast in den Häusern über die Youtube-Plattform die Lektion, die wir aus dem Koran gelernt haben. Wir geben zufriedenstellende Antworten auf Glaubensfragen, die einem in den Sinn kommen.",
     "SubTitle3": "Wir erklären den Islam in 13 Sprachen",
-    "SubTitle3Description": "<p>Die Welt ist sehr groß geworden. Es ist schwierig geworden, physisch in jede Nachbarschaft zu gehen und die Botschaft des Islam in jedes Haus zu bringen.</p><p>Allah, der das Leiden gibt, erschafft auch die Heilung. Es ist möglich, die Botschaft des Korans zu vermitteln, indem man mit einem Internetkabel alle Häuser betritt! Wir erreichen mit unseren</p><p>Youtube-Kanälen, auf denen wir Inhalte in Fremdsprachen veröffentlichen, die nach Islam hungernden Herzen auf der ganzen Welt.</p>"
+    "SubTitle3Description": "<p>Die Welt ist sehr groß geworden. Es ist schwierig geworden, physisch in jede Nachbarschaft zu gehen und die Botschaft des Islam in jedes Haus zu bringen.</p><p>Allah, der das Leid gibt, erschafft auch die Heilung. Es ist möglich, die Botschaft des Korans zu vermitteln, indem man mit einem Internetkabel alle Häuser betritt! Wir erreichen mit unseren Youtube-Kanälen, auf denen wir Inhalte in Fremdsprachen veröffentlichen, die nach Islam hungernden Herzen auf der ganzen Welt.</p>"
   },
   "Applications": {
     "Meta": {
-      "Title": "Unsere Mobilen Apps"
+      "Title": "Unsere Apps"
     },
-    "Title": "Unsere Mobilen Apps"
+    "Title": "Unsere Apps",
+    "AndroidDownload": "Herunterladen",
+    "IosDownload": "Herunterladen",
+    "DownloadDescription": "Sie können unsere Anwendung kostenlos über die untenstehenden Schaltflächen herunterladen.",
+    "beste5v2": {
+      "name": "5te5 Namaz",
+      "definition": "Wir nehmen Sie in ein 40-tägiges Programm zur Entwicklung einer Gebetsgewohnheit auf. Während Sie Ihre Gebete verrichten, wird auch Ihr Garten schöner :)",
+      "title": "40-Tage-App zur Entwicklung einer Gebetsgewohnheit",
+      "description": "<p>Ohne die Säule der Religion zu sichern, kann der Kampf um die Aufrechterhaltung der Religion nicht erfolgreich sein. Wir haben eine großartige Anwendung entwickelt, die Menschen helfen wird, die Kontinuität ihrer 5-maligen Gebete zu gewährleisten, was das Gebot des Islam ist, auf das am meisten Wert gelegt wird!</p>"
+    },
+    "lamelif": {
+      "name": "Lamelif Koran",
+      "definition": "Sie werden den Koran und die Tajwid-Ausbildung aus den von uns sorgfältig ausgewählten Videos lernen und mit Übungen, die Ihrem Niveau entsprechen, festigen können.",
+      "title": "App zum Erlernen des Korans und der Tajwid-Regeln",
+      "description": "<p>Das Erlernen des Korans ist jetzt mit dem Lamelif Koran- und Tajwid-Ausbildungsprogramm viel einfacher! Diese Anwendung wird Sie anleiten, den Koran in seiner Originalsprache gemäß den Tajwid-Regeln zu lesen. Darüber hinaus ist dieses Ausbildungsprogramm kostenlos und werbefrei, sodass Sie ein ununterbrochenes Lernerlebnis genießen können.</p>"
+    },
+    "kopgit": {
+      "name": "Kopgit",
+      "definition": "Haben Sie Schwierigkeiten, die Werke des Koran-Tefsir Risale-i Nur zu lesen? Kopgit wurde entwickelt, um Ihnen zu helfen, eine Lesegewohnheit zu entwickeln und die Themen zu verstehen.",
+      "title": "App zum Lesen des Koran-Tefsir Risale-i Nur",
+      "description": "<p>Das größte und umfassendste Projekt von Towards Eternity: Kopgit. Wir haben eine Anwendung für unsere Brüder und Schwestern erstellt, die die Bedeutung und den Tefsir des Korans kontinuierlich und verständlich lesen möchten.</p><p>Über das Internet betrachten verschiedene Brüder und Schwestern aus jeder Stadt ihre Bücher in einer Madrasa mit dem Himmel als Dach. Unsere Anwendung wurde auch speziell für unsere Brüder und Schwestern entwickelt, die Risale-i Nur auf allen Ebenen lesen möchten. Für Anfänger wird ein videounterstütztes Leseerlebnis geboten. Mit verschiedenen Videos, Texten und Nachrichten bietet es ihnen bei jeder Gelegenheit eine vielseitige Ausbildung mit neuen islamischen Informationen.</p>"
+    },
+    "sunnah": {
+      "name": "Pusulam",
+      "title": "Die Sunnah ins Leben umsetzen",
+      "definition": "Die Pusulam-Anwendung wurde entwickelt, um die Sunnah unseres Propheten (a.s.m) Schritt für Schritt in unser Leben zu integrieren.",
+      "description": "<p>Mit der Pusulam-Anwendung, die wir vorbereitet haben, um die Sunnah unseres Propheten (a.s.m) Schritt für Schritt in unser Leben zu integrieren, werden wir alle Individuen sein, die die Sunnah unseres Propheten (a.s.m) praktizieren, so Gott will.</p>"
+    }
   },
   "Contact": {
     "Meta": {
@@ -102,17 +129,17 @@
     },
     "Title": "Datenschutzrichtlinie",
     "Description": "Als Towards Eternity legen wir Wert auf die Privatsphäre unserer Nutzer und ergreifen alle notwendigen Maßnahmen, um Ihre persönlichen Daten zu schützen. Diese Datenschutzrichtlinie erläutert, wie die persönlichen Daten, die wir über unser Kontaktformular sammeln, verwendet und geschützt werden.",
-    "CollectedPersonalDataTitle": "Erfasste Persönliche Daten",
+    "CollectedPersonalDataTitle": "Erfasste persönliche Daten",
     "CollectedPersonalDataDescription": "Wenn Sie das Kontaktformular ausfüllen, werden Ihre persönlichen Daten wie Ihr Name, Ihre E-Mail-Adresse, Ihre Telefonnummer und Ihre Nachricht erfasst.",
-    "PurposesUsingPersonalData": "Zwecke der Verwendung Persönlicher Daten",
+    "PurposesUsingPersonalData": "Zwecke der Verwendung persönlicher Daten",
     "PurposesUsingPersonalDataDescription": "Die von uns erfassten persönlichen Daten werden für folgende Zwecke verwendet:",
     "PurposesUsingPersonalDataDescriptionList": "<list>Beantwortung Ihrer Kontaktanfragen,</list><list>Beantwortung Ihrer Fragen,</list><list>Auswertung Ihres Feedbacks,</list><list>Kontaktaufnahme mit Ihnen bei Bedarf.</list>",
-    "ProtectionPersonalData": "Schutz Persönlicher Daten",
+    "ProtectionPersonalData": "Schutz persönlicher Daten",
     "ProtectionPersonalDataDescription": "Wir ergreifen alle notwendigen technischen und administrativen Maßnahmen, um die Sicherheit Ihrer persönlichen Daten zu gewährleisten. Ihre Daten werden vor unbefugtem Zugriff, Verlust, Veränderung oder Offenlegung geschützt.",
-    "SharingPersonalData": "Weitergabe Persönlicher Daten",
+    "SharingPersonalData": "Weitergabe persönlicher Daten",
     "SharingPersonalDataDescription": "Ihre persönlichen Daten werden außer bei gesetzlichen Verpflichtungen nicht an Dritte weitergegeben.",
-    "RightsPersonalDataOwner": "Rechte des Inhabers Persönlicher Daten",
+    "RightsPersonalDataOwner": "Rechte des Inhabers persönlicher Daten",
     "RightsPersonalDataOwnerDescription": "Als Inhaber persönlicher Daten haben Sie folgende Rechte:",
-    "RightsPersonalDataOwnerDescriptionList": "<list>Auskunft darüber, ob Ihre persönlichen Daten verarbeitet werden,</list><list>Auskunft über die Verarbeitung Ihrer persönlichen Daten zu verlangen, wenn diese verarbeitet wurden,</list><list>den Zweck der Verarbeitung Ihrer persönlichen Daten und ob diese ihrem Zweck entsprechend verwendet werden, zu erfahren,</list><list>die Dritten zu kennen, an die Ihre persönlichen Daten im In- oder Ausland übermittelt werden,</list><list>die Löschung oder Vernichtung Ihrer persönlichen Daten zu verlangen,</list><list>Widerspruch gegen das Ergebnis zu erheben, das durch die Analyse Ihrer persönlichen Daten ausschließlich über automatisierte Systeme gegen Sie entstanden ist,</list><list>Schadensersatz zu verlangen, wenn Sie aufgrund der rechtswidrigen Verarbeitung Ihrer persönlichen Daten einen Schaden erlitten haben.</list>"
+    "RightsPersonalDataOwnerDescriptionList": "<list>Auskunft darüber, ob Ihre personenbezogenen Daten verarbeitet werden,</list><list>Auskunft über die Verarbeitung Ihrer personenbezogenen Daten zu verlangen, wenn diese verarbeitet wurden,</list><list>Auskunft über den Zweck der Verarbeitung Ihrer personenbezogenen Daten und darüber, ob diese zweckentsprechend verwendet werden,</list><list>Kenntnis der Dritten, an die Ihre personenbezogenen Daten im In- oder Ausland übermittelt werden,</list><list>die Löschung oder Vernichtung Ihrer personenbezogenen Daten zu verlangen,</list><list>Widerspruch gegen das Ergebnis, das durch die Analyse Ihrer personenbezogenen Daten ausschließlich über automatisierte Systeme gegen Sie entstanden ist,</list><list>Schadensersatz zu verlangen, wenn Sie aufgrund der rechtswidrigen Verarbeitung Ihrer personenbezogenen Daten einen Schaden erleiden.</list>"
   }
 }

@@ -35,10 +35,10 @@
   "Home": {
     "Meta": {
       "title": "Towards Eternity",
-      "description": "Towards Eternity | Infinite Be | Youtube | Instagram"
+      "description": "Towards Eternity | Sonsuz Ol | Youtube | Instagram"
     },
     "intro": "This is an official association founded 13 years ago. In 13 years, we have become a social media platform that produces Islamic content in 13 languages with you.",
-    "what-we-do-here": "What Do We Do Here?",
+    "what-we-do-here": "What We Do Here?",
     "WhoWeAre": {
       "title": "Who Are We?",
       "description": "Towards Eternity is an official association founded 13 years ago. In 13 years, we have become a social media platform that produces <b>Islamic content</b> in 13 languages with you.",
@@ -58,36 +58,63 @@
     "Meta": {
       "Title": "About Us"
     },
-    "Title": "We Enter All Homes With An Internet Cable And Tell About Our Lord!",
+    "Title": "We Enter Every Home With An Internet Cable And Tell About Our Lord!",
     "SubTitle1": "Like A Factory Producing Videos For The Ummah",
-    "SubTitle1Description": "The world has grown a lot. It has become difficult to physically enter every neighborhood and deliver the message of Islam to every home. Allah, who gives the pain, also creates the cure. It is possible to deliver the message of the Quran by entering all homes with an internet cable.",
+    "SubTitle1Description": "The world has grown a lot. It has become difficult to physically enter every neighborhood and deliver the message of Islam to every home. Allah, who gives the pain, also creates the remedy. It is possible to deliver the message of the Quran by entering all homes with an internet cable.",
     "SubTitle2": "We Give Clear Answers To All Questions That Come To Mind",
-    "SubTitle2Description": "We explain the lesson we learned from the Quran by being guests in homes with the Youtube platform by preparing videos in various languages. We give satisfactory answers to the İmani questions that come to mind.",
+    "SubTitle2Description": "We explain the lesson we learned from the Quran by being guests in homes with the Youtube platform by preparing videos in various languages. We give satisfactory answers to the faith-related questions that come to mind.",
     "SubTitle3": "We Explain Islam In 13 Languages",
-    "SubTitle3Description": "<p>The world has grown a lot. It has become difficult to physically enter every neighborhood and deliver the message of Islam to every home.</p><p>Allah, who gives the pain, also creates the cure. It is possible to deliver the message of the Quran by entering all homes with an internet cable! We reach the hearts open to Islam all over the world with our</p><p>Youtube Channels where we publish content in foreign languages.</p>"
+    "SubTitle3Description": "<p>The world has grown a lot. It has become difficult to physically enter every neighborhood and deliver the message of Islam to every home.</p><p>Allah, who gives the pain, also creates the remedy. It is possible to deliver the message of the Quran by entering all homes with an internet cable! We reach out to hearts open to Islam all over the world with our</p><p>Youtube Channels where we publish content in foreign languages.</p>"
   },
   "Applications": {
     "Meta": {
-      "Title": "Our Mobile Applications"
+      "Title": "Applications"
     },
-    "Title": "Our Mobile Applications"
+    "Title": "Applications",
+    "AndroidDownload": "Download",
+    "IosDownload": "Download",
+    "DownloadDescription": "You can download our application for free from the buttons below.",
+    "beste5v2": {
+      "name": "5te5 Namaz",
+      "definition": "We are taking you to a 40-day Prayer Habit Acquisition program. As you perform your prayers, your garden will become more beautiful :)",
+      "title": "40-Day Prayer Habit Acquisition Application",
+      "description": "<p>It is impossible to succeed in the struggle to keep the religion alive without securing the pillar of the religion. We have created a wonderful application that will help people to maintain their 5-time prayer continuity, which is the command that Islam emphasizes the most!</p>"
+    },
+    "lamelif": {
+      "name": "Lamelif Quran",
+      "definition": "You will be able to learn the Quran and Tajwid education from the videos we have carefully selected, and you will be able to reinforce it with exercises according to your level.",
+      "title": "Quran and Tajwid Learning Application",
+      "description": "<p>Learning the Quran is now much easier with the Lamelif Quran and Tajwid Training Program! This application will guide you to read the Quran in its original language, in accordance with the rules of Tajwid. Moreover, this training program is free and ad-free, so you can have an uninterrupted learning experience.</p>"
+    },
+    "kopgit": {
+      "name": "Kopgit",
+      "definition": "Are you having trouble reading the Quran Tafsir Risale-i Nur works? Kopgit was prepared for you to gain a reading habit and understand the topics.",
+      "title": "Quran Tafsir Risale-i Nur Reading Application",
+      "description": "<p>Towards Eternity's largest and most comprehensive project: Kopgit. We have prepared an application for our brothers and sisters who want to read the meaning and commentary of the Quran continuously and understandingly.</p><p>Different brothers and sisters from every city on the internet are studying their books in a madrasah whose roof is the sky. Our application is also specially made for our brothers and sisters who want to read Risale-i Nur at all levels. A video-supported reading experience is offered for beginners. It provides them with a versatile education opportunity with various videos, articles and messages, accompanied by new Islamic information at every opportunity.</p>"
+    },
+    "sunnah": {
+      "name": "Pusulam",
+      "title": "Bringing Sunnah to Life",
+      "definition": "The Pusulam application has been prepared to gradually incorporate the Sunnahs of our Prophet (pbuh) into our lives.",
+      "description": "<p>With the Pusulam application, which we have prepared to gradually incorporate the Sunnahs of our Prophet (pbuh) into our lives, each of us will be individuals who practice the Sunnah of our Prophet (pbuh), inshallah.</p>"
+    }
   },
   "Contact": {
     "Meta": {
       "title": "Contact"
     },
     "Form": {
-      "Name": "Name",
+      "Name": "Your Name",
       "NameEnter": "Enter Your Name",
       "NameRequired": "Please enter your name",
       "NameLength": "Your name must be at least 3 characters",
-      "Email": "Email Address",
+      "Email": "Your Email Address",
       "EmailEnter": "Enter Your Email Address",
       "EmailRequired": "Please enter your email address",
       "EmailInvalid": "Invalid email address",
-      "Phone": "Phone Number",
+      "Phone": "Your Phone Number",
       "PhoneEnter": "Enter Your Phone Number",
-      "Message": "Message",
+      "Message": "Your Message",
       "MessageEnter": "Enter Your Message",
       "MessageRequired": "Please enter your message",
       "MessageLength": "Your message must be at least 10 characters",
@@ -102,17 +129,17 @@
     },
     "Title": "Privacy Policy",
     "Description": "As Towards Eternity, we care about the privacy of our users and take all necessary measures to protect your personal data. This privacy policy explains how the personal data we collect through our contact form is used and protected.",
-    "CollectedPersonalDataTitle": "Collected Personal Data",
+    "CollectedPersonalDataTitle": "Personal Data Collected",
     "CollectedPersonalDataDescription": "When you fill out the contact form, your personal data such as your name, e-mail address, phone number and message are collected.",
     "PurposesUsingPersonalData": "Purposes of Using Personal Data",
     "PurposesUsingPersonalDataDescription": "The personal data we collect is used for the following purposes:",
     "PurposesUsingPersonalDataDescriptionList": "<list>Responding to your contact requests,</list><list>Answering your questions,</list><list>Evaluating your feedback,</list><list>Contacting you when necessary.</list>",
     "ProtectionPersonalData": "Protection of Personal Data",
-    "ProtectionPersonalDataDescription": "We take all necessary technical and administrative measures to ensure the security of your personal data. Your data is protected against unauthorized access, loss, modification or disclosure.",
+    "ProtectionPersonalDataDescription": "We take all necessary technical and administrative measures to ensure the security of your personal data. Your data is protected against unauthorized access, loss, alteration or disclosure.",
     "SharingPersonalData": "Sharing of Personal Data",
     "SharingPersonalDataDescription": "Your personal data is not shared with third parties except for legal obligations.",
     "RightsPersonalDataOwner": "Rights of Personal Data Owner",
     "RightsPersonalDataOwnerDescription": "As a personal data owner, you have the following rights:",
-    "RightsPersonalDataOwnerDescriptionList": "<list>To learn whether your personal data is processed,</list><list>If your personal data has been processed, to request information regarding this,</list><list>To learn the purpose of processing your personal data and whether they are used in accordance with their purpose,</list><list>To know the third parties to whom your personal data is transferred domestically or abroad,</list><list>To request the deletion or destruction of your personal data,</list><list>To object to the occurrence of a result against you by analyzing your personal data through automated systems,</list><list>To demand compensation for the damage in case you suffer damage due to unlawful processing of your personal data.</list>"
+    "RightsPersonalDataOwnerDescriptionList": "<list>To learn whether your personal data is processed,</list><list>If your personal data has been processed, to request information regarding this,</list><list>To learn the purpose of processing your personal data and whether they are used in accordance with their purpose,</list><list>To know the third parties to whom your personal data is transferred domestically or abroad,</list><list>To request the deletion or destruction of your personal data,</list><list>To object to the occurrence of a result against you by analyzing your personal data through automatic systems,</list><list>To demand compensation for the damage in case you suffer damage due to unlawful processing of your personal data.</list>"
   }
 }

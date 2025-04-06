@@ -1,6 +1,7 @@
-import { TYoutubeChannels } from '@/types/TYoutubeChannel';
-import path from 'path';
 import { promises as fs } from 'fs';
+import path from 'path';
+
+import { TYoutubeChannels } from '@/types/TYoutubeChannel';
 
 export async function getYoutubeChannels(): Promise<TYoutubeChannels[]> {
   const youtubePath = path.join(

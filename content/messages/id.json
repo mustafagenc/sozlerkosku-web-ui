@@ -49,7 +49,7 @@
       "visit-the-channel": "Kunjungi Saluran"
     },
     "Donate": {
-      "title": "Jenis Donasi Apa yang Ingin Anda Lakukan?",
+      "title": "Jenis Donasi Apa yang Ingin Anda Berikan?",
       "regular": "Donasi Reguler",
       "one-time": "Donasi Sekali Waktu"
     }
@@ -58,19 +58,46 @@
     "Meta": {
       "Title": "Tentang Kami"
     },
-    "Title": "Kami Memasuki Semua Rumah dengan Kabel Internet dan Menceritakan tentang Tuhan Kami!",
+    "Title": "Kami Memperkenalkan Tuhan Kami dengan Memasuki Semua Rumah dengan Kabel Internet!",
     "SubTitle1": "Bagaikan Pabrik yang Memproduksi Video untuk Umat",
-    "SubTitle1Description": "Dunia telah menjadi sangat besar. Secara fisik, sulit untuk memasuki setiap lingkungan dan menyampaikan pesan Islam ke setiap rumah. Allah yang memberikan masalah juga menciptakan obatnya. Dimungkinkan untuk menyampaikan pesan Al-Qur'an dengan memasuki semua rumah dengan kabel internet.",
+    "SubTitle1Description": "Dunia telah menjadi sangat besar. Secara fisik, sulit untuk memasuki setiap lingkungan dan menyampaikan pesan Islam ke setiap rumah. Allah yang memberikan penyakit juga menciptakan obatnya. Dimungkinkan untuk menyampaikan pesan Al-Qur'an dengan memasuki semua rumah dengan kabel internet.",
     "SubTitle2": "Kami Memberikan Jawaban Jelas untuk Semua Pertanyaan yang Terlintas di Benak",
     "SubTitle2Description": "Kami menjelaskan pelajaran yang kami ambil dari Al-Qur'an dengan menjadi tamu di rumah-rumah melalui platform Youtube dengan menyiapkan video dalam berbagai bahasa. Kami memberikan jawaban yang memuaskan untuk pertanyaan-pertanyaan iman yang terlintas di benak.",
     "SubTitle3": "Kami Menjelaskan Islam dalam 13 Bahasa",
-    "SubTitle3Description": "<p>Dunia telah menjadi sangat besar. Secara fisik, sulit untuk memasuki setiap lingkungan dan menyampaikan pesan Islam ke setiap rumah.</p><p>Allah yang memberikan masalah juga menciptakan obatnya. Dimungkinkan untuk menyampaikan pesan Al-Qur'an dengan memasuki semua rumah dengan kabel internet! Kami menjangkau hati yang terbuka untuk Islam di seluruh dunia dengan Saluran Youtube kami tempat kami menerbitkan konten dalam bahasa asing.</p>"
+    "SubTitle3Description": "<p>Dunia telah menjadi sangat besar. Secara fisik, sulit untuk memasuki setiap lingkungan dan menyampaikan pesan Islam ke setiap rumah.</p><p>Allah yang memberikan penyakit juga menciptakan obatnya. Dimungkinkan untuk menyampaikan pesan Al-Qur'an dengan memasuki semua rumah dengan kabel internet! Kami menjangkau hati yang haus akan Islam di seluruh dunia dengan Saluran Youtube kami tempat kami menerbitkan konten dalam bahasa asing.</p>"
   },
   "Applications": {
     "Meta": {
-      "Title": "Aplikasi Seluler Kami"
+      "Title": "Aplikasi Kami"
     },
-    "Title": "Aplikasi Seluler Kami"
+    "Title": "Aplikasi Kami",
+    "AndroidDownload": "Unduh",
+    "IosDownload": "Unduh",
+    "DownloadDescription": "Anda dapat mengunduh aplikasi kami secara gratis dari tombol di bawah ini.",
+    "beste5v2": {
+      "name": "5te5 Namaz",
+      "definition": "Kami mengajak Anda ke program Memperoleh Kebiasaan Sholat selama 40 hari. Saat Anda melakukan sholat, taman Anda juga akan menjadi lebih indah :)",
+      "title": "Aplikasi Memperoleh Kebiasaan Sholat 40 Hari",
+      "description": "<p>Keberhasilan tidak dapat dicapai dalam perjuangan untuk menegakkan agama tanpa mengamankan pilar agama. Kami membuat aplikasi hebat untuk membantu orang melanjutkan sholat 5 waktu, yang merupakan perintah yang paling ditekankan oleh Islam!</p>"
+    },
+    "lamelif": {
+      "name": "Lamelif Quran",
+      "definition": "Anda akan dapat mempelajari Al-Qur'an dan Tajwid dari video yang kami pilih dengan cermat dan memperkuatnya dengan latihan sesuai dengan level Anda.",
+      "title": "Aplikasi Pembelajaran Al-Qur'an dan Tajwid",
+      "description": "<p>Mempelajari Al-Qur'an kini jauh lebih mudah dengan Program Pembelajaran Al-Qur'an dan Tajwid Lamelif! Aplikasi ini akan memandu Anda untuk membaca Al-Qur'an dalam bahasa aslinya, sesuai dengan aturan tajwid. Selain itu, program pelatihan ini gratis dan tanpa iklan, sehingga Anda dapat menikmati pengalaman belajar tanpa gangguan.</p>"
+    },
+    "kopgit": {
+      "name": "Kopgit",
+      "definition": "Apakah Anda kesulitan membaca Tafsir Al-Qur'an Risale-i Nur? Kopgit disiapkan untuk membantu Anda mendapatkan kebiasaan membaca dan memahami topik.",
+      "title": "Aplikasi Membaca Risale-i Nur Tafsir Al-Qur'an",
+      "description": "<p>Proyek terbesar dan terlengkap Towards Eternity: Kopgit. Kami telah menyiapkan aplikasi untuk saudara-saudara kami yang ingin membaca makna dan tafsir Al-Qur'an secara terus menerus dan dengan pemahaman.</p><p>Saudara-saudara kita yang berbeda dari setiap kota di internet sedang merenungkan buku-buku mereka di madrasah yang atapnya adalah langit. Aplikasi kami juga dibuat khusus untuk saudara-saudara kita yang ingin membaca Risale-i Nur di setiap tingkatan. Pengalaman membaca yang didukung video ditawarkan untuk pemula. Ia menyediakan pendidikan serbaguna bagi mereka dengan informasi Islami baru di setiap kesempatan dengan berbagai video, tulisan, dan pesan.</p>"
+    },
+    "sunnah": {
+      "name": "Pusulam",
+      "title": "Menerapkan Sunnah dalam Kehidupan",
+      "definition": "Aplikasi Pusulam disiapkan untuk menambahkan sunnah Nabi kita (saw) ke dalam hidup kita selangkah demi selangkah.",
+      "description": "<p>Dengan aplikasi Pusulam, yang telah kami siapkan untuk menambahkan sunnah Nabi kita (saw) ke dalam hidup kita selangkah demi selangkah, insya Allah kita masing-masing akan menjadi individu yang mengamalkan sunnah Nabi kita (saw).</p>"
+    }
   },
   "Contact": {
     "Meta": {
@@ -101,7 +128,7 @@
       "Title": "Kebijakan Privasi"
     },
     "Title": "Kebijakan Privasi",
-    "Description": "Sebagai Towards Eternity, kami peduli dengan privasi pengguna kami dan mengambil semua tindakan yang diperlukan untuk melindungi data pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana data pribadi yang kami kumpulkan melalui formulir kontak kami digunakan dan dilindungi.",
+    "Description": "Sebagai Towards Eternity, kami menghargai privasi pengguna kami dan mengambil semua tindakan yang diperlukan untuk melindungi data pribadi Anda. Kebijakan privasi ini menjelaskan bagaimana data pribadi yang kami kumpulkan melalui formulir kontak kami digunakan dan dilindungi.",
     "CollectedPersonalDataTitle": "Data Pribadi yang Dikumpulkan",
     "CollectedPersonalDataDescription": "Saat Anda mengisi formulir kontak, data pribadi Anda seperti nama, alamat email, nomor telepon, dan pesan Anda dikumpulkan.",
     "PurposesUsingPersonalData": "Tujuan Penggunaan Data Pribadi",
@@ -109,10 +136,10 @@
     "PurposesUsingPersonalDataDescriptionList": "<list>Menanggapi permintaan kontak Anda,</list><list>Menjawab pertanyaan Anda,</list><list>Mengevaluasi umpan balik Anda,</list><list>Menghubungi Anda jika perlu.</list>",
     "ProtectionPersonalData": "Perlindungan Data Pribadi",
     "ProtectionPersonalDataDescription": "Kami mengambil semua tindakan teknis dan administratif yang diperlukan untuk memastikan keamanan data pribadi Anda. Data Anda dilindungi dari akses tidak sah, kehilangan, perubahan, atau pengungkapan.",
-    "SharingPersonalData": "Pembagian Data Pribadi",
+    "SharingPersonalData": "Berbagi Data Pribadi",
     "SharingPersonalDataDescription": "Data pribadi Anda tidak dibagikan dengan pihak ketiga kecuali diwajibkan oleh hukum.",
     "RightsPersonalDataOwner": "Hak Pemilik Data Pribadi",
     "RightsPersonalDataOwnerDescription": "Sebagai pemilik data pribadi, Anda memiliki hak berikut:",
-    "RightsPersonalDataOwnerDescriptionList": "<list>Untuk mengetahui apakah data pribadi Anda sedang diproses atau tidak,</list><list>Untuk meminta informasi terkait jika data pribadi Anda telah diproses,</list><list>Untuk mempelajari tujuan pemrosesan data pribadi Anda dan apakah data tersebut digunakan sesuai dengan tujuannya atau tidak,</list><list>Untuk mengetahui pihak ketiga yang menjadi tempat data pribadi Anda ditransfer di dalam atau di luar negeri,</list><list>Untuk meminta data pribadi Anda dihapus atau dimusnahkan,</list><list>Untuk mengajukan keberatan terhadap munculnya hasil yang merugikan Anda dengan menganalisis data pribadi Anda melalui sistem otomatis,</list><list>Untuk meminta ganti rugi jika Anda menderita kerugian karena pemrosesan data pribadi Anda secara melanggar hukum.</list>"
+    "RightsPersonalDataOwnerDescriptionList": "<list>Mempelajari apakah data pribadi Anda diproses atau tidak,</list><list>Jika data pribadi Anda telah diproses, meminta informasi terkait hal ini,</list><list>Mempelajari tujuan pemrosesan data pribadi Anda dan apakah data tersebut digunakan sesuai dengan tujuannya atau tidak,</list><list>Mengetahui pihak ketiga yang menjadi tempat data pribadi Anda ditransfer di dalam atau di luar negeri,</list><list>Meminta agar data pribadi Anda dihapus atau dimusnahkan,</list><list>Mengajukan keberatan terhadap munculnya hasil yang merugikan Anda dengan menganalisis data pribadi Anda melalui sistem otomatis,</list><list>Meminta ganti rugi jika Anda mengalami kerugian karena pemrosesan data pribadi Anda secara melanggar hukum.</list>"
   }
 }

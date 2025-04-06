@@ -1,9 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { TApplication } from '@/types/TApplication';
-import Image from 'next/image';
 import { Play } from 'next/font/google';
+import Image from 'next/image';
+
+import { TApplication } from '@/types/TApplication';
 
 const play = Play({
   weight: ['700'],

@@ -1,7 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+
 import { TApplication } from '@/types/TApplication';
+
 import { AndroidButton } from './android-button';
 import { IosButton } from './ios-button';
 

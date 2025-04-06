@@ -1,9 +1,9 @@
 import { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 
 import { ApplicationCard } from '@/components/applications/application-card';
 import { getApplications } from '@/utils/applications';
-import { notFound } from 'next/navigation';
 import { env } from '@/utils/env';
 
 type Params = Promise<{ locale: string }>;

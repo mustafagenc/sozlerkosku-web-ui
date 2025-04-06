@@ -8,20 +8,20 @@
   },
   "Meta": {
     "title": "So'zlar Ko'shki",
-    "description": "So'zlar Ko'shki Ilm va Madaniyat Dernegi veb-sayti"
+    "description": "So'zlar Ko'shki Ilm va Madaniyat Jamiyati veb-sayti"
   },
   "Shared": {
     "Loading": "Yuklanmoqda...",
-    "ToggleTheme": "Temani o'zgartirish",
+    "ToggleTheme": "Mavzuni o'zgartirish",
     "phone": "Telefon",
-    "email": "E-pochta",
+    "email": "E-mail",
     "copyright": "So'zlar Ko'shki \u00A9 {date}"
   },
   "Languages": {
     "tr": "Turkcha",
     "en": "Inglizcha",
     "ar": "Arabcha",
-    "ur": "Urducha",
+    "ur": "Urdu",
     "id": "Indonezcha",
     "ru": "Ruscha",
     "es": "Ispancha",
@@ -37,11 +37,11 @@
       "title": "So'zlar Ko'shki",
       "description": "So'zlar Ko'shki | Sonsuz Ol | Youtube | Instagram"
     },
-    "intro": "Bu yer 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda Islomiy kontent yaratadigan ijtimoiy media platformasiga aylandik.",
+    "intro": "Bu 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda islomiy kontent yaratadigan ijtimoiy media platformasiga aylandik.",
     "what-we-do-here": "Bu yerda nima qilamiz?",
     "WhoWeAre": {
-      "title": "Biz kimmiz?",
-      "description": "So'zlar Ko'shki 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda <b>Islomiy kontent</b> yaratadigan ijtimoiy media platformasiga aylandik.",
+      "title": " Biz kimmiz?",
+      "description": "So'zlar Ko'shki 13 yil oldin tashkil etilgan rasmiy uyushma. 13 yilda siz bilan birga 13 tilda <b>islomiy kontent</b> yaratadigan ijtimoiy media platformasiga aylandik.",
       "end": "Tillarda oyiga jami 300 ta video ishlab chiqaramiz."
     },
     "Youtube": {
@@ -64,13 +64,40 @@
     "SubTitle2": "Aqlga kelgan barcha savollarga aniq javoblar beramiz",
     "SubTitle2Description": "Turli tillarda videolar tayyorlab, Youtube platformasi orqali uylarga mehmon bo'lib, Qur'ondan olgan darsimizni tushuntiramiz. Aqlga kelgan imoniy savollarga qoniqarli javoblar beramiz.",
     "SubTitle3": "13 tilda Islomni tushuntiramiz",
-    "SubTitle3Description": "<p>Dunyo juda katta bo'ldi. Jismonan har bir mahallaga kirib, har bir uyga Islom xabarini etkazish qiyinlashdi.</p><p>Dardni bergan Alloh davoni ham yaratadi. Internet kabeli orqali barcha uylarga kirish bilan Qur'onning xabarini etkazish mumkin! Chet tillarda kontentlar chop etadigan</p><p>Youtube kanallarimiz bilan dunyoning to'rt bir burchagida Islomga chanqoq qalblarga etib boramiz.</p>"
+    "SubTitle3Description": "<p>Dunyo juda katta bo'ldi. Jismonan har bir mahallaga kirib, har bir uyga Islom xabarini etkazish qiyinlashdi.</p><p>Dardni bergan Alloh davoni ham yaratadi. Internet kabeli orqali barcha uylarga kirish bilan Qur'onning xabarini etkazish mumkin! Chet tillarda kontentlar e'lon qiladigan</p><p>Youtube kanallarimiz bilan dunyoning to'rt bir burchagida Islomga chanqoq qalblarga etib boramiz.</p>"
   },
   "Applications": {
     "Meta": {
-      "Title": "Mobil ilovalarimiz"
+      "Title": "Ilovalarimiz"
     },
-    "Title": "Mobil ilovalarimiz"
+    "Title": "Ilovalarimiz",
+    "AndroidDownload": "Yuklab olish",
+    "IosDownload": "Yuklab olish",
+    "DownloadDescription": "Quyidagi tugmalardan ilovamizni bepul yuklab olishingiz mumkin.",
+    "beste5v2": {
+      "name": "5te5 Namoz",
+      "definition": "Sizni 40 kunlik Namoz Odatini Qozonish dasturiga olamiz. Siz namozlaringizni o'qiganingiz sayin bog'ingiz ham go'zallashadi :)",
+      "title": "40 kunlik Namoz Odatini Qozonish Ilovasi",
+      "description": "<p>Dinning ustunini mustahkamlamasdan dinni oyoqda tutish kurashida muvaffaqiyatga erishib bo'lmaydi. Islomning eng ko'p urg'u bergan amri bo'lgan namoz borasida insonlarning namozga 5 vaqt davomli bo'lishini ta'minlash uchun ularga yordam beradigan ajoyib bir ilova qildik!</p>"
+    },
+    "lamelif": {
+      "name": "Lamelif Qur'on",
+      "definition": "Qur'oni Karim va Tajvid ta'limini ehtiyotkorlik bilan tanlagan videolarimizdan o'rganar ekansiz, darajangizga ko'ra mashqlar bilan mustahkamlashingiz mumkin bo'ladi.",
+      "title": "Qur'oni Karim va Tajvid O'rganish Ilovasi",
+      "description": "<p>Qur'oni Karimni o'rganish endi Lamelif Qur'on va Tajvid Ta'limi Dasturi bilan ancha oson! Bu ilova sizga Qur'oni Karimning asl tilida, tajvid qoidalariga muvofiq holda o'qishni o'rgatish uchun qo'llanma bo'ladi. Ustiga-ustak bu ta'lim dasturi bepul va reklamasizdir, shunday qilib uzluksiz bir o'rganish tajribasini yashashingiz mumkin.</p>"
+    },
+    "kopgit": {
+      "name": "Kopgit",
+      "definition": "Qur'on Tafsiri Risola-i Nur asarlarini o'qishda qiynalyapsizmi? Kopgit, o'qish odatini qozonishingiz va mavzularni tushunishingiz uchun tayyorlandi.",
+      "title": "Qur'on Tafsiri Risola-i Nur O'qish Ilovasi",
+      "description": "<p>So'zlar Ko'shki'ning eng katta va keng qamrovli loyihasi: Kopgit. Qur'onning ma'nosini va tafsirini davomli ravishda va tushunib o'qishni istagan birodarlarimiz uchun bir ilova tayyorladik.</p><p>Internet orqali har shahardan turli xil birodarlarimiz, tomi osmon bo'lgan bir madrasada oldida kitoblarini mutolaa qilmoqdalar. Ilovamiz shuningdek har darajadagi Risola-i Nur o'qishni istagan birodarlarimiz uchun maxsus qilingan. Yangi boshlaganlar uchun video qo'llab-quvvatlangan bir o'qish tajribasi taqdim etiladi. turli xil video, yozuv va xabarlar bilan har fursatda Islomiy yangi ma'lumotlar eşliğinde ularga ko'p tomonlama bir ta'lim imkoniyatini ta'minlaydi.</p>"
+    },
+    "sunnah": {
+      "name": "Pusulam",
+      "title": "Sunnatni Hayotga Tatbiq Etish",
+      "definition": "Pusulam ilovasi, Payg'ambarimizning (a.s.m) sunnatlarini qadam-baqadam hayotimizga kiritish uchun tayyorlangan.",
+      "description": "<p>Payg'ambarimizning (a.s.m) sunnatlarini qadam-baqadam hayotimizga kiritish uchun tayyorlagan bo'lgan Pusulam ilovasi bilan har birimiz Payg'ambarimizning (a.s.m) sunnatini tatbiq etadigan shaxslar bo'lamiz inshaallah.</p>"
+    }
   },
   "Contact": {
     "Meta": {
@@ -80,39 +107,39 @@
       "Name": "Ismingiz",
       "NameEnter": "Ismingizni kiriting",
       "NameRequired": "Ismingizni kiriting",
-      "NameLength": "Ismingiz kamida 3 ta belgidan iborat bo'lishi kerak",
-      "Email": "E-pochta manzilingiz",
-      "EmailEnter": "E-pochta manzilingizni kiriting",
-      "EmailRequired": "E-pochta manzilingizni kiriting",
-      "EmailInvalid": "Noto'g'ri e-pochta manzili",
+      "NameLength": "Ismingiz kamida 3 ta harf bo'lishi kerak",
+      "Email": "E-mail manzilingiz",
+      "EmailEnter": "E-mail manzilingizni kiriting",
+      "EmailRequired": "E-mail manzilingizni kiriting",
+      "EmailInvalid": "Yaroqsiz e-mail manzili",
       "Phone": "Telefon raqamingiz",
       "PhoneEnter": "Telefon raqamingizni kiriting",
       "Message": "Xabaringiz",
       "MessageEnter": "Xabaringizni kiriting",
       "MessageRequired": "Xabaringizni kiriting",
-      "MessageLength": "Xabaringiz kamida 10 ta belgidan iborat bo'lishi kerak",
-      "Send": "Jo'natish"
+      "MessageLength": "Xabaringiz kamida 10 ta harf bo'lishi kerak",
+      "Send": "Yuborish"
     },
-    "Privacy": "Ushbu formani yuborish orqali <PrivacyPolicy>maxfiylik siyosatini</PrivacyPolicy> qabul qilganimni tasdiqlayman.",
+    "Privacy": "Bu formani yuborish orqali <PrivacyPolicy>maxfiylik siyosatini</PrivacyPolicy> qabul qilganimni bildiraman.",
     "Title": "Aloqa"
   },
   "PrivacyPolicy": {
     "Meta": {
-      "Title": "Maxfiylik siyosati"
+      "Title": "Maxfiylik Siyosati"
     },
-    "Title": "Maxfiylik siyosati",
-    "Description": "So'zlar Ko'shki sifatida biz foydalanuvchilarimizning maxfiyligini qadrlaymiz va shaxsiy ma'lumotlaringizni himoya qilish uchun barcha zarur choralarni ko'ramiz. Ushbu maxfiylik siyosati, aloqa formamiz orqali to'plagan shaxsiy ma'lumotlarning qanday ishlatilishi va himoya qilinishini tushuntiradi.",
-    "CollectedPersonalDataTitle": "To'plangan shaxsiy ma'lumotlar",
-    "CollectedPersonalDataDescription": "Aloqa formasini to'ldirganingizda, ismingiz, e-pochta manzilingiz, telefon raqamingiz va xabaringiz kabi shaxsiy ma'lumotlaringiz to'planadi.",
-    "PurposesUsingPersonalData": "Shaxsiy ma'lumotlardan foydalanish maqsadlari",
-    "PurposesUsingPersonalDataDescription": "To'plagan shaxsiy ma'lumotlar quyidagi maqsadlarda ishlatiladi:",
-    "PurposesUsingPersonalDataDescriptionList": "<list>Aloqa so'rovlaringizga javob berish,</list><list>Savollaringizga javob berish,</list><list>Fikr-mulohazalaringizni baholash,</list><list>Zarur hollarda siz bilan bog'lanish.</list>",
-    "ProtectionPersonalData": "Shaxsiy ma'lumotlarni himoya qilish",
-    "ProtectionPersonalDataDescription": "Shaxsiy ma'lumotlaringizning xavfsizligini ta'minlash uchun barcha zarur texnik va ma'muriy choralarni ko'ramiz. Ma'lumotlaringiz ruxsatsiz kirish, yo'qolish, o'zgartirish yoki oshkor qilishdan himoyalangan.",
-    "SharingPersonalData": "Shaxsiy ma'lumotlarni baham ko'rish",
-    "SharingPersonalDataDescription": "Shaxsiy ma'lumotlaringiz, qonuniy majburiyatlar bundan mustasno, uchinchi tomonlar bilan baham ko'rilmaydi.",
-    "RightsPersonalDataOwner": "Shaxsiy ma'lumotlar egasining huquqlari",
-    "RightsPersonalDataOwnerDescription": "Shaxsiy ma'lumotlar egasi sifatida siz quyidagi huquqlarga egasiz:",
-    "RightsPersonalDataOwnerDescriptionList": "<list>Shaxsiy ma'lumotlaringizning qayta ishlangan yoki ishlanmaganligini bilish,</list><list>Shaxsiy ma'lumotlaringiz qayta ishlangan bo'lsa, bu haqda ma'lumot talab qilish,</list><list>Shaxsiy ma'lumotlaringizni qayta ishlash maqsadini va ularning maqsadga muvofiq ishlatilganligini bilish,</list><list>Shaxsiy ma'lumotlaringizning yurt ichida yoki chet elda o'tkazilgan uchinchi shaxslarni bilish,</list><list>Shaxsiy ma'lumotlaringizni o'chirish yoki yo'q qilishni talab qilish,</list><list>Shaxsiy ma'lumotlaringizni avtomatik tizimlar orqali tahlil qilish natijasida sizga qarshi natija chiqishiga e'tiroz bildirish,</list><list>Shaxsiy ma'lumotlaringizni qonunga xilof ravishda qayta ishlash sababli zarar ko'rgan bo'lsangiz, zararni qoplashni talab qilish.</list>"
+    "Title": "Maxfiylik Siyosati",
+    "Description": "So'zlar Ko'shki sifatida, foydalanuvchilarimizning maxfiyligini qadrlaymiz va shaxsiy ma'lumotlaringizni himoya qilish uchun zarur bo'lgan barcha choralarni ko'ramiz. Bu maxfiylik siyosati, aloqa formamiz orqali to'plagan shaxsiy ma'lumotlarning qanday ishlatilishini va himoya qilinishini tushuntiradi.",
+    "CollectedPersonalDataTitle": "To'plangan Shaxsiy Ma'lumotlar",
+    "CollectedPersonalDataDescription": "Aloqa formasini to'ldirganingizda, ismingiz, e-mail manzilingiz, telefon raqamingiz va xabaringiz kabi shaxsiy ma'lumotlaringiz to'planadi.",
+    "PurposesUsingPersonalData": "Shaxsiy Ma'lumotlarning Ishlatilish Maqsadlari",
+    "PurposesUsingPersonalDataDescription": "To'plagan shaxsiy ma'lumotlar, quyidagi maqsadlarda ishlatiladi:",
+    "PurposesUsingPersonalDataDescriptionList": "<list>Aloqa talablaringizga javob berish,</list><list>Savollaringizga javob berish,</list><list>Fikr-mulohazalaringizni baholash,</list><list>Zarur bo'lgan hollarda siz bilan aloqaga chiqish.</list>",
+    "ProtectionPersonalData": "Shaxsiy Ma'lumotlarning Himoyasi",
+    "ProtectionPersonalDataDescription": "Shaxsiy ma'lumotlaringizning xavfsizligini ta'minlash uchun zarur bo'lgan barcha texnik va ma'muriy choralarni ko'ramiz. Ma'lumotlaringiz, ruxsatsiz kirishga, yo'qolishga, o'zgartirilishga yoki oshkor qilinishga qarshi himoyalanadi.",
+    "SharingPersonalData": "Shaxsiy Ma'lumotlarning Ulashilishi",
+    "SharingPersonalDataDescription": "Shaxsiy ma'lumotlaringiz, qonuniy majburiyatlar tashqarisida uchinchi tomonlar bilan ulashilmaydi.",
+    "RightsPersonalDataOwner": "Shaxsiy Ma'lumotlar Egasi Huquqlari",
+    "RightsPersonalDataOwnerDescription": "Shaxsiy ma'lumotlar egasi sifatida, quyidagi huquqlarga egasiz:",
+    "RightsPersonalDataOwnerDescriptionList": "<list>Shaxsiy ma'lumotlaringizning ishlanib ishlanmaganligini bilish,</list><list>Shaxsiy ma'lumotlaringiz ishlangan bo'lsa, bunga tegishli ma'lumot talab qilish,</list><list>Shaxsiy ma'lumotlaringizning ishlash maqsadini va ularning maqsadga muvofiq ishlatilib ishlatilmaganligini bilish,</list><list>Shaxsiy ma'lumotlaringizning yurt ichida yoki yurt tashqarisida o'tkazilgan uchinchi shaxslarni bilish,</list><list>Shaxsiy ma'lumotlaringizning o'chirilishini yoki yo'q qilinishini so'rash,</list><list>Shaxsiy ma'lumotlaringizning avtomatik tizimlar vositasi bilan tahlil qilinishi natijasida sizga qarshi bir natijaning kelib chiqishiga e'tiroz bildirish,</list><list>Shaxsiy ma'lumotlaringizning qonunga xilof ravishda ishlanishi sababli zararga uchrashingiz holatida zararning qoplanishini talab qilish.</list>"
   }
 }
