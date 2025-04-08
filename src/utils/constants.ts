@@ -1,5 +1,6 @@
 import {
   BiLogoFacebookCircle,
+  BiLogoGithub,
   BiLogoInstagram,
   BiLogoPatreon,
   BiLogoSpotify,
@@ -67,6 +68,11 @@ export const socials = [
     name: 'telegram',
     url: 'https://t.me/sozlerkoskuresmi',
     icon: BiLogoTelegram,
+  },
+  {
+    name: 'github',
+    url: 'https://github.com/sozlerkosku',
+    icon: BiLogoGithub,
   },
   {
     name: 'patreon',
