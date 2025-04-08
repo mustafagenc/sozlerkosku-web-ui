@@ -11,6 +11,8 @@ import {
 } from 'react-icons/bi';
 
 export const PUBLIC_MAIL = 'eposta@mustafagenc.info';
+export const SHARE_URL = 'https://sozlerkosku-share.vercel.app/';
+
 export const ROUTES = ['', '/about', '/applications', '/contact', '/privacy'];
 
 export const NAV_LINKS = [
