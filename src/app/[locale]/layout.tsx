@@ -27,7 +27,6 @@ export async function generateMetadata(): Promise<Metadata> {
   const imageData = {
     images: [{ url: env.SITE_URL + '/images/sozler-kosku-hero.jpg' }],
   };
-
   return {
     metadataBase: new URL(env.SITE_URL),
     title: {

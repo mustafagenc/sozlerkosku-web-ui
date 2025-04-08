@@ -23,13 +23,13 @@ export const Intro = () => {
           </p>
         </div>
         <div className="flex flex-col lg:flex-row items-center justify-center gap-4 mt-6 lg:mt-0">
-          <Link
-            href="/#who-are-we"
-            scroll={true}
+          <a
+            href="#who-are-we"
+            data-controller="scroll-to"
             className="border-1 border-orange-500 bg-orange-500 text-white hover:bg-orange-500 hover:text-white py-3 px-6 rounded-full text-lg ml-4"
           >
             {t('WhoWeAre.title')}
-          </Link>
+          </a>
           <Link
             href="/about"
             className="border-1 border-orange-500 bg-white text-orange-500 hover:bg-orange-500 hover:text-white py-2 px-6 rounded-full text-lg ml-4"
