@@ -23,7 +23,7 @@ function PushNotificationManager() {
     null
   );
   const [message, setMessage] = useState('');
-
+  console.log(isSupported);
   useEffect(() => {
     if ('serviceWorker' in navigator && 'PushManager' in window) {
       setIsSupported(true);
@@ -66,29 +66,29 @@ function PushNotificationManager() {
     }
   }
 
-  //   return (
-  //     <div>
-  //       <h3>Push Notifications</h3>
-  //       {subscription ? (
-  //         <>
-  //           <p>You are subscribed to push notifications.</p>
-  //           <button onClick={unsubscribeFromPush}>Unsubscribe</button>
-  //           <input
-  //             type="text"
-  //             placeholder="Enter notification message"
-  //             value={message}
-  //             onChange={(e) => setMessage(e.target.value)}
-  //           />
-  //           <button onClick={sendTestNotification}>Send Test</button>
-  //         </>
-  //       ) : (
-  //         <>
-  //           <p>You are not subscribed to push notifications.</p>
-  //           <button onClick={subscribeToPush}>Subscribe</button>
-  //         </>
-  //       )}
-  //     </div>
-  //   );
+  return (
+    <div>
+      <h3>Push Notifications</h3>
+      {subscription ? (
+        <>
+          <p>You are subscribed to push notifications.</p>
+          <button onClick={unsubscribeFromPush}>Unsubscribe</button>
+          <input
+            type="text"
+            placeholder="Enter notification message"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+          />
+          <button onClick={sendTestNotification}>Send Test</button>
+        </>
+      ) : (
+        <>
+          <p>You are not subscribed to push notifications.</p>
+          <button onClick={subscribeToPush}>Subscribe</button>
+        </>
+      )}
+    </div>
+  );
   return <> </>;
 }
 
@@ -109,27 +109,27 @@ function InstallPrompt() {
     return null; // Don't show install button if already installed
   }
 
-  //   return (
-  //     <div>
-  //       <h3>Install App</h3>
-  //       <button>Add to Home Screen</button>
-  //       {isIOS && (
-  //         <p>
-  //           To install this app on your iOS device, tap the share button
-  //           <span role="img" aria-label="share icon">
-  //             {' '}
-  //             ⎋{' '}
-  //           </span>
-  //           and then &quot;Add to Home Screen&quot;
-  //           <span role="img" aria-label="plus icon">
-  //             {' '}
-  //             ➕{' '}
-  //           </span>
-  //           .
-  //         </p>
-  //       )}
-  //     </div>
-  //   );
+  return (
+    <div>
+      <h3>Install App</h3>
+      <button>Add to Home Screen</button>
+      {isIOS && (
+        <p>
+          To install this app on your iOS device, tap the share button
+          <span role="img" aria-label="share icon">
+            {' '}
+            ⎋{' '}
+          </span>
+          and then &quot;Add to Home Screen&quot;
+          <span role="img" aria-label="plus icon">
+            {' '}
+            ➕{' '}
+          </span>
+          .
+        </p>
+      )}
+    </div>
+  );
   return <> </>;
 }
 export default function Pwa() {
