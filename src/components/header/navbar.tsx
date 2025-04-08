@@ -11,7 +11,6 @@ import { Donate } from './donate';
 import { LocaleSwitcher } from './locale-switcher';
 import { NavbarMobile } from './navbar-mobile';
 import { ThemeToggle } from './theme-toggle';
-import { ShareButton } from './share-button';
 
 export const Navbar = () => {
   const pathName = usePathname();
