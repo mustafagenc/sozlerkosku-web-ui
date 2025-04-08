@@ -63,7 +63,6 @@ export const Navbar = () => {
           <div className="flex items-center space-x-4">
             <LocaleSwitcher />
             <ThemeToggle />
-            <ShareButton />
             <Donate />
           </div>
         </div>
