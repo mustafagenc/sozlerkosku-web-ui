@@ -8,6 +8,10 @@
 [Report Bug](https://github.com/sozlerkosku/sozlerkosku-web-ui/issues) ·
 [Request Feature](https://github.com/sozlerkosku/sozlerkosku-web-ui/issues)
 
+## 💻 Mockup
+
+![Mockup](https://raw.githubusercontent.com/sozlerkosku/sozlerkosku-web-ui/refs/heads/main/content/mockups.png)
+
 ## 🪄 Stack
 
 - [`Next.js`](https://nextjs.org/)
