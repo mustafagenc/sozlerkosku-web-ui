@@ -1,5 +1,4 @@
 import type { MetadataRoute } from 'next';
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
 export default async function manifest(): Promise<MetadataRoute.Manifest> {

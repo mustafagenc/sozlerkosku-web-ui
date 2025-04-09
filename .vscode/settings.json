@@ -1,13 +1,10 @@
 {
-	"editor.minimap.enabled": false,
-	"i18n-ally.localesPaths": [
-		"./content/messages"
-	],
-	"i18n-ally.keystyle": "nested",
-	"i18n-ally.sourceLanguage": "tr",
-	"editor.formatOnSave": true,
-	"editor.formatOnPaste": false,
-	"prettier.useEditorConfig": false,
-	"prettier.useTabs": false,
-	"prettier.configPath": ".prettierrc"
+    "i18n-ally.localesPaths": ["./content/messages"],
+    "i18n-ally.keystyle": "nested",
+    "i18n-ally.sourceLanguage": "tr",
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "prettier.useEditorConfig": false,
+    "prettier.useTabs": false
 }
