@@ -1,8 +1,12 @@
 'use server';
 
-import webpush from 'web-push';
+import {
+  setVapidDetails,
+  sendNotification as wpSendNotification,
+  PushSubscription,
+} from 'web-push';
 
-webpush.setVapidDetails(
+setVapidDetails(
   'https://sozlerkosku.vercel.app',
   process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY!,
   process.env.VAPID_PRIVATE_KEY!
@@ -30,7 +34,7 @@ export async function sendNotification(message: string) {
   }
 
   try {
-    await webpush.sendNotification(
+    await wpSendNotification(
       subscription,
       JSON.stringify({
         title: 'Test Notification',
