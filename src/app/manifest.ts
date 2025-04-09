@@ -1,9 +1,9 @@
 import type { MetadataRoute } from 'next';
 import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
-export default function manifest(): MetadataRoute.Manifest {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const t = useTranslations();
+export default async function manifest(): Promise<MetadataRoute.Manifest> {
+  const t = await getTranslations();
   return {
     name: t('Meta.title'),
     short_name: 'SK',
