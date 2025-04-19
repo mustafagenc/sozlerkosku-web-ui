@@ -12,6 +12,8 @@ import { routing } from '@/i18n/routing';
 import Providers from '@/providers/providers';
 import { env } from '@/utils/env';
 
+import { GoogleTagManager } from '@next/third-parties/google';
+
 import type { Metadata } from 'next';
 import { FlagOfPalestine } from '@/components/footer/flag-of-palestine';
 
@@ -74,6 +76,7 @@ export default async function RootLayout({
       suppressHydrationWarning={true}
       className="scroll-smooth"
     >
+      <GoogleTagManager gtmId="GTM-W9C2HVWV" />
       <body
         className={`${poppins.variable} mx-auto flex flex-col min-h-screen antialiased`}
       >

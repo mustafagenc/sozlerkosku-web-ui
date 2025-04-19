@@ -36,8 +36,8 @@ export const WhoWeAre = () => {
           <Image
             src="/images/genclik-merkezi-anasayfa.jpg"
             alt="Intro"
-            width={400}
-            height={400}
+            width={1256}
+            height={837}
             className="rounded-3xl object-cover w-full lg:h-160 shadow"
             priority
           />

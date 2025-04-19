@@ -11,7 +11,7 @@ export const Intro = () => {
     <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">
       <div className="flex flex-col justify-center text-center w-full">
         <div>
-          <h1 className="mb-4 no-underline text-7xl font-bold dark:text-gray-200">
+          <h1 className="mb-4 no-underline text-7xl font-bold dark:text-gray-200 text-shadow-sm">
             {t('Meta.title')}
           </h1>
         </div>
@@ -41,8 +41,8 @@ export const Intro = () => {
           <Image
             src="/images/sozler-kosku-hero.jpg"
             alt="Intro"
-            width={500}
-            height={500}
+            width={2448}
+            height={816}
             className="mt-20 mb-8 w-7xl rounded-3xl object-cover object-center"
             priority
           />

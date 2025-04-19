@@ -67,8 +67,8 @@ export default function Page() {
               <Image
                 src="/images/m5a0143-1256x837.jpg"
                 alt="Intro"
-                width={400}
-                height={400}
+                width={1256}
+                height={837}
                 className="rounded-3xl object-cover w-full lg:h-100 shadow"
                 priority
               />
@@ -90,8 +90,8 @@ export default function Page() {
               <Image
                 src="/images/sozler-kosku-video-800x600.jpg"
                 alt="Intro"
-                width={400}
-                height={400}
+                width={800}
+                height={600}
                 className="rounded-3xl object-cover w-full lg:h-100 shadow"
                 priority
               />

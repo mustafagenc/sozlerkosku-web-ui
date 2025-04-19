@@ -120,8 +120,8 @@ export default async function Page(props: { params: Params }) {
               <Image
                 src={application.image}
                 alt={t(`Applications.${applicationName}.name`)}
-                width={400}
-                height={400}
+                width={1916}
+                height={1277}
                 className="rounded-3xl object-cover w-full lg:h-100 shadow"
                 priority
               />

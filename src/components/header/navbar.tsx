@@ -40,7 +40,7 @@ export const Navbar = () => {
                 width={96}
                 height={96}
               />
-              <div className="text-2xl tracking-tight	font-semibold ml-4 hidden lg:flex">
+              <div className="text-2xl tracking-tight	font-semibold ml-4 hidden lg:flex text-shadow-xs">
                 {t('Meta.title')}
               </div>
               <div className="flex lg:hidden">
