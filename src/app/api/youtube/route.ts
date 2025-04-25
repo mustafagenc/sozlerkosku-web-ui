@@ -1,6 +1,7 @@
+import { NextRequest } from 'next/server';
+
 import youtubeService from '@/utils/apis/youtube';
 import { YOUTUBE_CHANNELS } from '@/utils/constants';
-import { NextRequest } from 'next/server';
 
 export async function GET(request: NextRequest) {
   const authHeader = request.headers.get('authorization');
@@ -16,10 +17,15 @@ export async function GET(request: NextRequest) {
         ? channel
         : channel.split('/').pop() || '';
 
-      //await getChannelSubscribers(channelHandle);
-      return channelHandle;
+      const subscribers = await getChannelSubscribers(channelHandle);
+      return {
+        channel: channelHandle,
+        subscribers: subscribers,
+      };
     })
   );
+
+  console.log(channelSubscribers);
 
   return Response.json({ success: true });
 }

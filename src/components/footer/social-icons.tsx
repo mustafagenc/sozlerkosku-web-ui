@@ -1,5 +1,7 @@
-import { socials } from '@/utils/constants';
 import Link from 'next/link';
+
+import { socials } from '@/utils/constants';
+
 import { InfoTooltip } from '../shared/info-tooltip';
 
 export const SocialIcons = () => {

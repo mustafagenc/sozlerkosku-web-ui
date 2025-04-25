@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/navigation';
 import { NAV_LINKS } from '@/utils/constants';
+
 import { SocialIcons } from './social-icons';
 
 export const Footer = () => {
