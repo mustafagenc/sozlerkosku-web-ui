@@ -39,6 +39,22 @@ export const locales = [
   { id: 'uz', name: 'Oʻzbek', flag: '/flags/uz.svg' },
 ];
 
+export const YOUTUBE_CHANNELS: string[] = [
+  '@sozlerkosku',
+  '@TowardsEternity',
+  '@TowardsEternityArabic',
+  '@TowardsEternityUrduHindi',
+  '@TowardsEternityFrancais',
+  '@TowardsEternityEspanol',
+  '@TowardsEternityRussian',
+  '@TowardsEternityIndonesian',
+  '@TEBangla',
+  '@TowardsEternity-Hindi',
+  '@TowardsEternityDeutsch',
+  '@TowardsEternity-Uzbek',
+  '@TowardsEternityPersian',
+];
+
 export const socials = [
   {
     name: 'youtube',
