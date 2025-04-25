@@ -15,7 +15,7 @@ export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
   const locale = await getLocale();
 
   const subscriberNumber = subscribers.toLocaleString(locale, {
-    maximumFractionDigits: 1,
+    maximumFractionDigits: 2,
     notation: 'compact',
     compactDisplay: 'short',
   });
@@ -26,9 +26,7 @@ export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
         <h5 className="text-5xl lg:text-6xl font-bold text-orange-400">
           {subscriberNumber}
         </h5>
-        <p className="text-3xl font-bold text-foreground">
-          {t(`Languages.${name}`)}
-        </p>
+        <p className="text-3xl font-bold text-foreground"></p>
         <div className="flex items-center gap-1 hover:text-foreground hover:transition">
           <a
             href={url}

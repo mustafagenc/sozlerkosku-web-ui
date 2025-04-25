@@ -1,13 +1,17 @@
 import { getTranslations } from 'next-intl/server';
 
-import { getYoutubeChannels } from '@/utils/youtube';
-
 import { YoutubeCard } from './youtube-card';
 
-export const Youtube = async () => {
+interface YoutubeProps {
+  channelSubscribers: {
+    channel: string;
+    subscribers: string;
+  }[];
+}
+
+export const Youtube = async ({ channelSubscribers }: YoutubeProps) => {
   const t = await getTranslations('Home.Youtube');
-  const youtubeChannels = await getYoutubeChannels();
-  if (!youtubeChannels) throw new Error(`Youtube data not found`);
+  
   return (
     <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased">
       <div className="flex flex-col justify-center items-center text-center w-full">
@@ -19,8 +23,15 @@ export const Youtube = async () => {
           </h2>
         </div>
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-          {youtubeChannels.map((channel) => (
-            <YoutubeCard key={channel.name} metadata={channel} />
+          {channelSubscribers.map((channel) => (
+            <YoutubeCard 
+              key={channel.channel} 
+              metadata={{
+                name: channel.channel,
+                url: `https://www.youtube.com/${channel.channel}`,
+                subscribers: parseInt(channel.subscribers)
+              }} 
+            />
           ))}
         </div>
       </div>
