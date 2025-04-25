@@ -15,7 +15,7 @@ export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
   const locale = await getLocale();
 
   const subscriberNumber = subscribers.toLocaleString(locale, {
-    maximumFractionDigits: 1,
+    maximumFractionDigits: 2,
     notation: 'compact',
     compactDisplay: 'short',
   });

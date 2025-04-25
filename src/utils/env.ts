@@ -11,6 +11,7 @@ export const env = createEnv({
       .min(1, { message: 'Email is required.' })
       .email('Invalid email.'),
     RESEND_AUDIENCE_ID: z.string().min(1),
+    GOOGLE_API_KEY: z.string().min(1),
   },
   client: {},
   runtimeEnv: {
@@ -18,5 +19,6 @@ export const env = createEnv({
     RESEND_API_KEY: process.env.RESEND_API_KEY,
     RESEND_FROM_EMAIL: process.env.RESEND_FROM_EMAIL,
     RESEND_AUDIENCE_ID: process.env.RESEND_AUDIENCE_ID,
+    GOOGLE_API_KEY: process.env.GOOGLE_API_KEY,
   },
 });
