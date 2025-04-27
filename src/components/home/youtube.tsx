@@ -1,6 +1,7 @@
 import { prisma } from '@/utils/client';
 import { getTranslations } from 'next-intl/server';
 import { YoutubeCard } from './youtube-card';
+import { TYoutubeChannels } from '@/types/TYoutubeChannel';
 
 export const Youtube = async () => {
   const t = await getTranslations('Home.Youtube');
@@ -26,7 +27,7 @@ export const Youtube = async () => {
           </h2>
         </div>
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-          {channels.map((channel) => (
+          {channels.map((channel: TYoutubeChannels) => (
             <YoutubeCard key={channel.id} metadata={channel} />
           ))}
         </div>
