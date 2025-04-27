@@ -12,4 +12,7 @@ model YoutubeChannels {
   name String  @unique
   lang  String
   subscribers Int
+  videoCount Int
+  viewCount Int
+  hiddenSubscriberCount Boolean
 }

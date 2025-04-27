@@ -3,9 +3,8 @@
 import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { AiOutlineGlobal } from 'react-icons/ai';
+import { Globe, Loader } from 'lucide-react';
 
-import { Loader } from '@/components/icons/loader';
 import { Button } from '@/components/ui/button';
 import {
   DropdownMenu,
@@ -50,7 +49,7 @@ export const LocaleSwitcher = () => {
           variant="ghost"
           className="text-gray-500 hover:text-gray-700"
         >
-          <AiOutlineGlobal className="h-5 w-5" />
+          <Globe className="h-5 w-5" />
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>

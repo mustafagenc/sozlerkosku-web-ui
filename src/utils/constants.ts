@@ -39,20 +39,59 @@ export const locales = [
   { id: 'uz', name: 'Oʻzbek', flag: '/flags/uz.svg' },
 ];
 
-export const YOUTUBE_CHANNELS: string[] = [
-  '@sozlerkosku',
-  '@TowardsEternity',
-  '@TowardsEternityArabic',
-  '@TowardsEternityUrduHindi',
-  '@TowardsEternityFrancais',
-  '@TowardsEternityEspanol',
-  '@TowardsEternityRussian',
-  '@TowardsEternityIndonesian',
-  '@TEBangla',
-  '@TowardsEternity-Hindi',
-  '@TowardsEternityDeutsch',
-  '@TowardsEternity-Uzbek',
-  '@TowardsEternityPersian',
+export const YOUTUBE_CHANNELS: { lang: string; name: string }[] = [
+  {
+    lang: 'tr',
+    name: '@sozlerkosku',
+  },
+  {
+    lang: 'en',
+    name: '@TowardsEternity',
+  },
+  {
+    lang: 'ar',
+    name: '@TowardsEternityArabic',
+  },
+  {
+    lang: 'ur',
+    name: '@TowardsEternityUrduHindi',
+  },
+  {
+    lang: 'fr',
+    name: '@TowardsEternityFrancais',
+  },
+  {
+    lang: 'es',
+    name: '@TowardsEternityEspanol',
+  },
+  {
+    lang: 'ru',
+    name: '@TowardsEternityRussian',
+  },
+  {
+    lang: 'id',
+    name: '@TowardsEternityIndonesian',
+  },
+  {
+    lang: 'bn',
+    name: '@TEBangla',
+  },
+  {
+    lang: 'hi',
+    name: '@TowardsEternity-Hindi',
+  },
+  {
+    lang: 'de',
+    name: '@TowardsEternityDeutsch',
+  },
+  {
+    lang: 'uz',
+    name: '@TowardsEternity-Uzbek',
+  },
+  {
+    lang: 'fa',
+    name: '@TowardsEternityPersian',
+  },
 ];
 
 export const socials = [

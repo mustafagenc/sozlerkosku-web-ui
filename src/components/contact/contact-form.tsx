@@ -3,8 +3,8 @@
 import { useTranslations } from 'next-intl';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { toast } from 'sonner';
+import { Loader } from 'lucide-react';
 
-import { Loader } from '@/components/icons/loader';
 import { Button } from '@/components/ui/button';
 import {
   Form,

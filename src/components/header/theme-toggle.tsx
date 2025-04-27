@@ -3,9 +3,8 @@
 import { useTranslations } from 'next-intl';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
-import { AiOutlineMoon, AiOutlineSun } from 'react-icons/ai';
+import { Moon, Sun, Loader } from 'lucide-react';
 
-import { Loader } from '@/components/icons/loader';
 import { Button } from '@/components/ui/button';
 
 export const ThemeToggle = () => {
@@ -28,9 +27,9 @@ export const ThemeToggle = () => {
 
   const ToggleThemeIcon =
     resolvedTheme === 'light' ? (
-      <AiOutlineMoon className="h-5 w-5" />
+      <Moon className="h-5 w-5" />
     ) : (
-      <AiOutlineSun className="h-5 w-5" />
+      <Sun className="h-5 w-5" />
     );
   return (
     <Button

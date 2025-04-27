@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import { AiOutlineMenu } from 'react-icons/ai';
+import { Menu, Loader } from 'lucide-react';
 
 import {
   Popover,
@@ -11,8 +11,6 @@ import {
 } from '@/components/ui/popover';
 import { Link } from '@/i18n/navigation';
 import { NAV_LINKS } from '@/utils/constants';
-
-import { Loader } from '../icons/loader';
 import { Button } from '../ui/button';
 
 export function NavbarMobile() {
@@ -36,7 +34,7 @@ export function NavbarMobile() {
   return (
     <Popover open={isOpen} onOpenChange={setIsOpen}>
       <PopoverTrigger onClick={() => setIsOpen((prev) => !prev)}>
-        <AiOutlineMenu className="size-6 font-bold cursor-pointer text-gray-500 hover:text-gray-700" />
+        <Menu className="size-6 font-bold cursor-pointer text-gray-500 hover:text-gray-700" />
       </PopoverTrigger>
 
       <PopoverContent

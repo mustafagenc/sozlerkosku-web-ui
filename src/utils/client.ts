@@ -9,3 +9,9 @@ export const prisma =
   });
 
 if (process.env.NODE_ENV !== 'production') globalForPrisma.prisma = prisma;
+
+export const youtubeChannels = await prisma.youtubeChannels.findMany({
+  orderBy: {
+    subscribers: 'desc',
+  },
+});
