@@ -1,13 +1,19 @@
+import { prisma } from '@/utils/client';
 import { getTranslations } from 'next-intl/server';
-
-import { getYoutubeChannels } from '@/utils/youtube';
-
 import { YoutubeCard } from './youtube-card';
 
 export const Youtube = async () => {
   const t = await getTranslations('Home.Youtube');
-  const youtubeChannels = await getYoutubeChannels();
-  if (!youtubeChannels) throw new Error(`Youtube data not found`);
+
+  const channels = await prisma.youtubeChannels.findMany({
+    orderBy: {
+      subscribers: 'desc',
+    },
+  });
+
+  if (!channels) {
+    return '';
+  }
 
   return (
     <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased">
@@ -20,8 +26,8 @@ export const Youtube = async () => {
           </h2>
         </div>
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
-          {youtubeChannels.map((channel) => (
-            <YoutubeCard key={channel.name} metadata={channel} />
+          {channels.map((channel) => (
+            <YoutubeCard key={channel.id} metadata={channel} />
           ))}
         </div>
       </div>

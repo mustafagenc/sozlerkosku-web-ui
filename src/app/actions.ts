@@ -1,7 +1,9 @@
 'use server';
 
 import {
-    PushSubscription, sendNotification as wpSendNotification, setVapidDetails
+  PushSubscription,
+  sendNotification as wpSendNotification,
+  setVapidDetails,
 } from 'web-push';
 
 setVapidDetails(

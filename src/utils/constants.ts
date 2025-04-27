@@ -1,6 +1,13 @@
 import {
-    BiLogoFacebookCircle, BiLogoGithub, BiLogoInstagram, BiLogoPatreon, BiLogoSpotify,
-    BiLogoTelegram, BiLogoTiktok, BiLogoTwitter, BiLogoYoutube
+  BiLogoFacebookCircle,
+  BiLogoGithub,
+  BiLogoInstagram,
+  BiLogoPatreon,
+  BiLogoSpotify,
+  BiLogoTelegram,
+  BiLogoTiktok,
+  BiLogoTwitter,
+  BiLogoYoutube,
 } from 'react-icons/bi';
 
 export const PUBLIC_MAIL = 'eposta@mustafagenc.info';

@@ -10,7 +10,7 @@ interface YoutubeCardProps {
 }
 
 export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
-  const { name, url, subscribers } = metadata;
+  const { name, lang, subscribers } = metadata;
   const t = await getTranslations();
   const locale = await getLocale();
 
@@ -27,11 +27,11 @@ export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
           {subscriberNumber}
         </h5>
         <p className="text-3xl font-bold text-foreground">
-          {t(`Languages.${name}`)}
+          {t(`Languages.${lang}`)}
         </p>
         <div className="flex items-center gap-1 hover:text-foreground hover:transition">
           <a
-            href={url}
+            href={`https://youtube.com/${name}`}
             target="_blank"
             className="text-xl text-orange-400 hover:underline"
           >

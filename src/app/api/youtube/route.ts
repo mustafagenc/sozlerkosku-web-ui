@@ -2,6 +2,7 @@ import { NextRequest } from 'next/server';
 
 import youtubeService from '@/utils/apis/youtube';
 import { YOUTUBE_CHANNELS } from '@/utils/constants';
+import { PrismaClient } from '@prisma/client';
 
 export async function GET(request: NextRequest) {
   const authHeader = request.headers.get('authorization');
@@ -11,13 +12,31 @@ export async function GET(request: NextRequest) {
     });
   }
 
-  const channelSubscribers = await Promise.all(
+  const prisma = new PrismaClient();
+  prisma.$connect();
+
+  await Promise.all(
     YOUTUBE_CHANNELS.map(async (channel) => {
       const channelHandle = channel.includes('@')
         ? channel
         : channel.split('/').pop() || '';
 
       const subscribers = await getChannelSubscribers(channelHandle);
+
+      await prisma.youtubeChannels.upsert({
+        where: {
+          name: channel,
+        },
+        update: {
+          subscribers: parseInt(subscribers),
+        },
+        create: {
+          name: channel,
+          lang: 'tr',
+          subscribers: parseInt(subscribers),
+        },
+      });
+
       return {
         channel: channelHandle,
         subscribers: subscribers,
@@ -25,7 +44,7 @@ export async function GET(request: NextRequest) {
     })
   );
 
-  console.log(channelSubscribers);
+  prisma.$disconnect();
 
   return Response.json({ success: true });
 }
