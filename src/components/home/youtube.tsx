@@ -20,7 +20,7 @@ export const Youtube = async () => {
             })}
           </h2>
         </div>
-        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-14 mt-10">
           {youtubeChannels.map((channel: TYoutubeChannel) => (
             <YoutubeCard key={channel.id} metadata={channel} />
           ))}
