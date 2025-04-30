@@ -39,58 +39,117 @@ export const locales = [
   { id: 'uz', name: 'Oʻzbek', flag: '/flags/uz.svg' },
 ];
 
-export const YOUTUBE_CHANNELS: { lang: string; name: string }[] = [
+export const YOUTUBE_CHANNELS: {
+  lang: string;
+  name: string;
+  id: string;
+  defaultSubs: number;
+  defaultVideos: number;
+  defaultView: number;
+}[] = [
   {
     lang: 'tr',
     name: '@sozlerkosku',
+    id: 'UCN5t14BCdTIQ-116TxJuBMg',
+    defaultSubs: 4380000,
+    defaultVideos: 882,
+    defaultView: 861082173,
   },
   {
     lang: 'en',
     name: '@TowardsEternity',
+    id: 'UCPubBVDCzu7IWWnitlkEsNw',
+    defaultSubs: 2730000,
+    defaultVideos: 790,
+    defaultView: 402563155,
   },
   {
     lang: 'ar',
     name: '@TowardsEternityArabic',
+    id: 'UCgTGCJjooFkpX1FOzoLsjVw',
+    defaultSubs: 1110000,
+    defaultVideos: 700,
+    defaultView: 112609824,
   },
   {
     lang: 'ur',
     name: '@TowardsEternityUrduHindi',
+    id: 'UCgN5eQUn0eciX4JoaV8PrLg',
+    defaultSubs: 698000,
+    defaultVideos: 566,
+    defaultView: 64779424,
   },
   {
     lang: 'fr',
     name: '@TowardsEternityFrancais',
+    id: 'UCBvhgS9IWN1fVaUjeF_D_SQ',
+    defaultSubs: 223000,
+    defaultVideos: 450,
+    defaultView: 21660390,
   },
   {
     lang: 'es',
     name: '@TowardsEternityEspanol',
+    id: 'UC_iQV4qC9D-_yaHTrOMA61w',
+    defaultSubs: 37600,
+    defaultVideos: 125,
+    defaultView: 4827151,
   },
   {
     lang: 'ru',
     name: '@TowardsEternityRussian',
+    id: 'UC-sp5a6FjwCeVL80dWyyzYg',
+    defaultSubs: 425000,
+    defaultVideos: 470,
+    defaultView: 91612439,
   },
   {
     lang: 'id',
     name: '@TowardsEternityIndonesian',
+    id: 'UCpkeqRS00JaweS8lpqRKWYw',
+    defaultSubs: 706000,
+    defaultVideos: 551,
+    defaultView: 75765934,
   },
   {
     lang: 'bn',
     name: '@TEBangla',
+    id: 'UCLHhk-N4E_SsehT83_1g-Ww',
+    defaultSubs: 831000,
+    defaultVideos: 288,
+    defaultView: 75121257,
   },
   {
     lang: 'hi',
     name: '@TowardsEternity-Hindi',
+    id: 'UCXobZaU5MGSD9tdZIZC5lIw',
+    defaultSubs: 18300,
+    defaultVideos: 123,
+    defaultView: 1260011,
   },
   {
     lang: 'de',
     name: '@TowardsEternityDeutsch',
+    id: 'UCXgw5eMqrQ-CsJG6kMNTJUg',
+    defaultSubs: 36200,
+    defaultVideos: 283,
+    defaultView: 3673272,
   },
   {
     lang: 'uz',
     name: '@TowardsEternity-Uzbek',
+    id: 'UC8rFHt55QcgqcuNxtFU4C5Q',
+    defaultSubs: 30900,
+    defaultVideos: 125,
+    defaultView: 3557062,
   },
   {
     lang: 'fa',
     name: '@TowardsEternityPersian',
+    id: 'UCIQmsB2MW_nExgNb-tkVrrA',
+    defaultSubs: 4070,
+    defaultVideos: 114,
+    defaultView: 360538,
   },
 ];
 
