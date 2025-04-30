@@ -1,9 +1,9 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import Image from 'next/image';
-
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
+import ImageSlider from './image-slider';
 
 export const Intro = () => {
   const t = useTranslations('Home');
@@ -37,7 +37,7 @@ export const Intro = () => {
             {t('what-we-do-here')}
           </Link>
         </div>
-        <div>
+        <div className="hidden lg:block">
           <Image
             src="/images/sozler-kosku-hero.jpg"
             alt="Intro"
@@ -46,6 +46,9 @@ export const Intro = () => {
             className="mt-20 mb-8 w-full rounded-3xl object-cover object-center h-100"
             priority
           />
+        </div>
+        <div className="lg:hidden">
+          <ImageSlider />
         </div>
       </div>
     </section>

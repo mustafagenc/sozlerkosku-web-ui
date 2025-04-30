@@ -8,6 +8,8 @@ import {
   BiLogoTiktok,
   BiLogoTwitter,
   BiLogoYoutube,
+  BiLogoPlayStore,
+  BiLogoApple,
 } from 'react-icons/bi';
 
 export const PUBLIC_MAIL = 'eposta@mustafagenc.info';
@@ -186,14 +188,24 @@ export const socials = [
     icon: BiLogoTelegram,
   },
   {
+    name: 'patreon',
+    url: 'https://www.patreon.com/towardseternity',
+    icon: BiLogoPatreon,
+  },
+  {
     name: 'github',
     url: 'https://github.com/sozlerkosku',
     icon: BiLogoGithub,
   },
   {
-    name: 'patreon',
-    url: 'https://www.patreon.com/towardseternity',
-    icon: BiLogoPatreon,
+    name: 'googleplay',
+    url: 'https://play.google.com/store/apps/developer?id=Fatih+Ya%C4%9Fc%C4%B1',
+    icon: BiLogoPlayStore,
+  },
+  {
+    name: 'appstore',
+    url: 'https://apps.apple.com/tr/developer/s%C3%B6zler-k%C3%B6%C5%9Fk%C3%BC/id1782541070',
+    icon: BiLogoApple,
   },
 ];
 

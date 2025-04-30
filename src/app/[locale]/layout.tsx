@@ -9,12 +9,12 @@ import { getLangDir } from 'rtl-detect';
 import { FlagOfPalestine } from '@/components/footer/flag-of-palestine';
 import { Footer } from '@/components/footer/footer';
 import { Navbar } from '@/components/header/navbar';
-import { routing } from '@/i18n/routing';
 import Providers from '@/providers/providers';
 import { env } from '@/utils/env';
 import { GoogleTagManager } from '@next/third-parties/google';
 
 import type { Metadata } from 'next';
+import { routing } from '@/i18n/routing';
 const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
   variable: '--font-poppins',
