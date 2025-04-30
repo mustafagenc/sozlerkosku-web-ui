@@ -1,9 +1,10 @@
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 
 import { Card, CardContent } from '@/components/ui/card';
 import { getContactData } from '@/utils/contact';
 
 export const Contact = async () => {
+  const locale = await getLocale();
   const t = await getTranslations();
   const contactData = await getContactData();
   if (!contactData) throw new Error(`Contact data not found`);
@@ -39,7 +40,7 @@ export const Contact = async () => {
             <CardContent className="p-0 m-0">
               <iframe
                 className="w-full h-50 rounded-3xl"
-                src={contactData.googlemap}
+                src={`${contactData.googlemap}&hl=${locale}`}
               ></iframe>
             </CardContent>
           </Card>

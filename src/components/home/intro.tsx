@@ -43,7 +43,7 @@ export const Intro = () => {
             alt="Intro"
             width={2448}
             height={816}
-            className="mt-20 mb-8 w-7xl rounded-3xl object-cover object-center"
+            className="mt-20 mb-8 w-full rounded-3xl object-cover object-center h-100"
             priority
           />
         </div>
