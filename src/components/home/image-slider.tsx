@@ -1,7 +1,6 @@
 'use client';
 import { useState, useEffect, JSX } from 'react';
-import Image from 'next/image';
-import { StaticImageData } from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import image1 from '@/public/images/slider/1.jpg';
 import image2 from '@/public/images/slider/2.jpg';
 import image3 from '@/public/images/slider/3.jpg';
@@ -58,8 +57,12 @@ export default function ImageSlider(): JSX.Element {
     <div className="relative w-full mx-auto mt-20 mb-8">
       <div
         className="relative h-[460px] group"
-        onMouseOver={handleMouseOver}
-        onMouseLeave={handleMouseLeave}
+        onMouseOver={() => {
+          handleMouseOver();
+        }}
+        onMouseLeave={() => {
+          handleMouseLeave();
+        }}
       >
         <Image
           src={images[currentIndex].src}

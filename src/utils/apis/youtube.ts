@@ -33,11 +33,11 @@ const getChannelDetails = async (channelHandle: string) => {
 
     if (response.data.items && response.data.items.length > 0) {
       const subscriberCount =
-        response.data.items[0].statistics?.subscriberCount || '0';
-      const videoCount = response.data.items[0].statistics?.videoCount || '0';
-      const viewCount = response.data.items[0].statistics?.viewCount || '0';
+        response.data.items[0].statistics?.subscriberCount ?? '0';
+      const videoCount = response.data.items[0].statistics?.videoCount ?? '0';
+      const viewCount = response.data.items[0].statistics?.viewCount ?? '0';
       const hiddenSubscriberCount =
-        response.data.items[0].statistics?.hiddenSubscriberCount || false;
+        response.data.items[0].statistics?.hiddenSubscriberCount ?? false;
 
       return {
         name: channelHandle,

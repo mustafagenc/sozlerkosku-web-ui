@@ -18,15 +18,15 @@ export async function GET(request: NextRequest) {
     YOUTUBE_CHANNELS.map(async (channel) => {
       const channelDetail = await getChannelDetails(channel.id);
 
-      let subscribers = parseInt(channelDetail?.subscribers || '0');
+      let subscribers = parseInt(channelDetail?.subscribers ?? '0');
       if (subscribers < 1000) {
         subscribers = channel.defaultSubs;
       }
-      let videoCount = parseInt(channelDetail?.videoCount || '0');
+      let videoCount = parseInt(channelDetail?.videoCount ?? '0');
       if (videoCount < 100) {
         videoCount = channel.defaultVideos;
       }
-      let viewCount = parseInt(channelDetail?.viewCount || '0');
+      let viewCount = parseInt(channelDetail?.viewCount ?? '0');
       if (viewCount < 1000) {
         viewCount = channel.defaultView;
       }

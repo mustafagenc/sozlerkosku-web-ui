@@ -1,9 +1,9 @@
 {
-    "buildCommand": "prisma generate && next build",
-    "crons": [
-        {
-            "path": "/api/youtube",
-            "schedule": "0 1 * * *"
-        }
-    ]
+  "buildCommand": "prisma generate --no-engine && next build",
+  "crons": [
+    {
+      "path": "/api/youtube",
+      "schedule": "0 1 * * *"
+    }
+  ]
 }
