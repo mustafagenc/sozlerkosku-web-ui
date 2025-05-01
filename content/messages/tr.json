@@ -141,5 +141,43 @@
     "RightsPersonalDataOwner": "Kişisel Veri Sahibinin Hakları",
     "RightsPersonalDataOwnerDescription": "Kişisel veri sahibi olarak, aşağıdaki haklara sahipsiniz:",
     "RightsPersonalDataOwnerDescriptionList": "<list>Kişisel verilerinizin işlenip işlenmediğini öğrenme,</list><list>Kişisel verileriniz işlenmişse, buna ilişkin bilgi talep etme,</list><list>Kişisel verilerinizin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme,</list><list>Kişisel verilerinizin yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme,</list><list>Kişisel verilerinizin silinmesini veya yok edilmesini isteme,</list><list>Kişisel verilerinizin otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme,</list><list>Kişisel verilerinizin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme.</list>"
+  },
+  "Gallery": {
+    "Title": "Burası Bir Medrese",
+    "Description": "Sözler Köşkü'nün online mecralarının yanı sıra, sohbetlerine katılabileceğiniz bir mekanı da var. Bizi gün içerisinde de ziyaret edebilir belli günlerde yapılan sohbetlerimize katılabilirsiniz!"
+  },
+  "Blog": {
+    "Meta": {
+      "Title": "Blog"
+    },
+    "ReadMore": "Devamını Oku",
+    "MerakEdilenler": {
+      "Meta": {
+        "Title": "Sözler Köşkü Hakkında En Çok Merak Ettikleriniz"
+      },
+      "Title": "Sözler Köşkü Hakkında En Çok Merak Ettikleriniz",
+      "Description": "Sözler Köşkü Nedir, Neden kuruldu, Sözler Köşkü nerede gibi merak ettiğiniz bir çok sorunun cevabını burada bulabilirsiniz..."
+    },
+    "DavaOkulu": {
+      "Meta": {
+        "Title": "Sözler Köşkü Dava Okulu"
+      },
+      "Title": "Dava Okulu",
+      "Description": "Dava Okulu, kendini sıkı bir İslami eğitime tabi tutmak isteyen ve iman hakikatlerini öğrenmek isteyen kardeşlerimiz için tasarlanmış bir haftalık eğitim programıdır...."
+    },
+    "RoportajEkibi": {
+      "Meta": {
+        "Title": "Sözler Köşkü Röportaj Ekibi Sokaklarda"
+      },
+      "Title": "Sözler Köşkü Röportaj Ekibi Sokaklarda",
+      "Description": "İslam – Ateizm – Deizm konularını konuşmak için bu hafta yine sokak röportajındaydık. Bir çok kardeşimizle konuşma fırsatımız oldu..."
+    },
+    "GenclikMerkezimiz": {
+      "Meta": {
+        "Title": "Sözler Köşkü Gençlik Merkezi"
+      },
+      "Title": "Sözler Köşkü Gençlik Merkezi",
+      "Description": "Aynı anda çok daha fazla video çekebileceğimiz daha büyük bir stüdyoya ihtiyacımız var. Ve biz de alan derinliği gibi daha iyi teknik özelliklere sahip...."
+    }
   }
 }
