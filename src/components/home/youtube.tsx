@@ -1,7 +1,9 @@
-import { youtubeChannels } from '@/utils/client';
 import { getTranslations } from 'next-intl/server';
-import { YoutubeCard } from './youtube-card';
+
 import { TYoutubeChannel } from '@/types/TYoutubeChannel';
+import { youtubeChannels } from '@/utils/client';
+
+import { YoutubeCard } from './youtube-card';
 
 export const Youtube = async () => {
   const t = await getTranslations('Home.Youtube');

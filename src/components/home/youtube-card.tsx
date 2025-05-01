@@ -1,9 +1,8 @@
+import { Eye, MoveUpRight, SquarePlay } from 'lucide-react';
 import { getLocale, getTranslations } from 'next-intl/server';
 
 import { Card, CardContent } from '@/components/ui/card';
 import { TYoutubeChannel } from '@/types/TYoutubeChannel';
-
-import { MoveUpRight, Eye, SquarePlay } from 'lucide-react';
 
 interface YoutubeCardProps {
   metadata: TYoutubeChannel;

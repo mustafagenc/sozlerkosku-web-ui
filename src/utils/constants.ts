@@ -1,21 +1,24 @@
 import {
-  BiLogoFacebookCircle,
-  BiLogoGithub,
-  BiLogoInstagram,
-  BiLogoPatreon,
-  BiLogoSpotify,
-  BiLogoTelegram,
-  BiLogoTiktok,
-  BiLogoTwitter,
-  BiLogoYoutube,
-  BiLogoPlayStore,
-  BiLogoApple,
+    BiLogoApple, BiLogoFacebookCircle, BiLogoGithub, BiLogoInstagram, BiLogoPatreon,
+    BiLogoPlayStore, BiLogoSpotify, BiLogoTelegram, BiLogoTiktok, BiLogoTwitter, BiLogoYoutube
 } from 'react-icons/bi';
 
 export const PUBLIC_MAIL = 'eposta@mustafagenc.info';
 export const SHARE_URL = 'https://sozlerkosku-share.vercel.app/';
+export const DAVA_OKULU_URL =
+  'https://docs.google.com/forms/d/e/1FAIpQLSfOa5RylyYQ17cuL1NFnVl5GajMybNUeiYLLja7ZTzETSeIpA/viewform';
 
-export const ROUTES = ['', '/about', '/applications', '/contact', '/privacy'];
+export const ROUTES = [
+  '',
+  '/about',
+  '/applications',
+  '/contact',
+  '/privacy',
+  '/blog/merak-edilenler/',
+  '/blog/dava-okulu/',
+  '/blog/roportaj-ekibi/',
+  '/blog/genclik-merkezimiz/',
+];
 
 export const NAV_LINKS = [
   { name: 'Navigation.home', path: '/' },

@@ -1,10 +1,14 @@
-import { BlogCard } from './blog-card';
 import { getTranslations } from 'next-intl/server';
+
+import { BlogCard } from './blog-card';
 
 export const Blog = async () => {
   const t = await getTranslations('Blog');
   return (
-    <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased">
+    <section
+      className="px-3 max-w-7xl py-20 grow mx-auto antialiased"
+      id="blog"
+    >
       <div className="flex flex-col justify-center items-center text-center w-full">
         <div className="w-full grid grid-cols-1 lg:grid-cols-2 gap-10">
           <BlogCard

@@ -1,8 +1,10 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
+
+import { Link } from '@/i18n/navigation';
+
 import ImageSlider from './image-slider';
 
 export const Intro = () => {

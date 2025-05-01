@@ -1,8 +1,8 @@
 import { NextRequest } from 'next/server';
 
 import getChannelDetails from '@/utils/apis/youtube';
-import { YOUTUBE_CHANNELS } from '@/utils/constants';
 import { prisma } from '@/utils/client';
+import { YOUTUBE_CHANNELS } from '@/utils/constants';
 
 export async function GET(request: NextRequest) {
   const authHeader = request.headers.get('authorization');

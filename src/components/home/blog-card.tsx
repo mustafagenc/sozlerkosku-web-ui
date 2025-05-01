@@ -1,7 +1,8 @@
+import { getTranslations } from 'next-intl/server';
+import Image from 'next/image';
+
 import { Card, CardContent } from '@/components/ui/card';
 import { Link } from '@/i18n/navigation';
-import Image from 'next/image';
-import { getTranslations } from 'next-intl/server';
 
 interface BlogCardProps {
   image: string;

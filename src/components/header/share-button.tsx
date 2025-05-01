@@ -1,8 +1,8 @@
 'use client';
 
+import { Loader, Share } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import { Share, Loader } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { SHARE_URL } from '@/utils/constants';

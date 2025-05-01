@@ -1,26 +1,17 @@
 'use client';
 
+import { Loader } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { SubmitHandler, useForm } from 'react-hook-form';
 import { toast } from 'sonner';
-import { Loader } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormMessage,
-} from '@/components/ui/form';
+import { Form, FormControl, FormField, FormItem, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Link } from '@/i18n/navigation';
 import { sendEmail } from '@/utils/apis/resend';
-import {
-  ContactFormSchema,
-  TContactFormSchema,
-} from '@/utils/validators/contact-form';
+import { ContactFormSchema, TContactFormSchema } from '@/utils/validators/contact-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 
 export const ContactForm = () => {

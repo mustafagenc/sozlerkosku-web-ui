@@ -1,17 +1,14 @@
 'use client';
 
+import { Globe, Loader } from 'lucide-react';
 import { useLocale } from 'next-intl';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
-import { Globe, Loader } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuFlagItem,
-  DropdownMenuRadioGroup,
-  DropdownMenuTrigger,
+    DropdownMenu, DropdownMenuContent, DropdownMenuFlagItem, DropdownMenuRadioGroup,
+    DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { locales } from '@/utils/constants';
