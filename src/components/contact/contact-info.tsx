@@ -40,6 +40,7 @@ export const Contact = async () => {
             <CardContent className="p-0 m-0">
               <iframe
                 className="w-full h-50 rounded-3xl"
+                title={t('Contact.Title')}
                 src={`${contactData.googlemap}&hl=${locale}`}
               ></iframe>
             </CardContent>

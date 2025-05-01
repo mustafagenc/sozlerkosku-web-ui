@@ -71,24 +71,34 @@ export default function ImageSlider(): JSX.Element {
           className="rounded-3xl transition-all duration-500 ease-in-out cursor-pointer drop-shadow-xs"
         />
       </div>
-      <button
-        className="absolute left-0 top-1/2 transform h-[459px] rounded-xl hover:bg-white/5 mx-1 -mt-[10px] -translate-y-1/2 text-white p-2 group cursor-pointer"
-        onClick={prevSlide}
+      <a
+        href="javascript:void(0);"
+        className="absolute flex justify-center items-center left-0 top-1/2 transform h-[459px] rounded-xl hover:bg-white/5 mx-1 -mt-[10px] -translate-y-1/2 text-white p-2 group cursor-pointer"
+        onClick={(e) => {
+          e.preventDefault();
+          prevSlide();
+        }}
+        role="button"
       >
         <ChevronLeft
           size={50}
           className="text-white group-hover:text-orange-500"
         />
-      </button>
-      <button
-        className="absolute right-0 top-1/2 transform h-[459px] rounded-xl hover:bg-white/5 mx-1 -mt-[10px] -translate-y-1/2 text-white p-2 group cursor-pointer"
-        onClick={nextSlide}
+      </a>
+      <a
+        href="javascript:void(0);"
+        className="absolute flex justify-center items-center right-0 top-1/2 transform h-[459px] rounded-xl hover:bg-white/5 mx-1 -mt-[10px] -translate-y-1/2 text-white p-2 group cursor-pointer"
+        onClick={(e) => {
+          e.preventDefault();
+          nextSlide();
+        }}
+        role="button"
       >
         <ChevronRight
           size={50}
           className="text-white group-hover:text-orange-500"
         />
-      </button>
+      </a>
       <div className="flex justify-center mt-4">
         {images.map((img) => (
           <div

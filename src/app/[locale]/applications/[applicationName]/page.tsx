@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Params }) {
     const baseMetadata = {
       title: t(`Applications.${name}.name`),
       description:
-        t(`Applications.${name}.definition`) || DEFAULT_METADATA.description,
+        t(`Applications.${name}.definition`) ?? DEFAULT_METADATA.description,
     };
 
     return {
@@ -87,48 +87,46 @@ export default async function Page(props: { params: Params }) {
   const t = await getTranslations();
 
   return (
-    <>
-      <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">
-        <div className="flex flex-col justify-center items-center w-full">
-          <div className="max-w-7xl mb-20 text-center flex flex-col justify-center items-center">
-            <Image
-              src={application.icon}
-              alt={t(`Applications.${applicationName}.name`)}
-              width={119}
-              height={119}
-              className="rounded-3xl object-cover shadow mb-10"
-            />
-            <h1 className="text-5xl lg:text-6xl font-semibold dark:text-gray-200 mb-6">
-              {t(`Applications.${applicationName}.name`)}
-            </h1>
-            <h2 className="text-2xl">
-              {t(`Applications.${applicationName}.title`)}
-            </h2>
+    <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">
+      <div className="flex flex-col justify-center items-center w-full">
+        <div className="max-w-7xl mb-20 text-center flex flex-col justify-center items-center">
+          <Image
+            src={application.icon}
+            alt={t(`Applications.${applicationName}.name`)}
+            width={119}
+            height={119}
+            className="rounded-3xl object-cover shadow mb-10"
+          />
+          <h1 className="text-5xl lg:text-6xl font-semibold dark:text-gray-200 mb-6">
+            {t(`Applications.${applicationName}.name`)}
+          </h1>
+          <h2 className="text-2xl">
+            {t(`Applications.${applicationName}.title`)}
+          </h2>
+        </div>
+        <div className="max-w-7xl flex flex-col lg:flex-row justify-start gap-20">
+          <div className="flex flex-col basis-2/4 justify-start">
+            {t.rich(`Applications.${applicationName}.description`, {
+              p: (chunks) => (
+                <p className="text-lg dark:text-gray-200">{chunks}</p>
+              ),
+            })}
+            <div className="mt-10">
+              <AppDownloadButtons application={application} />
+            </div>
           </div>
-          <div className="max-w-7xl flex flex-col lg:flex-row justify-start gap-20">
-            <div className="flex flex-col basis-2/4 justify-start">
-              {t.rich(`Applications.${applicationName}.description`, {
-                p: (chunks) => (
-                  <p className="text-lg dark:text-gray-200">{chunks}</p>
-                ),
-              })}
-              <div className="mt-10">
-                <AppDownloadButtons application={application} />
-              </div>
-            </div>
-            <div className="flex-none basis-2/4 order-first">
-              <Image
-                src={application.image}
-                alt={t(`Applications.${applicationName}.name`)}
-                width={1916}
-                height={1277}
-                className="rounded-3xl object-cover w-full lg:h-100 shadow"
-                priority
-              />
-            </div>
+          <div className="flex-none basis-2/4 order-first">
+            <Image
+              src={application.image}
+              alt={t(`Applications.${applicationName}.name`)}
+              width={1916}
+              height={1277}
+              className="rounded-3xl object-cover w-full lg:h-100 shadow"
+              priority
+            />
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 }

@@ -5,10 +5,10 @@ import { env } from '@/utils/env';
 import type { MetadataRoute } from 'next';
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const staticRoutes = ROUTES.map((route) => {
-    const normalizedRoute = `${route.replace(/^\/|\/$/g, '')}`;
+    const normalizedRoute = `${route.replace(/^(?:\/)|(?:\/)$/g, '')}`;
     return {
       url: new URL(
-        normalizedRoute.replace(/\/+$/, ''),
+        normalizedRoute.replace(/^\/|\/$/g, ''),
         env.SITE_URL
       ).toString(),
       lastModified: new Date('2025-04-05T00:00:00Z').toISOString(),
