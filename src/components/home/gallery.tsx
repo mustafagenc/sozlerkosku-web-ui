@@ -42,15 +42,15 @@ const images: { id: number; src: string }[] = [
 export const Gallery = () => {
   const t = useTranslations();
   return (
-    <section className="bg-white dark:bg-gray-900 px-3 py-20" id="who-are-we">
+    <section className="bg-white dark:bg-gray-900 px-3 py-20">
       <div className="flex flex-col justify-center items-center">
-        <h2 className="mb-4 no-underline text-6xl font-bold dark:text-gray-200">
+        <h2 className="mb-4  max-w-5xl text-center no-underline text-6xl font-bold dark:text-gray-200">
           {t('Gallery.Title')}
         </h2>
-        <p className="mb-6 w-5xl text-xl dark:text-gray-200 text-center">
+        <p className="mb-6 max-w-5xl text-xl dark:text-gray-200 text-center">
           {t('Gallery.Description')}
         </p>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-10 px-25">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10 px-3 lg:px-25">
           {images.map((image) => (
             <Image
               key={image.id}
