@@ -8,17 +8,21 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface ImageData {
   src: StaticImageData;
+  id: number;
 }
 
 const images: ImageData[] = [
   {
     src: image1,
+    id: 0,
   },
   {
     src: image2,
+    id: 1,
   },
   {
     src: image3,
+    id: 2,
   },
 ];
 
@@ -45,24 +49,19 @@ export default function ImageSlider(): JSX.Element {
     }
   }, [isHovered]);
 
-  const handleMouseOver = (): void => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = (): void => {
-    setIsHovered(false);
-  };
-
   return (
     <div className="relative w-full mx-auto mt-20 mb-8">
       <div
         className="relative h-[460px] group"
         onMouseOver={() => {
-          handleMouseOver();
+          setIsHovered(true);
         }}
         onMouseLeave={() => {
-          handleMouseLeave();
+          setIsHovered(false);
         }}
+        onFocus={() => {}}
+        onBlur={() => {}}
+        role="button"
       >
         <Image
           src={images[currentIndex].src}
@@ -91,11 +90,11 @@ export default function ImageSlider(): JSX.Element {
         />
       </button>
       <div className="flex justify-center mt-4">
-        {images.map((_, index) => (
+        {images.map((img) => (
           <div
-            key={index}
+            key={img.id}
             className={`h-1 w-10 mx-2 ${
-              index === currentIndex
+              img.id === currentIndex
                 ? 'bg-orange-500 rounded-xl'
                 : 'bg-gray-300 rounded-xl'
             } transition-all duration-500 ease-in-out`}
