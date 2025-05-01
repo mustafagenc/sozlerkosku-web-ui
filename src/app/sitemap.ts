@@ -11,7 +11,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         normalizedRoute.replace(/^\/|\/$/g, ''),
         env.SITE_URL
       ).toString(),
-      lastModified: new Date('2025-04-05T00:00:00Z').toISOString(),
+      lastModified: new Date('2025-05-01T00:00:00Z').toISOString(),
     };
   });
 
@@ -23,7 +23,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         `/applications/${application.name}`,
         env.SITE_URL
       ).toString(),
-      lastModified: new Date('2025-04-06T00:00:00Z').toISOString(),
+      lastModified: new Date('2025-05-01T00:00:00Z').toISOString(),
     }));
   } catch (error) {
     console.error('Error fetching applications for sitemap:', error);

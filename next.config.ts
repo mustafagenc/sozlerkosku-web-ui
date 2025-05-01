@@ -43,22 +43,22 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/en-cok-merak-edilenler.html',
-        destination: '/',
+        destination: '/blog/merak-edilenler',
         permanent: true,
       },
       {
         source: '/dava-okulu.html',
-        destination: '/',
+        destination: '/blog/dava-okulu',
         permanent: true,
       },
       {
         source: '/blog-sokak-roportaji.html',
-        destination: '/',
+        destination: '/blog/roportaj-ekibi',
         permanent: true,
       },
       {
         source: '/blog-genclik-merkezimiz.html',
-        destination: '/',
+        destination: '/blog/genclik-merkezimiz',
         permanent: true,
       },
     ];

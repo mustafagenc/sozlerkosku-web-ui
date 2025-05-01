@@ -1,16 +1,13 @@
 'use client';
 
+import { Loader, Menu } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
-import { Menu, Loader } from 'lucide-react';
 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from '@/components/ui/popover';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
 import { Link } from '@/i18n/navigation';
 import { NAV_LINKS } from '@/utils/constants';
+
 import { Button } from '../ui/button';
 
 export function NavbarMobile() {

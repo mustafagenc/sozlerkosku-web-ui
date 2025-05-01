@@ -1,9 +1,9 @@
 'use client';
 
+import { Loader, Moon, Sun } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { useTheme } from 'next-themes';
 import { useEffect, useState } from 'react';
-import { Moon, Sun, Loader } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 

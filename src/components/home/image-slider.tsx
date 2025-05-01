@@ -1,10 +1,11 @@
 'use client';
-import { useState, useEffect, JSX } from 'react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import Image, { StaticImageData } from 'next/image';
+import { JSX, useEffect, useState } from 'react';
+
 import image1 from '@/public/images/slider/1.jpg';
 import image2 from '@/public/images/slider/2.jpg';
 import image3 from '@/public/images/slider/3.jpg';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface ImageData {
   src: StaticImageData;
