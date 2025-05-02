@@ -25,13 +25,15 @@ export const BlogCard = async ({
           href={url}
           className="flex flex-col items-start gap-3 pt-6 md:pt-8 text-left"
         >
-          <Image
-            src={image}
-            alt={title}
-            width={500}
-            height={300}
-            className="rounded-3xl w-full h-68 object-cover object-center"
-          />
+          <div className="w-full h-full overflow-hidden rounded-3xl">
+            <Image
+              src={image}
+              alt={title}
+              width={500}
+              height={300}
+              className="rounded-3xl w-full h-68 object-cover object-center hover:scale-110 transition-all ease-linear"
+            />
+          </div>
           <h5 className="text-2xl font-bold text-orange-400">{title}</h5>
           <p className="text-foreground">{description}</p>
           <span className="text-sm text-gray-500 hover:underline">

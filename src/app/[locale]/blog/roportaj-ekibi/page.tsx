@@ -42,7 +42,7 @@ export async function generateMetadata({
 export default function Page() {
   const t = useTranslations('Blog');
   return (
-    <section className="px-3 max-w-7xl py-20 grow mx-auto antialiased min-h-screen">
+    <section className="px-3 max-w-7xl py-10 grow mx-auto antialiased min-h-screen">
       <Image
         src={'/images/blog/roportaj-ekibi.jpg'}
         alt="Dava Okulu"
