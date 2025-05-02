@@ -1,9 +1,8 @@
 import { Metadata } from 'next';
-import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 
-import { ContactForm } from '@/components/contact/contact-form';
-import { Contact } from '@/components/contact/contact-info';
+import { Contact } from '@/components/contact/contact-form';
+import { ContactInfo } from '@/components/contact/contact-info';
 import { env } from '@/utils/env';
 
 type Params = Promise<{ locale: string }>;
@@ -39,8 +38,8 @@ export async function generateMetadata({
   };
 }
 
-export default function Page() {
-  const t = useTranslations();
+export default async function Page() {
+  const t = await getTranslations();
   return (
     <>
       <section className="px-3 max-w-7xl py-20 grow mx-auto">
@@ -50,10 +49,10 @@ export default function Page() {
               {t('Contact.Title')}
             </h1>
           </div>
-          <ContactForm />
+          <Contact />
         </div>
       </section>
-      <Contact />
+      <ContactInfo />
     </>
   );
 }

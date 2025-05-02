@@ -11,10 +11,22 @@ import {
   BiLogoYoutube,
 } from 'react-icons/bi';
 
-export const PUBLIC_MAIL = 'eposta@mustafagenc.info';
+export const PUBLIC_MAIL = 'iletisim@sozlerkosku.com';
 export const SHARE_URL = 'https://sozlerkosku-share.vercel.app/';
 export const DAVA_OKULU_URL =
   'https://docs.google.com/forms/d/e/1FAIpQLSfOa5RylyYQ17cuL1NFnVl5GajMybNUeiYLLja7ZTzETSeIpA/viewform';
+
+export const CONTACT_DATA: {
+  phone: string;
+  email: string;
+  address: string;
+  googlemap: string;
+} = {
+  phone: '+90 (553) 177-2089',
+  email: 'iletisim@sozlerkosku.com',
+  address: 'Pınartepe mah. Kubilay 1 sok. No:2 Büyükçekmece/İstanbul',
+  googlemap: 'https://maps.google.com.ua/maps?q=Sözler Köşkü&output=embed',
+};
 
 export const ROUTES = [
   '',

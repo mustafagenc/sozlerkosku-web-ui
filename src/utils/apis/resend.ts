@@ -1,11 +1,12 @@
 'use server';
-import { Resend } from 'resend';
+import { CreateContactResponse, Resend } from 'resend';
 import { z } from 'zod';
 
 import { ContactFormEmailTemplate } from '@/components/contact/contact-email-template';
 import { PUBLIC_MAIL } from '@/utils/constants';
 import { env } from '@/utils/env';
 import { TContactFormSchema } from '@/utils/validators/contact-form';
+import { TNewsletterFormSchema } from '@/utils/validators/newsletter-form';
 
 const resend = new Resend(env.RESEND_API_KEY);
 
@@ -16,9 +17,20 @@ type TResponse = {
 
 type TSendEmailResponse = TResponse;
 
+//ToDo:https://github.com/amannn/next-intl/discussions/437
+export async function saveContactsResend(
+  data: TNewsletterFormSchema
+): Promise<CreateContactResponse> {
+  const { email } = data;
+  return await resend.contacts.create({
+    email,
+    audienceId: env.RESEND_AUDIENCE_ID,
+  });
+}
+
 async function sendEmailResend(data: TContactFormSchema) {
   const senderEmail = env.RESEND_FROM_EMAIL;
-  const { email, phone, name, message } = data;
+  const { email, name, message, phone } = data;
   return await resend.emails.send({
     from: senderEmail,
     to: PUBLIC_MAIL,
@@ -40,7 +52,6 @@ export async function sendEmail(
   const schema = z.object({
     name: z.string().min(1).min(2),
     email: z.string().min(1).email(),
-    phone: z.string().optional(),
     message: z.string().min(1),
   });
 
@@ -54,7 +65,6 @@ export async function sendEmail(
     const { data: resendData, error: resendError } = await sendEmailResend(
       validatedResponse.data
     );
-
     if (!resendData || resendError) {
       return { success: false, error: { message: String(resendError) } };
     }

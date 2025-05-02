@@ -102,7 +102,13 @@ export const Gallery = () => {
             />
           </button>
           {dataImgCurrent && (
-            <Image src={dataImgCurrent} width={800} height={600} alt="image" />
+            <Image
+              src={dataImgCurrent}
+              width={4176}
+              height={2784}
+              alt="image"
+              className="w-auto h-auto max-h-[90vh] max-w-[90vw] object-contain"
+            />
           )}
           <button className="w-12 hover:opacity-50 transition-opacity">
             <Image

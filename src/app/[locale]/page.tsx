@@ -1,4 +1,4 @@
-import { Contact } from '@/components/contact/contact-info';
+import { ContactInfo } from '@/components/contact/contact-info';
 import { Blog } from '@/components/home/blog';
 import { Gallery } from '@/components/home/gallery';
 import { Intro } from '@/components/home/intro';
@@ -13,7 +13,7 @@ export default async function Page() {
       <Youtube />
       <Gallery />
       <Blog />
-      <Contact />
+      <ContactInfo />
     </>
   );
 }
