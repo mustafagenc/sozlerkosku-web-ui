@@ -6,7 +6,7 @@ import { InfoTooltip } from '../shared/info-tooltip';
 
 export const SocialIcons = () => {
   return (
-    <div className="grid grid-cols-3 lg:grid-cols-11 gap-4 mt-10">
+    <div className="grid grid-cols-5 lg:grid-cols-10 gap-4 mt-10 place-items-center">
       {socials.map((link) => (
         <InfoTooltip
           key={link.name}

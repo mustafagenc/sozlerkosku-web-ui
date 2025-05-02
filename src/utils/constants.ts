@@ -1,6 +1,15 @@
 import {
-    BiLogoApple, BiLogoFacebookCircle, BiLogoGithub, BiLogoInstagram, BiLogoPatreon,
-    BiLogoPlayStore, BiLogoSpotify, BiLogoTelegram, BiLogoTiktok, BiLogoTwitter, BiLogoYoutube
+  BiLogoApple,
+  BiLogoFacebookCircle,
+  BiLogoGithub,
+  BiLogoInstagram,
+  BiLogoPatreon,
+  BiLogoPlayStore,
+  BiLogoSpotify,
+  BiLogoTelegram,
+  BiLogoTiktok,
+  BiLogoTwitter,
+  BiLogoYoutube,
 } from 'react-icons/bi';
 
 export const PUBLIC_MAIL = 'eposta@mustafagenc.info';
@@ -184,11 +193,6 @@ export const socials = [
     name: 'spotify',
     url: 'https://open.spotify.com/show/2KOaKlh1uqEn13CMgc3ALQ?si=bfc10ae318ca47d3&nd=1&dlsi=147f12c677634bfd',
     icon: BiLogoSpotify,
-  },
-  {
-    name: 'telegram',
-    url: 'https://t.me/sozlerkoskuresmi',
-    icon: BiLogoTelegram,
   },
   {
     name: 'patreon',

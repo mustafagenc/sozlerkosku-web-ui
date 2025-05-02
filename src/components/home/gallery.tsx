@@ -102,13 +102,13 @@ export const Gallery = () => {
             />
           </button>
           {dataImgCurrent && (
-            <Image src={dataImgCurrent} width={700} height={450} alt="image" />
+            <Image src={dataImgCurrent} width={800} height={600} alt="image" />
           )}
           <button className="w-12 hover:opacity-50 transition-opacity">
             <Image
               src={Arrow}
               alt="arrow next"
-              width={500}
+              width={600}
               onClick={() => handleNavigate('next')}
             />
           </button>
