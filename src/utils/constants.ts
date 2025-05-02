@@ -6,7 +6,6 @@ import {
   BiLogoPatreon,
   BiLogoPlayStore,
   BiLogoSpotify,
-  BiLogoTelegram,
   BiLogoTiktok,
   BiLogoTwitter,
   BiLogoYoutube,
