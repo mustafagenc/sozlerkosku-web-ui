@@ -40,7 +40,7 @@ export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
         <p className="text-4xl font-bold text-foreground">
           {t(`Languages.${lang}`)}
         </p>
-        <div className="flex flex-row items-center gap-5">
+        <div className="flex-row items-center gap-5 hidden lg:flex">
           <div>
             {' '}
             {formattedViewCount && (
