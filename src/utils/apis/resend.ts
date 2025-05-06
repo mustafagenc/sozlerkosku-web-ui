@@ -17,7 +17,6 @@ type TResponse = {
 
 type TSendEmailResponse = TResponse;
 
-//ToDo:https://github.com/amannn/next-intl/discussions/437
 export async function saveContactsResend(
   data: TNewsletterFormSchema
 ): Promise<CreateContactResponse> {

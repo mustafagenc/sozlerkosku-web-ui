@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextRequest } from 'next/server';
 
 import getChannelDetails from '@/utils/apis/youtube';
@@ -16,20 +17,11 @@ export async function GET(request: NextRequest) {
 
   await Promise.all(
     YOUTUBE_CHANNELS.map(async (channel) => {
-      const channelDetail = await getChannelDetails(channel.id);
-
-      let subscribers = parseInt(channelDetail?.subscribers ?? '0');
-      if (subscribers < 1000) {
-        subscribers = channel.defaultSubs;
-      }
-      let videoCount = parseInt(channelDetail?.videoCount ?? '0');
-      if (videoCount < 100) {
-        videoCount = channel.defaultVideos;
-      }
-      let viewCount = parseInt(channelDetail?.viewCount ?? '0');
-      if (viewCount < 1000) {
-        viewCount = channel.defaultView;
-      }
+      const channelDetail = await getChannelDetails(channel.id, channel.name);
+      const { subscribers, videoCount, viewCount } = enrichData(
+        channel,
+        channelDetail
+      );
 
       await prisma.youtubeChannels.upsert({
         where: {
@@ -51,17 +43,43 @@ export async function GET(request: NextRequest) {
         },
       });
 
-      return {
-        channel: channel.name,
-        subscribers: channelDetail?.subscribers,
-        videoCount: channelDetail?.videoCount,
-        viewCount: channelDetail?.viewCount,
-        hiddenSubscriberCount: channelDetail?.hiddenSubscriberCount,
-      };
+      return true;
     })
   );
 
   prisma.$disconnect();
 
   return Response.json({ success: true });
+}
+
+function enrichData(
+  channel: {
+    lang?: string;
+    name?: string;
+    id?: string;
+    defaultSubs: any;
+    defaultVideos: any;
+    defaultView: any;
+  },
+  youtubeChannelDetail: {
+    name: string;
+    subscribers: string;
+    videoCount: string;
+    viewCount: string;
+    hiddenSubscriberCount: boolean;
+  } | null
+) {
+  let subscribers = parseInt(youtubeChannelDetail?.subscribers ?? '0');
+  if (subscribers < 1000) {
+    subscribers = channel.defaultSubs;
+  }
+  let videoCount = parseInt(youtubeChannelDetail?.videoCount ?? '0');
+  if (videoCount < 100) {
+    videoCount = channel.defaultVideos;
+  }
+  let viewCount = parseInt(youtubeChannelDetail?.viewCount ?? '0');
+  if (viewCount < 1000) {
+    viewCount = channel.defaultView;
+  }
+  return { subscribers, videoCount, viewCount };
 }

@@ -1,5 +1,4 @@
 import { google } from 'googleapis';
-
 import { env } from '../env';
 
 const youtubeService = google.youtube({
@@ -7,25 +6,8 @@ const youtubeService = google.youtube({
   auth: env.GOOGLE_API_KEY,
 });
 
-const getChannelDetails = async (channelHandle: string) => {
+const getChannelDetails = async (channelId: string, channelName: string) => {
   try {
-    const searchResponse = await youtubeService.search.list({
-      part: ['snippet'],
-      q: channelHandle,
-      type: ['channel'],
-      maxResults: 1,
-    });
-
-    if (!searchResponse.data.items || searchResponse.data.items.length === 0) {
-      return null;
-    }
-
-    const channelId = searchResponse.data.items[0].id?.channelId;
-
-    if (!channelId) {
-      return null;
-    }
-
     const response = await youtubeService.channels.list({
       part: ['statistics'],
       id: [channelId],
@@ -40,7 +22,7 @@ const getChannelDetails = async (channelHandle: string) => {
         response.data.items[0].statistics?.hiddenSubscriberCount ?? false;
 
       return {
-        name: channelHandle,
+        name: channelName,
         subscribers: subscriberCount,
         videoCount: videoCount,
         viewCount: viewCount,
