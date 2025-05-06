@@ -2,7 +2,12 @@
 
 import { HTMLAttributes } from 'react';
 
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '@/components/ui/tooltip';
 import { cn } from '@/utils/utils';
 
 interface InfoTooltipProps extends HTMLAttributes<HTMLDivElement> {

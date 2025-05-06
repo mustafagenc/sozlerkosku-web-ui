@@ -1,13 +1,23 @@
+import { cn } from '@/utils/utils';
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 import { Dialog } from 'radix-ui';
 
-export const Donate = () => {
+interface DonateProps {
+  className?: string;
+}
+
+export const Donate = ({ className }: DonateProps) => {
   const t = useTranslations();
   return (
     <Dialog.Root>
       <Dialog.Trigger asChild>
-        <button className="font-(family-name:--font-poppins) bg-white cursor-pointer border-2 border-orange-500 dark:bg-orange-500 dark:text-white dark:hover:bg-gray-950 dark:hover:border-gray-950 text-orange-500 font-bold py-2 px-4 rounded-full hover:bg-orange-500 hover:text-white hover:border-transparent">
+        <button
+          className={cn(
+            'font-(family-name:--font-poppins) cursor-pointer rounded-full',
+            className
+          )}
+        >
           {t('Navigation.donate')}
         </button>
       </Dialog.Trigger>
