@@ -7,7 +7,7 @@ import { getLangDir } from 'rtl-detect';
 import { Link, usePathname } from '@/i18n/navigation';
 import { NAV_LINKS } from '@/utils/constants';
 
-import { Donate } from './donate';
+import { Donate } from '../shared/donate';
 import { LocaleSwitcher } from './locale-switcher';
 import { NavbarMobile } from './navbar-mobile';
 import { ThemeToggle } from './theme-toggle';
@@ -62,7 +62,7 @@ export const Navbar = () => {
           <div className="flex items-center space-x-4">
             <LocaleSwitcher />
             <ThemeToggle />
-            <Donate />
+            <Donate className="bg-white font-bold border-2 border-orange-500 dark:bg-orange-500 dark:text-white dark:hover:bg-gray-950 dark:hover:border-gray-950 text-orange-500  py-2 px-4  hover:bg-orange-500 hover:text-white hover:border-transparent" />
           </div>
         </div>
       </nav>
