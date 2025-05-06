@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 import { Link } from '@/i18n/navigation';
+import { Donate } from '@/components/header/donate';
 
 import ImageSlider from './image-slider';
 
@@ -24,20 +25,8 @@ export const Intro = () => {
             })}
           </p>
         </div>
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-4 mt-6 lg:mt-0">
-          <a
-            href="#who-are-we"
-            data-controller="scroll-to"
-            className="border-1 border-orange-500 bg-orange-500 text-white hover:bg-orange-500 hover:text-white py-3 px-6 rounded-full text-lg ml-4"
-          >
-            {t('WhoWeAre.title')}
-          </a>
-          <Link
-            href="/about"
-            className="border-1 border-orange-500 bg-white text-orange-500 hover:bg-orange-500 hover:text-white py-2 px-6 rounded-full text-lg ml-4"
-          >
-            {t('what-we-do-here')}
-          </Link>
+        <div className="flex items-center justify-center mt-6">
+          <Donate />
         </div>
         <div className="hidden lg:block">
           <Image

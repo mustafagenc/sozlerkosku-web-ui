@@ -18,7 +18,7 @@ export const WhoWeAre = () => {
           <p className="mb-6 text-xl dark:text-gray-200">
             {t.rich('Home.WhoWeAre.description', {
               br: () => <br />,
-              b: (chunks) => <b className="text-orange-500">{chunks}</b>,
+              b: (chunks: any) => <b className="text-orange-500">{chunks}</b>,
             })}
           </p>
           <p className="mb-6 text-xl dark:text-gray-200">
