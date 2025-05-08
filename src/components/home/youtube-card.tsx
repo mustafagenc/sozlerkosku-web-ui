@@ -34,7 +34,7 @@ export const YoutubeCard = async ({ metadata }: YoutubeCardProps) => {
   return (
     <Card className="rounded-3xl border-0 dark:border">
       <CardContent className="flex flex-col items-start gap-3 pt-6 md:pt-8">
-        <h5 className="text-5xl lg:text-6xl font-bold text-orange-400">
+        <h5 className="text-5xl lg:text-6xl font-bold text-orange-400 text-shadow-xs">
           {formattedSubscriberCount}
         </h5>
         <p className="text-4xl font-bold text-foreground">
