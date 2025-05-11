@@ -1,0 +1,8 @@
+{
+  "projectName": "sozlerkosku-web-u",
+  "projectOwner": "sozlerkosku",
+  "files": ["README.md"],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7
+}

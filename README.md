@@ -51,6 +51,17 @@ Open [http://localhost:3000](http://localhost:3000) with your favorite browser t
 - `lint`: runs eslint in the /src directory.
 - `prettier`: runs prettier in the /src directory.
 
+## 👥 Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
 ## 💬 Contact
 
 Please feel free to contact me at [mustafagenc.info/contact](https://mustafagenc.info/contact)
