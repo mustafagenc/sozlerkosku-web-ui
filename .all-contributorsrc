@@ -1,8 +1,22 @@
 {
-  "projectName": "sozlerkosku-web-u",
+  "projectName": "sozlerkosku-web-ui",
   "projectOwner": "sozlerkosku",
-  "files": ["README.md"],
+  "files": [
+    "README.md"
+  ],
   "commitType": "docs",
   "commitConvention": "angular",
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "cyb3rsalih",
+      "name": "mehmet salih bindak",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17196669?v=4",
+      "profile": "https://github.com/cyb3rsalih",
+      "contributions": [
+        "code",
+        "review"
+      ]
+    }
+  ]
 }
