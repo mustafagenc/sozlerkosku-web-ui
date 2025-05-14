@@ -8,7 +8,10 @@ import { YoutubeCard } from './youtube-card';
 export const Youtube = async () => {
   const t = await getTranslations('Home.Youtube');
 
-  if (!youtubeChannels) {
+  const youtubeChannelsData: TYoutubeChannel[] | undefined =
+    await youtubeChannels();
+
+  if (!youtubeChannelsData) {
     return '';
   }
 
@@ -23,7 +26,7 @@ export const Youtube = async () => {
           </h2>
         </div>
         <div className="w-full grid grid-cols-1 lg:grid-cols-3 gap-14 mt-10">
-          {youtubeChannels.map((channel: TYoutubeChannel) => (
+          {youtubeChannelsData.map((channel: TYoutubeChannel) => (
             <YoutubeCard key={channel.id} metadata={channel} />
           ))}
         </div>
